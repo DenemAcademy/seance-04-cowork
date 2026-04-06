@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Séance 4 — Claude Cowork | DENEM Academy</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config={theme:{extend:{fontFamily:{'space':['Space Grotesk','sans-serif'],'mono':['JetBrains Mono','monospace'],'inter':['Inter','sans-serif']},colors:{'sol':{'black':'#1F0A32','dark':'#272B5C','accent':'#4CC0C0','cyan':'#30D9DE','navy':'#272B5C','deep':'#1F0A32','green':'#4CC0C0','purple':'#272B5C','orange':'#f97316','gray':'#64748d','lightgray':'#e8edf2','bg':'#ffffff','muted':'#f4f7fa'}}}}}
+</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+::selection{background:#4CC0C0;color:#1F0A32}
+body{cursor:none;background:#fff;color:#1F0A32;font-family:'Inter',sans-serif;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+
+/* Gradients */
+.gradient-text{background:linear-gradient(135deg,#272B5C,#4CC0C0,#30D9DE);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;background-size:200% 200%;animation:gs 6s ease infinite}
+.gradient-bg{background:linear-gradient(135deg,#272B5C,#4CC0C0,#30D9DE);background-size:200% 200%;animation:gs 8s ease infinite}
+
+/* Keyframes */
+@keyframes gs{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes floatSlow{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-18px) rotate(3deg)}}
+@keyframes floatReverse{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(12px) rotate(-2deg)}}
+@keyframes pulse-ring{0%{transform:scale(1);opacity:.4}100%{transform:scale(1.5);opacity:0}}
+@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+@keyframes typewriter{from{width:0}to{width:100%}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+@keyframes slideInLeft{from{opacity:0;transform:translateX(-30px)}to{opacity:1;transform:translateX(0)}}
+@keyframes slideInRight{from{opacity:0;transform:translateX(30px)}to{opacity:1;transform:translateX(0)}}
+@keyframes scaleIn{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:scale(1)}}
+@keyframes bounceSubtle{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes glow{0%,100%{box-shadow:0 0 5px rgba(76,192,192,.2)}50%{box-shadow:0 0 20px rgba(76,192,192,.4)}}
+@keyframes dash{to{stroke-dashoffset:0}}
+@keyframes fadeInUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+@keyframes rotate{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes wiggle{0%,100%{transform:rotate(0deg)}25%{transform:rotate(-3deg)}75%{transform:rotate(3deg)}}
+
+/* Float animations */
+.animate-float{animation:float 6s ease-in-out infinite}
+.animate-float-slow{animation:floatSlow 8s ease-in-out infinite}
+.animate-float-reverse{animation:floatReverse 7s ease-in-out infinite}
+.animate-bounce-subtle{animation:bounceSubtle 3s ease-in-out infinite}
+.animate-glow{animation:glow 3s ease-in-out infinite}
+.animate-wiggle{animation:wiggle 4s ease-in-out infinite}
+.animate-spin-slow{animation:rotate 20s linear infinite}
+
+/* Pulse ring effect */
+.pulse-ring{position:relative}.pulse-ring::after{content:'';position:absolute;inset:-4px;border-radius:inherit;border:2px solid #4CC0C0;animation:pulse-ring 2s cubic-bezier(.4,0,.6,1) infinite}
+
+/* Shimmer loading effect */
+.shimmer{background:linear-gradient(90deg,#f4f7fa 25%,#e8edf2 50%,#f4f7fa 75%);background-size:200% 100%;animation:shimmer 2s ease-in-out infinite}
+
+/* Typewriter */
+.typewriter{overflow:hidden;white-space:nowrap;border-right:2px solid #4CC0C0;animation:typewriter 2s steps(30) forwards,blink .8s step-end infinite}
+
+/* Cursor blink for terminal */
+.blink-cursor::after{content:'▋';animation:blink 1s step-end infinite;color:#4CC0C0}
+
+/* Scroll reveal with variants */
+.sr{opacity:0;transform:translateY(20px);transition:all .8s cubic-bezier(.25,.46,.45,.94)}.sr.v{opacity:1;transform:translateY(0)}
+.sr-left{opacity:0;transform:translateX(-30px);transition:all .8s cubic-bezier(.25,.46,.45,.94)}.sr-left.v{opacity:1;transform:translateX(0)}
+.sr-right{opacity:0;transform:translateX(30px);transition:all .8s cubic-bezier(.25,.46,.45,.94)}.sr-right.v{opacity:1;transform:translateX(0)}
+.sr-scale{opacity:0;transform:scale(.9);transition:all .8s cubic-bezier(.25,.46,.45,.94)}.sr-scale.v{opacity:1;transform:scale(1)}
+.s1{transition-delay:.1s}.s2{transition-delay:.2s}.s3{transition-delay:.3s}.s4{transition-delay:.4s}.s5{transition-delay:.5s}.s6{transition-delay:.6s}.s7{transition-delay:.7s}
+
+/* Card hover with multiple styles */
+.ch{transition:all .35s cubic-bezier(.25,.46,.45,.94)}.ch:hover{transform:translateY(-6px);box-shadow:rgba(39,43,92,.12) 0px 20px 40px -8px,rgba(76,192,192,.08) 0px 8px 20px -6px}
+.ch-scale{transition:all .3s ease}.ch-scale:hover{transform:scale(1.03);box-shadow:rgba(39,43,92,.1) 0px 15px 30px -5px}
+.ch-glow{transition:all .3s ease}.ch-glow:hover{box-shadow:0 0 0 3px rgba(76,192,192,.15),rgba(39,43,92,.1) 0px 10px 25px -5px}
+.ch-tilt{transition:all .3s ease;transform-style:preserve-3d}
+
+/* Magnetic button effect */
+.magnetic{transition:transform .2s ease}
+
+/* Underline animation on links */
+.link-anim{position:relative;text-decoration:none}.link-anim::after{content:'';position:absolute;bottom:-2px;left:0;width:0;height:2px;background:#4CC0C0;transition:width .3s ease}.link-anim:hover::after{width:100%}
+
+/* Gradient border effect */
+.gradient-border{position:relative;background:#fff;border-radius:8px}.gradient-border::before{content:'';position:absolute;inset:-2px;border-radius:10px;background:linear-gradient(135deg,#272B5C,#4CC0C0,#30D9DE);z-index:-1;background-size:200% 200%;animation:gs 4s ease infinite}
+
+/* Glassmorphism card */
+.glass{background:rgba(255,255,255,.7);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(76,192,192,.15)}
+
+/* Cursor glow */
+.cursor-glow{position:fixed;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(76,192,192,.06),transparent 70%);pointer-events:none;z-index:0;transition:transform .15s ease}.custom-cursor{position:fixed;width:32px;height:32px;pointer-events:none;z-index:99999;transition:transform .1s ease;transform:translate(-16px,-16px)}.custom-cursor img{width:32px;height:32px;border-radius:6px}
+
+/* Animated counter */
+.counter{font-variant-numeric:tabular-nums;transition:all .3s ease}
+
+/* Staggered list animation */
+.stagger-list>*{opacity:0;transform:translateY(10px);transition:all .5s ease}.stagger-list.v>*{opacity:1;transform:translateY(0)}
+.stagger-list>*:nth-child(1){transition-delay:.05s}.stagger-list>*:nth-child(2){transition-delay:.1s}.stagger-list>*:nth-child(3){transition-delay:.15s}.stagger-list>*:nth-child(4){transition-delay:.2s}.stagger-list>*:nth-child(5){transition-delay:.25s}.stagger-list>*:nth-child(6){transition-delay:.3s}.stagger-list>*:nth-child(7){transition-delay:.35s}.stagger-list>*:nth-child(8){transition-delay:.4s}
+
+/* Parallax layer */
+.parallax{transition:transform .1s linear}
+
+/* Smooth underline reveal */
+.reveal-line{position:relative;display:inline-block}.reveal-line::after{content:'';position:absolute;bottom:0;left:0;width:100%;height:3px;background:#4CC0C0;transform:scaleX(0);transform-origin:right;transition:transform .4s ease}.reveal-line.v::after{transform:scaleX(1);transform-origin:left}
+
+/* Dot pattern overlay */
+.dots-overlay{position:relative}.dots-overlay::before{content:'';position:absolute;inset:0;background-image:radial-gradient(rgba(76,192,192,.07) 1px,transparent 1px);background-size:16px 16px;pointer-events:none;border-radius:inherit}
+
+/* Tags */
+.tag{display:inline-block;padding:5px 14px;font-size:.7rem;font-weight:600;font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.06em;border:1.5px solid;border-radius:4px;transition:all .3s ease}.tag:hover{transform:translateY(-2px)}
+.tb{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;font-size:.72rem;font-weight:500;font-family:'JetBrains Mono',monospace;border:1.5px solid;border-radius:4px;transition:all .3s ease}.tb:hover{transform:translateY(-1px)}
+
+/* Progress bar */
+.progress-bar{position:fixed;top:0;left:0;height:3px;z-index:9999;transition:width .15s ease}
+
+/* Nav */
+nav{backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);transition:all .3s ease}
+nav.scrolled{box-shadow:rgba(39,43,92,.08) 0px 4px 12px}
+
+/* Code blocks */
+.code{background:#1F0A32;color:#e8edf2;border-left:4px solid #4CC0C0;padding:20px 24px;font-family:'JetBrains Mono',monospace;font-size:.8rem;line-height:1.8;border-radius:6px;transition:all .3s ease}.code:hover{box-shadow:rgba(76,192,192,.1) 0px 8px 25px}
+.code-inline{background:#f4f7fa;color:#272B5C;padding:2px 8px;font-family:'JetBrains Mono',monospace;font-size:.82rem;border-radius:4px;border:1px solid #e8edf2;transition:all .2s ease}.code-inline:hover{background:#edf1f6;border-color:#4CC0C0}
+.cmd{background:#1F0A32;color:#30D9DE;padding:12px 20px;font-family:'JetBrains Mono',monospace;font-size:.85rem;border-radius:6px;display:flex;align-items:center;gap:8px;transition:all .3s ease;cursor:pointer;position:relative;user-select:all}.cmd:hover{transform:translateX(4px);box-shadow:rgba(76,192,192,.15) 0px 4px 15px;border:1px solid rgba(76,192,192,.3)}.cmd:active{transform:scale(.98)}
+.cmd::before{content:'$';color:#64748d}
+.cmd::after{content:'cliquer pour copier';position:absolute;right:12px;top:50%;transform:translateY(-50%);font-size:.6rem;color:#64748d;opacity:.5;transition:all .3s ease;pointer-events:none}
+.cmd:hover::after{opacity:1;color:#4CC0C0}
+.cmd.copied::after{content:'copié !';color:#30D9DE;opacity:1;font-weight:600}
+.cmd.copied{box-shadow:0 0 0 2px rgba(76,192,192,.3),rgba(76,192,192,.15) 0px 4px 15px}
+
+/* Cards */
+.card{background:#fff;border:1px solid #e8edf2;border-radius:8px;box-shadow:rgba(39,43,92,.06) 0px 2px 5px,rgba(0,0,0,.03) 0px 1px 3px;transition:all .35s ease}
+.card-accent{background:#fff;border:1.5px solid #4CC0C0;border-radius:8px;box-shadow:rgba(76,192,192,.08) 0px 4px 12px;transition:all .35s ease}
+.card-green{background:#fff;border:1.5px solid #30D9DE;border-radius:8px;box-shadow:rgba(48,217,222,.08) 0px 4px 12px;transition:all .35s ease}
+.card-orange{background:#fff;border:1.5px solid #f97316;border-radius:8px;box-shadow:rgba(249,115,22,.06) 0px 4px 12px;transition:all .35s ease}
+.card-light{background:#fff;border:1px solid #e8edf2;border-radius:6px;transition:all .3s ease}.card-light:hover{border-color:#4CC0C0;box-shadow:rgba(76,192,192,.06) 0px 4px 12px}
+
+/* Step numbers */
+.step{width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:.75rem;font-weight:600;flex-shrink:0;border:1.5px solid;border-radius:50%;transition:all .3s ease}.step:hover{transform:scale(1.1)}
+
+/* Section counter */
+.sc{position:fixed;bottom:16px;right:16px;z-index:50;font-family:'JetBrains Mono',monospace;font-size:.6rem;color:#64748d;background:#fff;border:1px solid #e8edf2;padding:4px 10px;border-radius:4px;box-shadow:rgba(39,43,92,.06) 0px 2px 5px;transition:all .3s ease}
+
+/* Terminal */
+.terminal{background:#1F0A32;border-radius:8px;overflow:hidden;transition:all .4s ease}.terminal:hover{box-shadow:rgba(31,10,50,.3) 0px 20px 40px -10px,rgba(76,192,192,.08) 0px 0px 0px 1px}
+.terminal-bar{background:#272B5C;padding:8px 16px;display:flex;align-items:center;gap:6px}
+.terminal-dot{width:10px;height:10px;border-radius:50%;transition:all .2s ease}
+.terminal:hover .terminal-dot:nth-child(1){transform:scale(1.2)}.terminal:hover .terminal-dot:nth-child(2){transform:scale(1.2);transition-delay:.05s}.terminal:hover .terminal-dot:nth-child(3){transform:scale(1.2);transition-delay:.1s}
+.terminal-body{padding:20px 24px;font-family:'JetBrains Mono',monospace;font-size:.8rem;line-height:1.9;color:#e8edf2}
+.terminal-prompt{color:#30D9DE}
+.terminal-cmd{color:#fff}
+.terminal-output{color:#94a3b8}
+.terminal-accent{color:#4CC0C0}
+
+/* Emoji */
+.emoji{filter:drop-shadow(1px 1px 0 rgba(39,43,92,.1));transition:transform .3s ease}.emoji:hover{transform:scale(1.2) rotate(-5deg)}
+
+/* Smooth scroll indicator */
+.scroll-hint{animation:bounceSubtle 2.5s ease-in-out infinite}
+
+/* Noise texture overlay */
+.noise{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9998;opacity:.015;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+</style>
+</head>
+
+
+<body>
+
+<div class="progress-bar gradient-bg" id="pb"></div>
+<div class="sc" id="sc">1 / 65</div>
+<div class="noise"></div>
+<div class="cursor-glow" id="cg"></div>
+<div class="custom-cursor" id="cc"><img src="logo-denem.jpeg" alt=""></div>
+
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 border-b border-sol-lightgray" style="box-shadow:rgba(50,50,93,.06) 0px 2px 5px">
+<div class="max-w-6xl mx-auto px-4 flex items-center justify-between h-14">
+    <div class="flex items-center gap-3">
+        <img src="logo-denem.jpeg" alt="DENEM" class="w-7 h-7 rounded">
+        <span class="font-space font-bold text-sm">DENEM Academy</span>
+        <span class="text-sol-gray text-xs">/</span>
+        <span class="text-sol-gray text-xs font-mono">Séance 04</span>
+    </div>
+    <span class="tag border-sol-accent text-sol-accent">Acte 1 — Maîtriser</span>
+</div>
+</nav>
+
+<!-- ============================================================ -->
+<!-- 1-3 : HERO -->
+<!-- ============================================================ -->
+
+<section data-s="1" class="min-h-screen flex items-center justify-center relative pt-14 overflow-hidden">
+<div class="absolute top-20 left-16 w-14 h-14 border-2 border-sol-navy/15 rounded-lg rotate-6 animate-float hidden lg:block"></div>
+<div class="absolute bottom-36 right-20 w-10 h-10 border-2 border-sol-accent/10 rounded-full animate-float-slow hidden lg:block"></div>
+<div class="absolute inset-0 dots-overlay opacity-50"></div>
+<div class="max-w-3xl mx-auto px-4 text-center relative z-10">
+    <div class="sr"><span class="tag border-sol-navy text-sol-navy pulse-ring">Séance 4 sur 24 — dernière de l'Acte 1</span></div>
+    <h1 class="sr s1 font-space font-bold text-5xl sm:text-6xl md:text-7xl leading-[.92] mt-6 mb-6">
+        <span class="gradient-text">Claude Cowork.</span><br><span class="text-sol-gray text-3xl sm:text-4xl">Ton QG d'organisation.</span>
+    </h1>
+    <p class="sr s2 text-lg text-sol-gray max-w-xl mx-auto leading-relaxed mb-8">Claude Code construit. Codex délègue. n8n automatise. Maintenant on voit Cowork — l'IA qui organise tout ton business. C'est ton cerveau, ton assistant administratif, ton centre de commande. Et c'est la dernière séance avant de passer à l'action.</p>
+    <div class="sr s3 tb border-sol-navy text-sol-navy mx-auto animate-glow"><span class="w-1.5 h-1.5 bg-sol-navy rounded-full"></span>35-45 min</div>
+</div>
+</section>
+
+<!-- Image Cowork -->
+<section data-s="2" class="py-8">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <div class="card p-3 ch" style="overflow:hidden">
+        <img src="https://media.wired.com/photos/6967ffec2e8186519254af3e/master/w_1600%2Cc_limit/Claude-Cowork_Blog-1_1920x1080.jpg" alt="Claude Cowork" class="w-full rounded" style="border:1px solid #e8edf2" loading="lazy">
+        <p class="text-sol-gray text-xs mt-2 text-center italic">Claude Cowork — l'IA qui travaille sur ton bureau</p>
+    </div>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 3-8 : LA DIFFÉRENCE AVEC LES 3 AUTRES -->
+<!-- ============================================================ -->
+
+<section data-s="3" class="py-20">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h2 class="font-space font-bold text-3xl sm:text-4xl mb-6">Tu connais 3 outils.<br><span class="text-sol-gray">Cowork c'est le 4ème et dernier.</span></h2>
+    <p class="text-sol-gray text-lg leading-relaxed mb-4">En 3 séances t'as appris Claude Code, Codex et n8n. Cowork c'est différent de tous les trois. Il construit pas, il code pas, il automatise pas de boucles. Il fait autre chose.</p>
+    <p class="text-sol-gray text-lg leading-relaxed font-bold">Il organise, il recherche, et il produit des documents. C'est ton cerveau.</p>
+</div>
+</section>
+
+<section data-s="4" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h3 class="font-space font-bold text-xl mb-6">Les 4 outils et ce qu'ils font</h3>
+    <div class="space-y-3">
+        <div class="card p-5 ch"><div class="flex items-center gap-3 mb-2"><span class="tb border-sol-accent text-sol-accent text-xs">Claude Code</span><span class="font-bold">→ Construit</span></div><p class="text-sol-gray text-xs">Sites, chatbots, scripts, scraping. Tu lui parles, il code. Interactif.</p></div>
+        <div class="card p-5 ch"><div class="flex items-center gap-3 mb-2"><span class="tb text-xs" style="border-color:#30D9DE;color:#30D9DE">Codex</span><span class="font-bold">→ Délègue</span></div><p class="text-sol-gray text-xs">Tu lances un projet, il code en autonomie. Tu reviens au résultat.</p></div>
+        <div class="card p-5 ch"><div class="flex items-center gap-3 mb-2"><span class="tb border-sol-accent text-sol-accent text-xs">n8n</span><span class="font-bold">→ Automatise</span></div><p class="text-sol-gray text-xs">Flux récurrents H24. Relances, notifications, synchronisations.</p></div>
+        <div class="card-accent p-5 ch"><div class="flex items-center gap-3 mb-2"><span class="tb border-sol-navy text-sol-navy text-xs">Cowork</span><span class="font-bold">→ Organise</span></div><p class="text-sol-gray text-xs">Recherches, analyses, documents, présentations. Il travaille sur ton bureau comme un assistant.</p></div>
+    </div>
+</div>
+</section>
+
+<section data-s="5" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <div class="card-green p-6">
+        <h4 class="font-bold mb-3">Pourquoi on l'utilise dans la formation</h4>
+        <p class="text-sol-gray text-sm leading-relaxed mb-3">Cowork c'est ce qui va structurer tout ton business. En séance 6 (Acte 2), tu vas connecter Gmail, Calendar, Drive, Fireflies — et tout organiser avec Cowork. Tes templates de propositions, tes contrats, tes dossiers clients, tes comptes-rendus de réunions.</p>
+        <p class="text-sol-gray text-sm leading-relaxed font-bold">Avant de construire quoi que ce soit, faut être organisé. C'est le rôle de Cowork.</p>
+    </div>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 6-12 : C'EST QUOI COWORK -->
+<!-- ============================================================ -->
+
+<section data-s="6" class="py-20">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h2 class="font-space font-bold text-3xl sm:text-4xl mb-6">C'est quoi Claude Cowork ?</h2>
+    <p class="text-sol-gray text-lg leading-relaxed">C'est un agent IA qui vit dans l'app Claude Desktop. Il travaille directement sur ton ordinateur — il ouvre des apps, navigue le web, crée des fichiers, organise des dossiers. Le tout sans que tu touches à rien.</p>
+</div>
+</section>
+
+<section data-s="7" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h3 class="font-space font-bold text-xl mb-4">La différence avec un chatbot classique</h3>
+    <div class="grid sm:grid-cols-2 gap-4">
+        <div class="card-light p-5">
+            <div class="font-bold text-sm mb-3 text-sol-gray">Claude Chat (classique)</div>
+            <div class="text-sol-gray text-sm space-y-2">
+                <p>→ Tu poses une question</p>
+                <p>→ Il te donne une réponse texte</p>
+                <p>→ C'est à toi de faire le boulot</p>
+                <p>→ Tu copies, colles, crées les fichiers</p>
+            </div>
+        </div>
+        <div class="card-accent p-5">
+            <div class="font-bold text-sm mb-3" style="color:#272B5C">Claude Cowork</div>
+            <div class="text-sol-gray text-sm space-y-2">
+                <p>→ Tu décris le résultat que tu veux</p>
+                <p>→ Il planifie les étapes</p>
+                <p>→ Il exécute tout seul</p>
+                <p>→ Tu reviens au fichier fini sur ton bureau</p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section data-s="8" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h3 class="font-space font-bold text-xl mb-4">Ce qu'il sait faire</h3>
+    <div class="space-y-3">
+        <div class="card-light p-4 ch"><div class="flex items-start gap-3"><div class="text-xl emoji">📄</div><div><span class="font-bold text-sm">Créer des documents</span><p class="text-sol-gray text-xs mt-1">PDF, Excel avec formules, PowerPoint, Word. Des vrais fichiers, pas du texte — des fichiers prêts à envoyer.</p></div></div></div>
+        <div class="card-light p-4 ch"><div class="flex items-start gap-3"><div class="text-xl emoji">🔍</div><div><span class="font-bold text-sm">Faire des recherches</span><p class="text-sol-gray text-xs mt-1">Il ouvre Chrome, navigue sur le web, extrait des données, compare des concurrents, compile le tout dans un rapport.</p></div></div></div>
+        <div class="card-light p-4 ch"><div class="flex items-start gap-3"><div class="text-xl emoji">📁</div><div><span class="font-bold text-sm">Organiser des fichiers</span><p class="text-sol-gray text-xs mt-1">Lire, classer, renommer, organiser des dossiers entiers. Il peut trier 200 fichiers en 10 minutes.</p></div></div></div>
+        <div class="card-light p-4 ch"><div class="flex items-start gap-3"><div class="text-xl emoji">📊</div><div><span class="font-bold text-sm">Analyser des données</span><p class="text-sol-gray text-xs mt-1">Tu lui donnes un dossier de documents, il lit tout, identifie les tendances, et te sort un résumé structuré.</p></div></div></div>
+        <div class="card-light p-4 ch"><div class="flex items-start gap-3"><div class="text-xl emoji">⏱️</div><div><span class="font-bold text-sm">Travailler en autonomie</span><p class="text-sol-gray text-xs mt-1">Tu lances une tâche, tu pars. Il bosse. Tu reviens, c'est fini. Pas besoin de rester devant l'écran.</p></div></div></div>
+    </div>
+</div>
+</section>
+
+<section data-s="9" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <div class="card p-3" style="overflow:hidden">
+        <img src="https://cdn.coworkerai.io/claude-computer-use.jpg" alt="Claude Computer Use" class="w-full rounded" style="border:1px solid #e8edf2" loading="lazy">
+        <p class="text-sol-gray text-xs mt-2 text-center italic">Claude Cowork utilise Computer Use — il voit et contrôle ton écran</p>
+    </div>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 10-16 : LES CONNECTEURS -->
+<!-- ============================================================ -->
+
+<section data-s="10" class="py-20">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h2 class="font-space font-bold text-3xl sm:text-4xl mb-6">Les connecteurs.</h2>
+    <p class="text-sol-gray text-lg leading-relaxed">Cowork se branche sur tes outils existants. Il va chercher les infos, les organise, et produit des livrables.</p>
+</div>
+</section>
+
+<section data-s="11" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <div class="grid sm:grid-cols-3 gap-3">
+        <div class="card-light p-3 text-center ch"><div class="font-bold text-sm">Gmail</div><p class="text-sol-gray text-xs mt-1">Lit, classe, rédige</p></div>
+        <div class="card-light p-3 text-center ch"><div class="font-bold text-sm">Google Calendar</div><p class="text-sol-gray text-xs mt-1">Gère l'agenda</p></div>
+        <div class="card-light p-3 text-center ch"><div class="font-bold text-sm">Google Drive</div><p class="text-sol-gray text-xs mt-1">Organise les fichiers</p></div>
+        <div class="card-light p-3 text-center ch"><div class="font-bold text-sm">DocuSign</div><p class="text-sol-gray text-xs mt-1">Signe les contrats</p></div>
+        <div class="card-light p-3 text-center ch"><div class="font-bold text-sm">Apollo / Clay</div><p class="text-sol-gray text-xs mt-1">Données prospects</p></div>
+        <div class="card-light p-3 text-center ch"><div class="font-bold text-sm">WordPress</div><p class="text-sol-gray text-xs mt-1">Gère le contenu</p></div>
+        <div class="card-light p-3 text-center ch"><div class="font-bold text-sm">Outreach</div><p class="text-sol-gray text-xs mt-1">Séquences commerciales</p></div>
+        <div class="card-light p-3 text-center ch"><div class="font-bold text-sm">Chrome</div><p class="text-sol-gray text-xs mt-1">Navigue le web</p></div>
+        <div class="card-light p-3 text-center ch"><div class="font-bold text-sm">Excel / PPT</div><p class="text-sol-gray text-xs mt-1">Tableaux et présentations</p></div>
+    </div>
+    <p class="text-sol-gray text-xs mt-4 italic">Et de nouveaux connecteurs arrivent régulièrement. Anthropic en ajoute tous les mois.</p>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 12-18 : CE QU'IL PRODUIT -->
+<!-- ============================================================ -->
+
+<section data-s="12" class="py-20">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h2 class="font-space font-bold text-3xl sm:text-4xl mb-6">Ce qu'il produit.</h2>
+    <p class="text-sol-gray text-lg leading-relaxed">Pas des brouillons. Des vrais fichiers, prêts à utiliser.</p>
+</div>
+</section>
+
+<section data-s="13" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <div class="space-y-3">
+        <div class="card p-5 ch"><span class="font-bold text-lg" style="color:#272B5C">PDF</span><p class="text-sol-gray text-sm mt-1">Rapports d'audit, études de marché, propositions commerciales — mis en page, structurés, prêts à envoyer au client.</p></div>
+        <div class="card p-5 ch"><span class="font-bold text-lg" style="color:#272B5C">Excel</span><p class="text-sol-gray text-sm mt-1">Grilles tarifaires avec formules, tableaux de suivi prospects, analyses concurrentielles, scoring de CV. Avec des vraies formules, pas juste du texte.</p></div>
+        <div class="card p-5 ch"><span class="font-bold text-lg" style="color:#272B5C">PowerPoint</span><p class="text-sol-gray text-sm mt-1">Présentations de vente, supports de formation, rapports de livraison. Des slides pro que tu peux montrer à un client.</p></div>
+        <div class="card p-5 ch"><span class="font-bold text-lg" style="color:#272B5C">Documents</span><p class="text-sol-gray text-sm mt-1">Contrats, CGV, modèles de mails, comptes-rendus de réunion. Les documents administratifs que tu détestes faire.</p></div>
+    </div>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 14-20 : COMMENT DÉLÉGUER -->
+<!-- ============================================================ -->
+
+<section data-s="14" class="py-20">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h2 class="font-space font-bold text-3xl sm:text-4xl mb-6">Comment tu délègues à Cowork.</h2>
+    <p class="text-sol-gray text-lg leading-relaxed">C'est simple. Tu décris ce que tu veux. Il planifie, exécute, et livre.</p>
+</div>
+</section>
+
+<section data-s="15" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <div class="space-y-4">
+        <div class="flex items-start gap-4"><div class="step border-sol-navy text-sol-navy">1</div><div><p class="font-bold text-sm">Tu décris le résultat</p><p class="text-sol-gray text-xs mt-1">"Analyse les 5 concurrents de mon marché et produis un rapport Excel avec leurs offres, leurs prix, et les opportunités que je peux exploiter."</p></div></div>
+        <div class="flex items-start gap-4"><div class="step border-sol-navy text-sol-navy">2</div><div><p class="font-bold text-sm">Il planifie</p><p class="text-sol-gray text-xs mt-1">Cowork décompose la tâche en étapes. Tu vois son plan. Tu peux ajuster avant qu'il commence.</p></div></div>
+        <div class="flex items-start gap-4"><div class="step border-sol-navy text-sol-navy">3</div><div><p class="font-bold text-sm">Il exécute</p><p class="text-sol-gray text-xs mt-1">Il ouvre le navigateur, va chercher les infos, prend des notes, compile. Toi tu fais autre chose.</p></div></div>
+        <div class="flex items-start gap-4"><div class="step border-sol-navy text-sol-navy">4</div><div><p class="font-bold text-sm">Tu reviens au résultat</p><p class="text-sol-gray text-xs mt-1">Le fichier est prêt sur ton bureau. Tu relis, tu ajustes si besoin, tu envoies.</p></div></div>
+    </div>
+</div>
+</section>
+
+<section data-s="16" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h3 class="font-space font-bold text-xl mb-4">Exemples de tâches que tu peux lui donner</h3>
+    <div class="space-y-2">
+        <div class="cmd">Analyse les 5 premiers concurrents sur Google pour "expert IA freelance". Compare offres, prix, positionnement. Fais un Excel.</div>
+        <div class="cmd">Prends ces 3 transcriptions de réunions et fais un compte-rendu avec les actions à faire pour chaque personne.</div>
+        <div class="cmd">Crée une proposition commerciale PDF pour un audit IA. Mon client est un cabinet comptable de 15 personnes. Utilise mon template.</div>
+        <div class="cmd">Organise le dossier "Clients" : crée un sous-dossier par client, range les documents, renomme les fichiers proprement.</div>
+        <div class="cmd">Lis ces 10 CV et classe-les dans un Excel. Critères : expérience, compétences, note sur 10, résumé 3 lignes.</div>
+    </div>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 17-22 : COMMENT ÇA S'UTILISE -->
+<!-- ============================================================ -->
+
+<section data-s="17" class="py-20">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h2 class="font-space font-bold text-3xl sm:text-4xl mb-6">Comment ça s'utilise concrètement.</h2>
+</div>
+</section>
+
+<section data-s="18" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h3 class="font-space font-bold text-xl mb-4">Tu as besoin de l'app Claude Desktop</h3>
+    <p class="text-sol-gray text-sm mb-4">Cowork c'est pas dans le terminal, c'est pas sur le web. C'est dans l'app Claude Desktop. Tu la télécharges, tu l'ouvres, et tu passes en mode "Cowork".</p>
+    <div class="space-y-3">
+        <div class="flex items-start gap-4"><div class="step border-sol-accent text-sol-accent">1</div><p class="text-sol-gray text-sm">Télécharge Claude Desktop sur <span class="code-inline">claude.ai/download</span></p></div>
+        <div class="flex items-start gap-4"><div class="step border-sol-accent text-sol-accent">2</div><p class="text-sol-gray text-sm">Ouvre l'app et connecte-toi avec ton compte Pro</p></div>
+        <div class="flex items-start gap-4"><div class="step border-sol-accent text-sol-accent">3</div><p class="text-sol-gray text-sm">En haut, clique sur l'onglet <strong>"Cowork"</strong> (au lieu de "Chat")</p></div>
+        <div class="flex items-start gap-4"><div class="step border-sol-accent text-sol-accent">4</div><p class="text-sol-gray text-sm">Active "Work in a Folder" pour donner accès à tes fichiers</p></div>
+        <div class="flex items-start gap-4"><div class="step border-sol-accent text-sol-accent">5</div><p class="text-sol-gray text-sm">Décris ta tâche et laisse-le bosser</p></div>
+    </div>
+</div>
+</section>
+
+<section data-s="19" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h3 class="font-space font-bold text-xl mb-4">Computer Use — il contrôle ton écran</h3>
+    <p class="text-sol-gray text-sm leading-relaxed mb-4">Cowork peut utiliser "Computer Use" — il voit ton écran, clique, tape, navigue. Il fait exactement ce que tu ferais, mais automatiquement. Il ouvre Chrome, va sur un site, extrait des données, ouvre Excel, crée un tableau.</p>
+    <p class="text-sol-gray text-sm leading-relaxed">C'est sécurisé — il tourne dans un environnement isolé et te demande toujours permission avant d'accéder à de nouvelles apps.</p>
+</div>
+</section>
+
+<section data-s="20" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h3 class="font-space font-bold text-xl mb-4">Les projets — organiser par dossier</h3>
+    <p class="text-sol-gray text-sm leading-relaxed mb-4">Cowork a des "Projects" — des espaces de travail séparés avec leurs propres fichiers, contexte et instructions. Tu crées un projet par client, ou un projet pour ta propre organisation.</p>
+    <div class="card-light p-4">
+        <div class="font-bold text-sm mb-2">Exemple de structure</div>
+        <div class="text-sol-gray text-xs font-mono space-y-1">
+            <p>Projet "Mon Business"</p>
+            <p>├── Instructions : "Je suis Expert IA freelance, voici mes tarifs..."</p>
+            <p>├── Templates : propositions, contrats, grilles tarifaires</p>
+            <p>├── Recherches : analyses de marché, veille concurrentielle</p>
+            <p>└── Documents : comptes-rendus, notes de réunion</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 21-28 : POURQUOI ON L'UTILISE DANS LA FORMATION -->
+<!-- ============================================================ -->
+
+<section data-s="21" class="py-20">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h2 class="font-space font-bold text-3xl sm:text-4xl mb-6">Pourquoi c'est important pour toi.</h2>
+    <p class="text-sol-gray text-lg leading-relaxed">Dans la formation, Cowork revient dans 5 séances. C'est l'outil qui structure tout ce qui est pas du code.</p>
+</div>
+</section>
+
+<section data-s="22" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <div class="space-y-3">
+        <div class="card-light p-4"><div class="flex items-center justify-between"><div><span class="font-bold text-sm">Séance 6</span><p class="text-sol-gray text-xs mt-1">Ton QG — connecter Gmail, Calendar, Drive, Fireflies, créer tous les templates</p></div><span class="text-sol-gray text-xs font-mono">Cowork</span></div></div>
+        <div class="card-light p-4"><div class="flex items-center justify-between"><div><span class="font-bold text-sm">Séance 7</span><p class="text-sol-gray text-xs mt-1">Ton étude de marché — recherche en ligne, analyse concurrents</p></div><span class="text-sol-gray text-xs font-mono">Cowork</span></div></div>
+        <div class="card-light p-4"><div class="flex items-center justify-between"><div><span class="font-bold text-sm">Séance 11</span><p class="text-sol-gray text-xs mt-1">Lead magnets — recherche + création de contenus</p></div><span class="text-sol-gray text-xs font-mono">Cowork</span></div></div>
+        <div class="card-light p-4"><div class="flex items-center justify-between"><div><span class="font-bold text-sm">Séance 16</span><p class="text-sol-gray text-xs mt-1">Pipeline + propositions commerciales — documents pro</p></div><span class="text-sol-gray text-xs font-mono">Cowork</span></div></div>
+        <div class="card-light p-4"><div class="flex items-center justify-between"><div><span class="font-bold text-sm">Séance 17</span><p class="text-sol-gray text-xs mt-1">Audit IA complet — analyse d'entreprise + rapport</p></div><span class="text-sol-gray text-xs font-mono">Cowork</span></div></div>
+    </div>
+</div>
+</section>
+
+<section data-s="23" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <div class="card-accent p-6">
+        <h4 class="font-bold mb-3">En séance 6, c'est là que tu organises tout</h4>
+        <p class="text-sol-gray text-sm leading-relaxed">Cowork va connecter tes outils (Gmail, Calendar, Drive, Fireflies), créer tes templates de propositions, tes contrats, ta grille tarifaire, ton arborescence de dossiers. En une séance, ton business est structuré comme celui de quelqu'un qui fait ça depuis 2 ans.</p>
+    </div>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 24-30 : COMBIEN ÇA COÛTE -->
+<!-- ============================================================ -->
+
+<section data-s="24" class="py-20">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h2 class="font-space font-bold text-3xl sm:text-4xl mb-6">Combien ça coûte ?</h2>
+    <p class="text-sol-gray text-lg leading-relaxed">Si t'as déjà l'abonnement Pro à 20€/mois (séance 1), Cowork est inclus. Pas de coût en plus.</p>
+</div>
+</section>
+
+<section data-s="25" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <div class="card-green p-6">
+        <h4 class="font-bold mb-3">C'est inclus dans ton abonnement Claude</h4>
+        <p class="text-sol-gray text-sm leading-relaxed">Pro (20€/mois), Max (100-200€/mois) — Cowork est inclus sur tous les plans payants. Tu paies une fois, t'as Claude Chat + Claude Code + Claude Cowork. C'est le même abonnement.</p>
+    </div>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 26-35 : QUAND UTILISER QUOI -->
+<!-- ============================================================ -->
+
+<section data-s="26" class="py-20">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h2 class="font-space font-bold text-3xl sm:text-4xl mb-6">Quand utiliser quoi — le récap complet.</h2>
+    <p class="text-sol-gray text-lg leading-relaxed">Maintenant que tu connais les 4 outils, voilà le tableau final.</p>
+</div>
+</section>
+
+<section data-s="27" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <div class="overflow-x-auto">
+    <table class="w-full text-sm text-left">
+        <thead><tr class="border-b-2 border-sol-deep"><th class="py-3 px-3 font-mono text-xs text-sol-gray">JE VEUX...</th><th class="py-3 px-3 font-mono text-xs" style="color:#4CC0C0">J'UTILISE</th></tr></thead>
+        <tbody>
+            <tr class="border-b border-sol-lightgray"><td class="py-3 px-3">Créer un site / chatbot / script</td><td class="py-3 px-3 font-mono text-xs" style="color:#4CC0C0">Claude Code</td></tr>
+            <tr class="border-b border-sol-lightgray"><td class="py-3 px-3">Coder un gros projet en autonomie</td><td class="py-3 px-3 font-mono text-xs" style="color:#30D9DE">Codex</td></tr>
+            <tr class="border-b border-sol-lightgray"><td class="py-3 px-3">Automatiser un flux récurrent H24</td><td class="py-3 px-3 font-mono text-xs" style="color:#4CC0C0">n8n</td></tr>
+            <tr class="border-b border-sol-lightgray"><td class="py-3 px-3">Analyser des concurrents</td><td class="py-3 px-3 font-mono text-xs text-sol-navy">Cowork</td></tr>
+            <tr class="border-b border-sol-lightgray"><td class="py-3 px-3">Créer une proposition commerciale</td><td class="py-3 px-3 font-mono text-xs text-sol-navy">Cowork</td></tr>
+            <tr class="border-b border-sol-lightgray"><td class="py-3 px-3">Organiser mes dossiers et templates</td><td class="py-3 px-3 font-mono text-xs text-sol-navy">Cowork</td></tr>
+            <tr class="border-b border-sol-lightgray"><td class="py-3 px-3">Résumer 10 transcriptions de réunion</td><td class="py-3 px-3 font-mono text-xs text-sol-navy">Cowork</td></tr>
+            <tr class="border-b border-sol-lightgray"><td class="py-3 px-3">Scraper des données en masse</td><td class="py-3 px-3 font-mono text-xs" style="color:#4CC0C0">Claude Code</td></tr>
+            <tr class="border-b border-sol-lightgray"><td class="py-3 px-3">Envoyer des relances auto à mes prospects</td><td class="py-3 px-3 font-mono text-xs" style="color:#4CC0C0">n8n</td></tr>
+            <tr><td class="py-3 px-3">Faire un rapport Excel avec analyse de données</td><td class="py-3 px-3 font-mono text-xs text-sol-navy">Cowork</td></tr>
+        </tbody>
+    </table>
+    </div>
+</div>
+</section>
+
+<section data-s="28" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <div class="card-green p-6">
+        <h4 class="font-bold mb-3">La règle simple</h4>
+        <p class="text-sol-gray text-sm leading-relaxed"><strong>Tu construis un truc technique ?</strong> → Claude Code<br><strong>Tu veux que ça code tout seul ?</strong> → Codex<br><strong>Tu veux que ça tourne en boucle ?</strong> → n8n<br><strong>Tu veux analyser, rechercher, ou produire un document ?</strong> → Cowork</p>
+    </div>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 29-40 : DISPATCH + TÂCHES PLANIFIÉES + INSTRUCTIONS -->
+<!-- ============================================================ -->
+
+<section data-s="29" class="py-20">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h2 class="font-space font-bold text-3xl sm:text-4xl mb-6">Les fonctionnalités avancées.</h2>
+</div>
+</section>
+
+<section data-s="30" class="py-8"><div class="max-w-3xl mx-auto px-4 sr"><div class="card p-6 ch"><div class="flex items-start gap-3"><div class="text-2xl emoji">📱</div><div><h4 class="font-bold mb-2">Dispatch — lance depuis ton téléphone</h4><p class="text-sol-gray text-sm">Tu peux envoyer une tâche à Cowork depuis ton téléphone. Il l'exécute sur ton bureau. Tu vérifies le résultat quand tu veux.</p></div></div></div></div></section>
+
+<section data-s="31" class="py-8"><div class="max-w-3xl mx-auto px-4 sr"><div class="card p-6 ch"><div class="flex items-start gap-3"><div class="text-2xl emoji">📅</div><div><h4 class="font-bold mb-2">Tâches planifiées</h4><p class="text-sol-gray text-sm">Tu peux programmer des tâches récurrentes. "Chaque lundi à 8h, fais-moi un résumé de mes emails de la semaine." C'est comme un cron job mais pour des tâches de bureau.</p></div></div></div></div></section>
+
+<section data-s="32" class="py-8"><div class="max-w-3xl mx-auto px-4 sr"><div class="card p-6 ch"><div class="flex items-start gap-3"><div class="text-2xl emoji">📝</div><div><h4 class="font-bold mb-2">Instructions globales</h4><p class="text-sol-gray text-sm">Tu peux définir des instructions permanentes : "Je suis Expert IA freelance, mon ton est professionnel mais accessible, je facture entre 1 500 et 8 000€." Cowork applique ça à chaque tâche.</p></div></div></div></div></section>
+
+<section data-s="33" class="py-8"><div class="max-w-3xl mx-auto px-4 sr"><div class="card p-6 ch"><div class="flex items-start gap-3"><div class="text-2xl emoji">🔌</div><div><h4 class="font-bold mb-2">Plugins</h4><p class="text-sol-gray text-sm">Des plugins spécialisés par secteur : finance, RH, design, ops. Ils ajoutent des capacités spécifiques. Tu peux même en créer avec "Customize".</p></div></div></div></div></section>
+
+<section data-s="34" class="py-8"><div class="max-w-3xl mx-auto px-4 sr"><div class="card p-6 ch"><div class="flex items-start gap-3"><div class="text-2xl emoji">🔒</div><div><h4 class="font-bold mb-2">Sécurisé</h4><p class="text-sol-gray text-sm">Cowork tourne dans un environnement isolé. Il te demande permission avant d'accéder à de nouvelles apps. Tes données restent sur ta machine.</p></div></div></div></div></section>
+
+<!-- ============================================================ -->
+<!-- 35-45 : EXEMPLES CONCRETS -->
+<!-- ============================================================ -->
+
+<section data-s="35" class="py-20">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h2 class="font-space font-bold text-3xl sm:text-4xl mb-6">Des exemples concrets.</h2>
+    <p class="text-sol-gray text-lg leading-relaxed">Voilà des vraies tâches que tu vas donner à Cowork pendant la formation.</p>
+</div>
+</section>
+
+<section data-s="36" class="py-8"><div class="max-w-3xl mx-auto px-4 sr"><div class="card p-5 ch"><div class="font-bold text-sm mb-2">Étude de marché (séance 7)</div><div class="cmd mt-2">Analyse les 10 premiers concurrents pour "consultant IA PME France". Pour chacun : offres, prix, positionnement, avis. Compile dans un Excel et identifie les opportunités.</div></div></div></section>
+
+<section data-s="37" class="py-8"><div class="max-w-3xl mx-auto px-4 sr"><div class="card p-5 ch"><div class="font-bold text-sm mb-2">Proposition commerciale (séance 16)</div><div class="cmd mt-2">Crée une proposition commerciale PDF pour un audit IA. Client : cabinet comptable, 15 personnes. Prix : 2 500€. Inclus : analyse des process, rapport 10 pages, recommandations avec ROI. Utilise mon template.</div></div></div></section>
+
+<section data-s="38" class="py-8"><div class="max-w-3xl mx-auto px-4 sr"><div class="card p-5 ch"><div class="font-bold text-sm mb-2">Organisation de dossiers (séance 6)</div><div class="cmd mt-2">Crée l'arborescence suivante dans mon Drive : un dossier "Clients" avec un sous-dossier par client, un dossier "Templates" avec les modèles de propositions et contrats, un dossier "Admin" avec les factures et CGV.</div></div></div></section>
+
+<section data-s="39" class="py-8"><div class="max-w-3xl mx-auto px-4 sr"><div class="card p-5 ch"><div class="font-bold text-sm mb-2">Compte-rendu de réunion</div><div class="cmd mt-2">Voilà la transcription de ma réunion avec le client. Fais un compte-rendu structuré : résumé en 3 lignes, décisions prises, actions à faire par personne, prochaines étapes. Envoie par email à tous les participants.</div></div></div></section>
+
+<section data-s="40" class="py-8"><div class="max-w-3xl mx-auto px-4 sr"><div class="card p-5 ch"><div class="font-bold text-sm mb-2">Grille tarifaire</div><div class="cmd mt-2">Crée une grille tarifaire Excel pour mes services. Colonnes : service, description, durée, prix. Services : audit IA, chatbot SAV, assistant email API, agent vocal, automatisation CRM, WhatsApp IA, gestion avis Google.</div></div></div></section>
+
+<!-- ============================================================ -->
+<!-- 41-50 : LES LIMITES -->
+<!-- ============================================================ -->
+
+<section data-s="41" class="py-20">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h2 class="font-space font-bold text-3xl sm:text-4xl mb-6">Les limites.</h2>
+</div>
+</section>
+
+<section data-s="42" class="py-8"><div class="max-w-3xl mx-auto px-4 sr"><div class="card-orange p-6 ch"><h4 class="font-bold mb-2">L'app Desktop doit rester ouverte</h4><p class="text-sol-gray text-sm">Cowork tourne sur ton ordi. Si tu fermes l'app ou éteins ton Mac, il s'arrête. C'est pas comme n8n qui tourne en cloud H24.</p></div></div></section>
+
+<section data-s="43" class="py-8"><div class="max-w-3xl mx-auto px-4 sr"><div class="card-orange p-6 ch"><h4 class="font-bold mb-2">Computer Use c'est lent</h4><p class="text-sol-gray text-sm">Quand Cowork contrôle ton écran, c'est pas instantané. Il prend des screenshots, analyse, clique. C'est plus lent qu'un script. Mais c'est fiable et ça marche avec n'importe quelle app.</p></div></div></section>
+
+<section data-s="44" class="py-8"><div class="max-w-3xl mx-auto px-4 sr"><div class="card-orange p-6 ch"><h4 class="font-bold mb-2">C'est encore en "Research Preview"</h4><p class="text-sol-gray text-sm">Cowork est pas encore en version finale. Y'a des bugs parfois, des fonctionnalités qui changent. Mais c'est déjà très utilisable au quotidien.</p></div></div></section>
+
+<section data-s="45" class="py-8"><div class="max-w-3xl mx-auto px-4 sr"><div class="card-green p-6 ch"><h4 class="font-bold mb-2">La bonne pratique</h4><p class="text-sol-gray text-sm">Utilise Cowork pour les tâches longues qui demandent de l'analyse et de la production de documents. Pour le code et les automatisations, reste sur Claude Code et n8n.</p></div></div></section>
+
+<!-- ============================================================ -->
+<!-- 46-55 : RÉCAP + CHEATSHEET -->
+<!-- ============================================================ -->
+
+<section data-s="46" class="py-20">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h2 class="font-space font-bold text-3xl mb-6">Ce qu'il faut retenir.</h2>
+    <div class="space-y-3">
+        <div class="flex items-center gap-3"><span style="color:#4CC0C0" class="text-lg">✓</span><span class="text-sol-gray">Cowork c'est l'IA sur ton bureau — il ouvre des apps, navigue, crée des fichiers</span></div>
+        <div class="flex items-center gap-3"><span style="color:#4CC0C0" class="text-lg">✓</span><span class="text-sol-gray">Il produit des vrais fichiers : PDF, Excel, PowerPoint, documents</span></div>
+        <div class="flex items-center gap-3"><span style="color:#4CC0C0" class="text-lg">✓</span><span class="text-sol-gray">Connecteurs : Gmail, Calendar, Drive, DocuSign, Apollo, WordPress...</span></div>
+        <div class="flex items-center gap-3"><span style="color:#4CC0C0" class="text-lg">✓</span><span class="text-sol-gray">Inclus dans l'abonnement Pro à 20€/mois</span></div>
+        <div class="flex items-center gap-3"><span style="color:#4CC0C0" class="text-lg">✓</span><span class="text-sol-gray">Tu l'utilises pour organiser, analyser, rechercher, documenter</span></div>
+        <div class="flex items-center gap-3"><span style="color:#4CC0C0" class="text-lg">✓</span><span class="text-sol-gray">Claude Code construit, Codex délègue, n8n automatise, Cowork organise</span></div>
+        <div class="flex items-center gap-3"><span style="color:#4CC0C0" class="text-lg">✓</span><span class="text-sol-gray">C'est ton QG — en séance 6 tu organises tout ton business avec</span></div>
+    </div>
+</div>
+</section>
+
+<section data-s="47" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h2 class="font-space font-bold text-2xl mb-6">Cheatsheet Cowork.</h2>
+    <div class="code border-sol-accent" style="border-color:#272B5C">
+        <div style="color:#4CC0C0" class="mb-3 font-bold">// Claude Cowork — Cheatsheet</div>
+        <div class="text-gray-400 space-y-2">
+            <p>INSTALLER</p>
+            <p>  claude.ai/download → app Desktop</p>
+            <p>  Ouvrir → onglet Cowork</p>
+            <p>  Activer "Work in a Folder"</p>
+            <p></p>
+            <p>PRIX</p>
+            <p>  Inclus dans Pro (20€/mois)</p>
+            <p></p>
+            <p>CE QU'IL FAIT</p>
+            <p>  → Recherches web et analyse</p>
+            <p>  → PDF, Excel, PowerPoint, documents</p>
+            <p>  → Organisation de fichiers et dossiers</p>
+            <p>  → Computer Use (contrôle ton écran)</p>
+            <p></p>
+            <p>CONNECTEURS</p>
+            <p>  Gmail, Calendar, Drive, DocuSign</p>
+            <p>  Apollo, Clay, WordPress, Outreach</p>
+            <p></p>
+            <p>QUAND L'UTILISER</p>
+            <p>  → Analyser des concurrents</p>
+            <p>  → Créer des propositions commerciales</p>
+            <p>  → Organiser son business</p>
+            <p>  → Résumer des réunions</p>
+            <p>  → Trier et analyser des données</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 48-55 : FIN ACTE 1 -->
+<!-- ============================================================ -->
+
+<section data-s="48" class="py-20">
+<div class="max-w-3xl mx-auto px-4 sr text-center">
+    <div class="inline-block p-0.5 gradient-bg mb-4"><div class="px-6 py-2 bg-white font-mono text-sm font-bold">FIN DE L'ACTE 1</div></div>
+    <h2 class="font-space font-bold text-3xl sm:text-4xl mb-6">Tu maîtrises tes 4 outils.</h2>
+    <p class="text-sol-gray text-lg leading-relaxed">Claude Code, Codex, n8n, Cowork. Tu sais ce que chacun fait et quand l'utiliser. L'Acte 1 est terminé. Le quiz de validation t'attend — et après on passe à l'Acte 2 où tu construis ton business.</p>
+</div>
+</section>
+
+<section data-s="49" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <h3 class="font-space font-bold text-xl mb-4">Les 4 séances de l'Acte 1</h3>
+    <div class="space-y-3">
+        <div class="card-light p-4"><div class="flex items-center justify-between"><div><span class="font-bold text-sm">Séance 1</span> — Claude Code</div><span class="tag border-sol-accent text-sol-accent text-xs">Fait ✓</span></div></div>
+        <div class="card-light p-4"><div class="flex items-center justify-between"><div><span class="font-bold text-sm">Séance 2</span> — Codex</div><span class="tag border-sol-accent text-sol-accent text-xs">Fait ✓</span></div></div>
+        <div class="card-light p-4"><div class="flex items-center justify-between"><div><span class="font-bold text-sm">Séance 3</span> — n8n</div><span class="tag border-sol-accent text-sol-accent text-xs">Fait ✓</span></div></div>
+        <div class="card-light p-4" style="border-color:#272B5C"><div class="flex items-center justify-between"><div><span class="font-bold text-sm">Séance 4</span> — Cowork</div><span class="tag text-xs" style="border-color:#272B5C;color:#272B5C">Fait ✓</span></div></div>
+    </div>
+</div>
+</section>
+
+<section data-s="50" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <div class="card-accent p-6">
+        <h3 class="font-bold text-lg mb-3">Prochaine étape : le Quiz</h3>
+        <p class="text-sol-gray text-sm leading-relaxed mb-3">Avant de passer à l'Acte 2, tu passes un quiz de validation. 15 questions pour vérifier que tu sais quel outil utiliser dans quelle situation. 80% pour valider.</p>
+        <p class="text-sol-gray text-sm leading-relaxed">Après le quiz, on attaque l'Acte 2 : tu construis ton business. Étude de marché, site web, blog, tunnel de vente, LinkedIn, prospection.</p>
+    </div>
+</div>
+</section>
+
+<section data-s="51" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <div class="card-accent p-6" style="border-color:#272B5C">
+        <h3 class="font-bold text-lg mb-3">Un truc à faire avant le quiz</h3>
+        <p class="text-sol-gray text-sm leading-relaxed">Télécharge Claude Desktop, ouvre Cowork, et donne-lui une tâche simple. "Fais-moi un résumé de cette page web en 5 bullet points" ou "Crée un fichier Excel avec 3 colonnes : service, prix, durée". Le but c'est de sentir comment ça marche.</p>
+    </div>
+</div>
+</section>
+
+<section data-s="52" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <div class="card p-6">
+        <h4 class="font-bold mb-3">Si t'es bloqué</h4>
+        <div class="text-sol-gray text-sm space-y-2">
+            <p>→ Regarde la vidéo de cette séance</p>
+            <p>→ Relis cette présentation</p>
+            <p>→ Pose ta question sur le Slack</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<section data-s="53" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr">
+    <div class="card p-6 border-l-4" style="border-left-color:#272B5C">
+        <h4 class="font-bold mb-3">Récap complet de l'Acte 1</h4>
+        <div class="text-sol-gray text-sm space-y-2">
+            <p><strong style="color:#4CC0C0">Claude Code</strong> — construit en direct (sites, chatbots, scripts). Interactif.</p>
+            <p><strong style="color:#30D9DE">Codex</strong> — code en autonomie. Tu lances, tu pars, tu reviens.</p>
+            <p><strong style="color:#4CC0C0">n8n</strong> — automatise en boucle H24. Visuels, logs, workflows JSON.</p>
+            <p><strong style="color:#272B5C">Cowork</strong> — organise, recherche, produit des documents. Ton QG.</p>
+        </div>
+        <p class="text-sol-gray text-sm mt-4 font-bold">Les 4 ensemble, t'es équipé pour tout construire.</p>
+    </div>
+</div>
+</section>
+
+<section data-s="54" class="py-20">
+<div class="max-w-3xl mx-auto px-4 sr text-center">
+    <h2 class="font-space font-bold text-3xl sm:text-4xl mb-4">Fin de la séance 4.<br>Fin de l'Acte 1.</h2>
+    <p class="text-sol-gray text-lg mb-2">Tu maîtrises tes 4 outils. Le quiz t'attend.</p>
+    <p class="text-sol-gray">On se retrouve en Acte 2 pour construire ton business.</p>
+</div>
+</section>
+
+<section data-s="55" class="py-12">
+<div class="max-w-3xl mx-auto px-4 sr text-center">
+    <div class="inline-block p-1 gradient-bg"><div class="px-8 py-4 bg-white"><span class="font-space font-bold text-xl gradient-text">DENEM Academy</span></div></div>
+    <p class="text-sol-gray text-xs mt-6 font-mono">Séance 4 — Claude Cowork — Acte 1 : Maîtriser</p>
+</div>
+</section>
+
+<div class="py-16"></div>
+<footer class="py-8 border-t border-sol-lightgray">
+<div class="max-w-5xl mx-auto px-4 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+        <img src="logo-denem.jpeg" alt="DENEM" class="w-6 h-6 rounded">
+        <span class="font-space font-bold text-sm">DENEM Academy</span>
+    </div>
+    <span class="text-xs text-sol-gray font-mono">Séance 04 / 24</span>
+</div>
+</footer>
+
+
+<!-- JS -->
+<script>
+// ==========================================
+// Progress bar (smooth)
+// ==========================================
+window.addEventListener('scroll',()=>{
+    const s=window.scrollY,d=document.documentElement.scrollHeight-window.innerHeight;
+    document.getElementById('pb').style.width=(s/d)*100+'%';
+    // Nav shadow on scroll
+    document.querySelector('nav').classList.toggle('scrolled',s>50);
+});
+
+// ==========================================
+// Scroll reveal (multiple types)
+// ==========================================
+const ro=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('v')})},{threshold:.08,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.sr,.sr-left,.sr-right,.sr-scale,.stagger-list,.reveal-line').forEach(e=>ro.observe(e));
+
+// ==========================================
+// Section counter
+// ==========================================
+const allS=document.querySelectorAll('[data-s]'),sc=document.getElementById('sc');
+const sco=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){sc.textContent=x.target.dataset.s+' / 65';sc.style.transform='scale(1.1)';setTimeout(()=>sc.style.transform='scale(1)',200)}})},{threshold:.3});
+allS.forEach(s=>sco.observe(s));
+
+// ==========================================
+// Card 3D tilt
+// ==========================================
+document.querySelectorAll('.ch,.ch-tilt').forEach(c=>{
+    c.addEventListener('mousemove',e=>{
+        const r=c.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;
+        const rotX=(y-r.height/2)/30,rotY=(r.width/2-x)/30;
+        c.style.transform=`perspective(800px) rotateX(${rotX}deg) rotateY(${rotY}deg) translateY(-6px)`;
+    });
+    c.addEventListener('mouseleave',()=>{c.style.transform='';});
+});
+
+// ==========================================
+// Cursor glow (follows mouse smoothly)
+// ==========================================
+const cg=document.getElementById('cg');
+let mx=0,my=0,gx=0,gy=0;
+document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;const cc=document.getElementById('cc');if(cc)cc.style.transform='translate('+(e.clientX-16)+'px,'+(e.clientY-16)+'px)';});
+(function ag(){gx+=(mx-gx)*.06;gy+=(my-gy)*.06;if(cg)cg.style.transform=`translate(${gx-150}px,${gy-150}px)`;requestAnimationFrame(ag)})();
+
+// ==========================================
+// Magnetic effect on tags/buttons
+// ==========================================
+document.querySelectorAll('.magnetic,.tag,.tb').forEach(el=>{
+    el.addEventListener('mousemove',e=>{
+        const r=el.getBoundingClientRect();
+        const x=(e.clientX-r.left-r.width/2)*.15;
+        const y=(e.clientY-r.top-r.height/2)*.15;
+        el.style.transform=`translate(${x}px,${y}px)`;
+    });
+    el.addEventListener('mouseleave',()=>{el.style.transform='';});
+});
+
+// ==========================================
+// Terminal typing animation on hover
+// ==========================================
+document.querySelectorAll('.terminal').forEach(t=>{
+    t.addEventListener('mouseenter',()=>{
+        t.querySelectorAll('.terminal-output').forEach((line,i)=>{
+            line.style.opacity='0';line.style.transform='translateX(-5px)';
+            setTimeout(()=>{line.style.transition='all .3s ease';line.style.opacity='1';line.style.transform='translateX(0)'},i*80);
+        });
+    });
+});
+
+// ==========================================
+// Cmd copy to clipboard on click
+// ==========================================
+document.querySelectorAll('.cmd').forEach(cmd=>{
+    cmd.addEventListener('click',()=>{
+        const text=cmd.textContent.replace('$','').replace('cliquer pour copier','').replace('copié !','').trim();
+        navigator.clipboard.writeText(text);
+        cmd.classList.add('copied');
+        setTimeout(()=>cmd.classList.remove('copied'),1500);
+    });
+});
+
+// Aussi rendre les code-inline copiables
+document.querySelectorAll('.code-inline').forEach(ci=>{
+    ci.style.cursor='pointer';
+    ci.title='Clique pour copier';
+    ci.addEventListener('click',()=>{
+        navigator.clipboard.writeText(ci.textContent.trim());
+        const orig=ci.style.background;
+        ci.style.background='#4CC0C0';ci.style.color='#fff';
+        setTimeout(()=>{ci.style.background=orig;ci.style.color=''},600);
+    });
+});
+
+// ==========================================
+// Parallax on floating elements
+// ==========================================
+window.addEventListener('scroll',()=>{
+    const s=window.scrollY;
+    document.querySelectorAll('.animate-float,.animate-float-slow,.animate-float-reverse').forEach((el,i)=>{
+        const speed=.02+i*.01;
+        el.style.transform=`translateY(${Math.sin(s*speed)*15}px) rotate(${Math.sin(s*speed)*3}deg)`;
+    });
+});
+
+// ==========================================
+// Easter egg: Konami code
+// ==========================================
+let kc=[];const ks=[38,38,40,40,37,39,37,39,66,65];
+document.addEventListener('keydown',e=>{
+    kc.push(e.keyCode);if(kc.length>ks.length)kc.shift();
+    if(JSON.stringify(kc)===JSON.stringify(ks)){
+        document.body.style.transition='filter 1s';
+        document.body.style.filter='hue-rotate(180deg)';
+        setTimeout(()=>document.body.style.filter='none',3000);
+    }
+});
+
+// ==========================================
+// Easter egg: triple click on logo
+// ==========================================
+let lc=0;
+document.querySelector('nav .rounded')?.addEventListener('click',()=>{
+    lc++;
+    if(lc===3){
+        document.querySelector('nav .rounded').style.transition='all .5s';
+        document.querySelector('nav .rounded').style.transform='rotate(360deg) scale(1.3)';
+        document.querySelector('nav .rounded').style.background='#4CC0C0';
+        setTimeout(()=>{
+            document.querySelector('nav .rounded').style.transform='';
+            document.querySelector('nav .rounded').style.background='';
+        },1000);
+        lc=0;
+    }
+});
+
+// ==========================================
+// Smooth appear for emojis
+// ==========================================
+document.querySelectorAll('.emoji').forEach(em=>{
+    em.addEventListener('mouseenter',()=>{em.style.transform='scale(1.3) rotate(-8deg)';});
+    em.addEventListener('mouseleave',()=>{em.style.transform='';});
+});
+</script>
+</body>
+</html>
