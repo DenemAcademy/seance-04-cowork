@@ -1,0 +1,623 @@
+Bienvenue à tous, on va parler du coup sur cette séance du dernier outil qui est Claude Cowork qui va nous servir en tant que QG d'organisation.
+Donc on a vu lors des trois premières séances que Claude Code va nous permettre de construire tout au long de la formation.
+Si le projet est trop complexe, on va chercher à déléguer et du coup on va utiliser Codex.
+Ensuite, on a parlé DEN-8N qui va nous permettre d'automatiser certaines tâches si le client souhaite avoir un visu dessus.
+Et Cowork qui va nous permettre d'organiser du coup tous nos projets.
+Donc pourquoi on va utiliser Cowork lors de cette formation ?
+Donc le but encore une fois, ça va être de structurer tout notre business.
+Donc en séance 6, au niveau de l'acte 2, on va connecter Gmail, Calendar, Drive et Firefalls et tout organisé avec Cowork.
+Donc en gros on va créer des templates de propositions, des contrats, des dossiers clients et des compte-rendus de réunions.
+Donc pour vous donner un ordre d'idée sur Firefills, imaginons que tout simplement vous faites un call client par rapport à un projet d'automatisation.
+Donc le call durant une heure, ça va être relou de tout réécouter constamment et comprendre justement les points clés.
+Nous, ce qu'on va chercher à faire, c'est de connecter Firefills à Codexwork et ensuite demander à Codexwork un récap des points importants
+et de travailler par la suite sur la présentation pour que derrière ça tape dans le mille et qu'on arrive à signer ce client-là.
+Donc vraiment c'est ça qui est très utile avec Codexwork, c'est la partie connecteur.
+On va pouvoir connecter tous nos outils.
+Imaginez un instant que derrière vous êtes tout seul, vous êtes un freelance, vous souhaitez monter votre agence en manière indépendante
+et que vous devez d'une part aller sur Drive, aller sur Calendar, aller sur Calendar, ensuite aller sur Firefalls pour voir le récap,
+aller sur Google Doc pour justement faire un brief client.
+Ça va être relou, ça va être relou parce que vous allez perdre beaucoup de temps.
+Alors que si derrière vous avez 10 projets clients actuellement, et bien si vous mettez tous ces projets dans un QG,
+ça va être bien plus simple en l'organisation et du coup vous allez puer productif et vous allez gagner énormément de temps.
+C'est vraiment cette structure-là que j'utilise et c'est comme ça que ça a marché pour moi.
+Le plus important c'est tous dans un business, c'est de s'organiser correctement.
+Et moi je vais vous donner vraiment la méthode pas à pas pour que vous fassiez exactement la même chose que moi
+et que par la suite vous arrivez à délivrer des clients de manière stratégique organisée, fin de gagner du temps
+et tout simplement enchaîner les projets.
+Donc pour refaire un petit récap, Codexwork ça va être vraiment un agent IA qui va vivre dans l'app Claude Destott.
+On va pas utiliser l'app web, on va utiliser Claude Destott directement.
+Donc en gros il va travailler directement sur notre ordinateur, il va être dans la capacité d'ouvrir des apps,
+naviguer sur le web, créer des fichiers, organiser des dossiers et tout touche barré en fait.
+Juste encore une fois comme sur Claude Codex, on va créer un prompt et on va lui demander de réaliser la tâche.
+Donc ce qu'il va savoir faire c'est créer des documents, faire des recherches,
+analyser des données, travailler en autonomie, donc voilà.
+Et ensuite on va pouvoir du coup connecter des connecteurs directement à Claude Codex.
+On partage email, Google Drive, Google Drive, DocuSign, Poyo, WordPress, Outreach, Chrome, excellent.
+Moi c'est cela que j'utilise mais il y en a plein d'autres, on verra par la suite
+parce que si vous avez déjà des logiciels que j'utilise, on va pouvoir les connecter directement
+soit de manière personnalisée, soit directement avec les connecteurs officiels d'entropic.
+Donc on a vu qu'il va pouvoir produire des PDF, des Excel, des PowerPoints, des documents
+et du coup comment tu vas faire pour déléguer tout cela au work, c'est que tu vas décrire le résultat,
+lui il va planifier et ensuite il va exécuter et toi tu vas pouvoir révenir au résultat.
+Donc là je vous ai mis un petit exemple de tâche que tu vas pouvoir donner.
+Donc par exemple prends ces trois transcriptions de réunions et fais un compte rendu avec les actions à faire pour chaque personne.
+Donc là tu vois, tu pourrais très bien ensuite lui demander de faire une présentation.
+Donc comment cela s'utilise concrètement.
+En gros tu vas avoir besoin de l'App Desktop.
+Donc pour avoir l'App Desktop c'est simple.
+Tu vas juste ici, tu copies, hop, tu vas sur ce lien.
+Quand encore une fois moi je suis sur Mac.
+Donc là normalement si vous pliquez sur le lien vous allez voir Windows,
+si vous êtes sur Windows, moi je clique sur Nold Monde, ça prend un petit peu de temps,
+on va attendre, ok top, là on peut voir que je l'ai déjà de toute manière.
+Donc je fais enregistrer et là ça est en train de charger.
+Bon je ne vais pas attendre 32 minutes vu que je l'ai déjà mais une fois que vous avez fini,
+enfin le téléchargement est terminé, vous double cliquez dessus
+et ensuite ça va vous ouvrir tout simplement Cloud Desktop.
+Donc voilà, une fois que vous avez fini le téléchargement,
+vous allez dans la partie app,
+look ce qui est sur Cloud Desktop et là l'application va sourire.
+Donc c'est exactement la même chose que sur la partie web
+mais ça va être plus simple de travailler sur Cloud Work avec l'app Desktop.
+Donc ça va être similaire à Cloud Code,
+donc vous travaillez du coup sur votre QG d'organisation.
+Pour ça, il va vous falloir un dossier.
+Vous allez regrouper tous vos documents clients, toute votre stratégie, peu importe,
+directement dans ce dossier là.
+Donc vous cliquez sur Nouveau dossier.
+Moi je vais l'appeler QG mais vous pouvez l'appeler comme vous voulez,
+ensuite ce que vous faites du coup c'est que vous retournez sur l'app Desktop,
+vous allez donc choisir un autre dossier,
+bureau, moi je l'ai mis sur le bureau, QG d'Enem vous l'ouvrez
+et voilà donc là derrière, je vais supprimer celui-là
+et là derrière vous avez connecté votre dossier à Cloud Code Work.
+Donc maintenant c'est très simple, on va pouvoir discuter avec lui
+mais vu que derrière notre dossier il est vide actuellement,
+ce qu'on va chercher à faire c'est le remplir.
+Donc là comme vous voyez il est vide, on aurait très bien pu mettre
+du coup tous nos dossiers à l'intérieur de QG d'Enem.
+Pour le moment on ne va pas le faire parce qu'on va voir par la suite
+comment s'organiser stratégiquement sur la suite des projets.
+Donc là c'est que des petits tests, ça ne va pas être très utile
+mais le but c'est vraiment de tout mettre à l'intérieur.
+Pourquoi ? Parce qu'après quand vous allez avoir énormément de documents
+on a besoin de quelque chose qui est simple d'utilisation
+pour avoir un cap constant, pour avoir un suivi personnel
+pour gagner en productivité.
+Quand une fois c'est le point important parce que
+si vous êtes tout seul dans votre business,
+ça va être complexe de tout gérer
+et si vous avez une bonne organisation, ça va être bien plus simple.
+Et c'est ce qu'on va voir ensemble.
+Moi perso je suis tout seul.
+Bon là je travaille du coup avec quelqu'un d'autre
+parce que là j'ai trop de projets mais il y a 3-4 mois
+j'ai géré 7 à 8 clients en même temps
+et cette organisation était au top.
+Bon ça me permettait de gagner vraiment beaucoup de temps
+surtout que là les outils vont constamment s'améliorer
+et on pourra sortir sur un modèle au puce 4.7 choupeux
+donc ça va être encore plus simple de gérer tout
+pour faire encore plus de choses.
+Donc on verra ça par la suite.
+Bien évidemment.
+Donc maintenant derrière on va reparler du dossier.
+Ce qu'on va faire c'est qu'on va aller faire un petit exercice
+pour voir un petit peu à quoi il sert.
+Qu'on va aller chercher à planifier notre semaine.
+Comment on va planifier notre semaine?
+Ça va être très simple.
+On va aller sur le petit plus à droite.
+On va cliquer dessus.
+On va aller dans connecteur.
+Hop!
+On va aller dans connecteur.
+Comme on peut voir j'ai couplé le calendre art déjà connecté.
+Donc si vous l'avez pas c'est pas bien grave
+vous allez sur ajouter un connecteur.
+Et comme vous pouvez voir
+on a j'ai pas une bonne centaine de connecteur.
+Ça est très intéressant.
+On peut utiliser Deadly Fly
+pour pousser directement une page HTML présentation
+Href pour faire des recherches SEO
+RTable pour créer des bases de données
+Asana aura.
+On a vraiment énormément de choix.
+Par exemple Calendly,
+vous faites un lit de magnettes.
+Il cartonne, il explose.
+Vous recevez énormément de call.
+Enfin de réservation de call sur Calendly.
+On pourra très bien connecter.
+Et dire Hello Cloud.
+Dis-moi les rendez-vous que j'ai aujourd'hui.
+Et derrière il va nous répondre.
+Le but c'est vraiment de tout se centraliser directement
+sur co-work avec un dossier.
+A partir j'ai mail pour avoir des recap,
+des mails qu'on reçoit.
+Clay pour faire de la prospection, etc.
+Voilà.
+Donc on a vraiment tout.
+On peut aussi ajouter des connecteurs personnalisés.
+Donc moi par exemple
+si on voit un parti connecteur chez Papers,
+on le verra sur la partie
+pas prospection mais sur la partie génération de lits gratuits.
+Donc ça va être intéressant de voir
+comment ajouter un connecteur facilement.
+Et pour du coup ajouter un connecteur,
+c'est très simple.
+On va sur le profil en bas à gauche.
+On va dans paramètres.
+On va dans connecteur.
+Et là comme vous pouvez le voir,
+vous avez la liste de tous vos connecteurs.
+On Google Drive.
+Quelqu'un de l'art en Gaussian.
+Je pourrais être connecté ici.
+Claudine Chrome.
+Donc nous aussi on va ajouter un connecteur.
+Voilà.
+Et ça marche que en MCP.
+MCP c'est en gros un serveur
+où tu vas trop lier directement
+l'application en question.
+Donc je pourrais l'appeler Papers.
+Ensuite je colle le lien
+du coup du MCP Papers.
+Et je colle ma cap.
+Et on le verra par la suite.
+Mais vous pouvez vraiment tout faire.
+Ça va être vraiment très puissant.
+Et en termes d'organisation,
+il n'y a pas mieux.
+Vous avez gagné beaucoup,
+beaucoup, beaucoup,
+beaucoup, beaucoup de temps.
+Grâce à ça.
+Donc une fois que c'est fait,
+on va tout simplement
+connecter Google Calendar.
+Donc moi il est encore une fois connecté.
+Mais pour le faire,
+qui est sur Calendar,
+tag juste ici.
+Vous pouvez le faire en live
+comme ça le plus simple.
+Je suis prime.
+Donc je clique sur connecter.
+Ça va m'ouvrir un lien de redirection.
+Vous choisissez du coup votre adresse email
+où vous souhaitez vous connecter.
+Donc moi je vais prendre
+par exemple
+formatiste
+tag suivant.
+Donc j'accepte tout.
+On va lui donner les accès
+du coup
+pour afficher les événements,
+consulter, télécharger
+tous les agents d'auquête
+que vous avez accès
+à afficher, modifier.
+Donc une fois que j'ai accepté,
+je fais continuer.
+Donc là on peut voir
+que j'ai été connecté.
+Donc maintenant
+on peut fermer la page.
+Tag.
+Hop.
+Donc là hop.
+On va voir si c'est bien connecté.
+Voilà.
+Donc là je suis connecté.
+On peut voir Google Calendar
+qui est juste ici.
+Donc ce qu'on va faire maintenant
+c'est qu'on va se faire
+un petit exercice en live.
+Donc on va récupérer
+un prône tout simple.
+Donc par exemple
+planifier ma semaine
+de prospection
+avec Google Calendar
+créer des événements
+pour l'aspect le prochain.
+On va lui demander
+simplement d'organiser
+ma semaine de prospection.
+Donc là
+comme il peut voir
+il y a tous ces connecteurs connectés.
+Donc il va les utiliser
+pour le moment
+on va juste
+avoir besoin de Google Calendar.
+Donc on fait ces parties.
+Donc là
+on voit qu'il y a
+une partie progression.
+Donc lui il s'organise en tâche.
+Alors on va pouvoir voir
+où il en est.
+Là il est en train de réfléchir.
+On voit les logs juste ici.
+Hop.
+Donc là il crée du coup
+les événements.
+Donc là
+on va le réagir
+à partir du 20 avril.
+Donc là il dit
+simplement
+il peut utiliser différentes couleurs
+mais c'est pas possible.
+Du coup
+là il est en train
+de créer les événements.
+Là il envoie la commande
+du coup par AP directement
+avec les connectés.
+Donc là on va lui dire autoriser.
+Hop.
+Là il est en train de créer
+les événements.
+Ok.
+Donc là c'est terminé.
+Il a fini du coup
+de planifier
+mes tâches
+pour la semaine prochaine.
+Donc si je vais sur
+mon adresse e-mail
+on va aller sur
+le calendar.
+On va ouvrir le bon compte.
+Donc je l'ai fait avec
+fort pour ma tiste.
+Là le 13 avril
+il n'y a rien c'est normal.
+Et là on peut voir
+la projection client du pont.
+Là on peut voir mardi
+il m'en a fait une nouvelle
+comme je l'ai demandé.
+Il a dit le 22 avril aussi
+le 23,
+le 24, etc.
+On pourrait très bien lui dire
+fais-moi pareil
+sur une nouvelle page
+notion stoplay.
+Donc je lui demande ça
+mais avant tout
+il faut se connecter à notion.
+Donc c'est pareil
+que les mêmes
+systèmes que calendar
+qui est sur connecteur
+notion
+et vous cliquez ici
+vous vous connectez tout simplement.
+C'est pas bien compliqué.
+Donc là il est en train de réfléchir.
+Là il est en train de voir
+les tools, le résultat
+et bah me rédiger une page
+avec toutes les informations en question.
+C'est ça qui va être vraiment utile.
+Encore une fois
+organisation
+où vous pouvez planifier
+vous pouvez aussi créer
+et du coup ça vous permette
+de tout centraliser
+sur une même app
+et gagner dans mes moments de temps.
+On va attendre
+donc là on peut voir
+au niveau de la progression juste ici
+donc il a déjà créé
+il a déjà créé l'événement
+là il va créer la page
+il a déjà terminé ses faits.
+Donc là il me donne le lien
+j'ouvre le lien
+et là comme on peut voir
+il m'a fait ma semaine
+d'organisation
+donc là avec une checklist
+c'est super
+politiquement il n'y a rien à dire
+ses pros
+ça me permet d'avoir un vrai visu
+donc on est au top
+sur cette partie là
+pour tout ce qui est création
+d'événement
+vous pourrez très bien
+lui dire
+de fais moi
+on va avoir au niveau des connecteurs
+ce qu'on pourrait utiliser
+je me fais ça le gueul
+un truc simple
+pour pas vous perdre
+Calin Chrome
+on va avoir un petit peu
+des connecteurs
+vous pourrez lui dire
+on pourrait très bien lui dire aussi
+supprimer
+sur Google Agenda
+la tâche
+supprimer cette tâche là
+supprimer
+cette tâche là
+hop
+ce qui est vraiment bien
+la place de perdre du temps
+d'aller cliquer sur ça
+supprimer je ne sais pas comment on fait
+voilà supprimer juste ici
+perdre du temps
+ou même par exemple
+si vous avez un drive
+aller chercher justement
+les informations dessus
+là vous pouvez le faire
+directement avec l'autre co-work
+et tout faire
+de manière automatique
+c'est lui qui va gérer tout ça
+donc là hop
+la tâche allait plus là
+c'est hop
+connecteur
+on voit qu'on a aussi
+le connecteur drive
+je vais lui dire
+je vais me déconnecter
+comme ça on va le faire ensemble
+hop
+on va faire ajouter un connecteur
+barrive
+je vais le supprimer
+déconnecter
+ok
+je ne sais pas pourquoi
+il ne va pas se déconnecter
+donc hop
+donc là vous pouvez aussi enlever du coup
+le connecteur que vous n'utilisez pas
+qui ne vous intéresse pas
+mais c'est très bien d'en avoir plusieurs
+comme ça derrière
+on peut s'adapter
+à tout
+ok
+donc il faut une partie admis
+je vous dis
+regarde
+mon
+wheel
+bref
+il est
+connecté
+et le cons
+donc le but aussi
+c'est comme vous avez
+une problématique
+que vous n'arrivez pas à gérer
+vous demandez directement
+à lire
+c'est pas une problématique
+on ne peut pas tout savoir
+j'ai mis
+le but c'est
+d'essayer de faire le maximum
+que vous pouvez
+donc là on voit qu'il est connecté à formatiste
+je vais lui dire
+fais-moi
+un drive
+très crap
+de la semaine
+du coup
+on stoppait
+au clair on peut voir qu'il a connecté
+du coup
+le drive en question
+donc il n'y a aucun résultat
+il va voir directement
+si
+dans le drive j'ai déjà ça
+je lui a demandé
+de créer
+donc là on va voir s'il comprend
+là on voit qu'il a une problématique
+du connecté habillé du coup
+il n'y a pas de document récent
+il est connecté au compte
+je pense que tu veux que je donne
+un correct cas de tasse
+mais de prospection au retrage
+de préparant d'oxygne
+donc là il a trouvé une solution
+différente pour justement
+gérer la problématique
+donc ce qui va vraiment nous intéresser
+c'est pas ça
+c'est qu'on veut un drive
+donc
+on voit qu'on a eu
+un problème de connexion
+au niveau
+de ce connecteur là
+on va voir comment on peut le résoudre
+ça va bien me le faire en light
+comme ça derrière
+si vous avez le même
+le même problème
+vous allez pouvoir le résoudre
+il faut qu'il fait un Word
+un document directement
+c'est top
+qui est dans le capacité aussi
+de faire ça
+donc là il installe
+pitondox package
+pour justement pousser ça
+donc là
+on voit qu'il a déjà
+géré une autre dépache
+sur l'ici
+pour ajouter des instructions
+juste après
+là c'est top
+on permet de voir justement
+le recap
+qu'il a créé
+donc semaine de prospection
+avec les belles informations
+comme on a vu avec l'oscel
+on peut cliquer ici
+on peut voir que je connectais
+du coup à Billy
+et puis
+une fois qu'on a
+tous ces documents en question
+si on clique ici
+on peut voir que le document est là
+donc
+si on relance une session
+avec ce dossier
+on pourra avoir un recap directement
+du coup
+de notre semaine de prospection
+c'est ça qui va être vraiment utile
+qu'il a accès
+à tous
+les outils
+et on va pouvoir travailler
+sur du coup seulement
+CloudComwork pour avoir
+les réponses de ce qu'on fait
+donc on a aussi
+juste ici
+il a parti pour ajouter des photos
+donc ça bon c'est utile
+mais pas le plus important
+avec CloudComwork
+on a la partie compétences
+donc ça c'est vraiment
+vraiment très utile
+donc ça va être en gros des fichiers MD
+comme on a vu lors de la première séance
+les fichiers MD nous permettent
+de donner encore plus de contexte
+à CloudCode
+et c'est ça qui comprend le mieux
+donc là
+ce qu'il crée à tort
+comme vous pouvez voir c'est des skills
+donc MD, MD, MD
+comme vous pouvez les dire
+en gros ça va vous permettre
+de donner la possibilité à CloudCode
+d'analyser, de comparer
+d'évaluer etc
+donc on en a plusieurs
+si je fais retour
+on a une partie aussi design
+au niveau comme va
+on a la partie mcp builder
+ce qu'on a vu pour tout ce qui est personnalisé
+partie theme, partie doc, etc
+ou que ça on verra au fur et à mesure
+pour pas que je vous perde directement
+on a la partie aussi plugin
+pour permettre du coup
+à CloudCode
+de créer et de voir un PDF
+donc zone plugin aussi
+partie productivité est très important
+donc là je peux cliquer sur installer
+et ensuite gérer
+et là comme on peut voir il y a la version
+le turn qui s'entrepique lui-même
+donc c'est le top
+la description
+permet de manager les tasks
+voilà
+donc
+voilà un petit peu à quoi
+sert du coup
+CloudCodework
+que on va le voir au fur et à mesure
+un petit peu plus en déteins
+là l'objectif
+du coup de l'acte 1
+c'est vraiment de faire de la théorie
+de donner des petits exercices
+pour le puissier mettre un petit peu la main
+sur ces outils là
+et qu'ensuite quand on va rentrer dans le dur
+du coup dès la prochaine
+séance
+puissier gérer en même temps
+que moi
+vous allez voir au début
+ça peut être un petit peu compliqué
+parce que vous n'avez jamais testé
+du coup CloudCode, Codex, Cloudwork
+mais au fur et à mesure
+vous allez avoir les compétences
+pour produire exactement la même chose
+que moi
+quand une fois il ne faut pas avoir du coup
+ce syndrome
+de l'imposteur
+ou derrière vous vous dites
+ouais mais je n'ai jamais testé
+je n'ai pas les compétences
+honnêtement
+c'est pas grave
+même si vous ne savez pas coder
+vous allez être dans la capacité à la fin de livrer
+des projets clients
+cette formation est vraiment utile pour vous
+je sais que ça va pas être simple
+parce que dans le sens où
+vous avez 90 jours
+vous allez avoir des coachings
+vous allez devoir réaliser des exercices
+ça va être vraiment
+vraiment dans le rush
+ça va être dur
+mais si vous suivez bien tout
+vous pouvez me faire confiance
+vous allez scaler un maximum
+parce que vous aurez toutes les compétences
+et le syndrome de l'imposteur
+sera tout simplement parti
+et je pense qu'en trois mois
+enfin du coup 30, 60, 90 jours
+vous allez sortir d'ici
+changer complètement
+et avoir une vision un petit peu plus futuriste
+de ce qu'on peut faire réellement
+donc je vous invite à suivre les autres modules
+qui vont être un petit peu plus ondes et pratiques
+vous savez vraiment tout ce que je fais en live
+pour que vous puissiez faire
+du coup la même chose
+et du coup voilà
+je vous remercie d'avoir suivi
+le premier acte
+et on passe à la suite

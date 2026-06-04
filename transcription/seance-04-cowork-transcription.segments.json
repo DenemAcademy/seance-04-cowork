@@ -1,0 +1,4990 @@
+{
+  "language": "fr",
+  "duration": 1472.9173125,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.24,
+      "end": 10.24,
+      "start_text": "00:00:00.240",
+      "end_text": "00:00:10.240",
+      "text": "Bienvenue à tous, on va parler du coup sur cette séance du dernier outil qui est Claude Cowork qui va nous servir en tant que QG d'organisation."
+    },
+    {
+      "id": 2,
+      "start": 10.24,
+      "end": 17.24,
+      "start_text": "00:00:10.240",
+      "end_text": "00:00:17.240",
+      "text": "Donc on a vu lors des trois premières séances que Claude Code va nous permettre de construire tout au long de la formation."
+    },
+    {
+      "id": 3,
+      "start": 17.24,
+      "end": 24.24,
+      "start_text": "00:00:17.240",
+      "end_text": "00:00:24.240",
+      "text": "Si le projet est trop complexe, on va chercher à déléguer et du coup on va utiliser Codex."
+    },
+    {
+      "id": 4,
+      "start": 24.24,
+      "end": 32.24,
+      "start_text": "00:00:24.240",
+      "end_text": "00:00:32.240",
+      "text": "Ensuite, on a parlé DEN-8N qui va nous permettre d'automatiser certaines tâches si le client souhaite avoir un visu dessus."
+    },
+    {
+      "id": 5,
+      "start": 32.24,
+      "end": 37.24,
+      "start_text": "00:00:32.240",
+      "end_text": "00:00:37.240",
+      "text": "Et Cowork qui va nous permettre d'organiser du coup tous nos projets."
+    },
+    {
+      "id": 6,
+      "start": 37.24,
+      "end": 41.24,
+      "start_text": "00:00:37.240",
+      "end_text": "00:00:41.240",
+      "text": "Donc pourquoi on va utiliser Cowork lors de cette formation ?"
+    },
+    {
+      "id": 7,
+      "start": 41.24,
+      "end": 46.24,
+      "start_text": "00:00:41.240",
+      "end_text": "00:00:46.240",
+      "text": "Donc le but encore une fois, ça va être de structurer tout notre business."
+    },
+    {
+      "id": 8,
+      "start": 46.24,
+      "end": 55.24,
+      "start_text": "00:00:46.240",
+      "end_text": "00:00:55.240",
+      "text": "Donc en séance 6, au niveau de l'acte 2, on va connecter Gmail, Calendar, Drive et Firefalls et tout organisé avec Cowork."
+    },
+    {
+      "id": 9,
+      "start": 55.24,
+      "end": 61.24,
+      "start_text": "00:00:55.240",
+      "end_text": "00:01:01.240",
+      "text": "Donc en gros on va créer des templates de propositions, des contrats, des dossiers clients et des compte-rendus de réunions."
+    },
+    {
+      "id": 10,
+      "start": 61.24,
+      "end": 74.94,
+      "start_text": "00:01:01.240",
+      "end_text": "00:01:14.940",
+      "text": "Donc pour vous donner un ordre d'idée sur Firefills, imaginons que tout simplement vous faites un call client par rapport à un projet d'automatisation."
+    },
+    {
+      "id": 11,
+      "start": 74.94,
+      "end": 82.94,
+      "start_text": "00:01:14.940",
+      "end_text": "00:01:22.940",
+      "text": "Donc le call durant une heure, ça va être relou de tout réécouter constamment et comprendre justement les points clés."
+    },
+    {
+      "id": 12,
+      "start": 82.94,
+      "end": 95.01,
+      "start_text": "00:01:22.940",
+      "end_text": "00:01:35.010",
+      "text": "Nous, ce qu'on va chercher à faire, c'est de connecter Firefills à Codexwork et ensuite demander à Codexwork un récap des points importants"
+    },
+    {
+      "id": 13,
+      "start": 95.01,
+      "end": 102.01,
+      "start_text": "00:01:35.010",
+      "end_text": "00:01:42.010",
+      "text": "et de travailler par la suite sur la présentation pour que derrière ça tape dans le mille et qu'on arrive à signer ce client-là."
+    },
+    {
+      "id": 14,
+      "start": 102.01,
+      "end": 107.01,
+      "start_text": "00:01:42.010",
+      "end_text": "00:01:47.010",
+      "text": "Donc vraiment c'est ça qui est très utile avec Codexwork, c'est la partie connecteur."
+    },
+    {
+      "id": 15,
+      "start": 107.01,
+      "end": 109.01,
+      "start_text": "00:01:47.010",
+      "end_text": "00:01:49.010",
+      "text": "On va pouvoir connecter tous nos outils."
+    },
+    {
+      "id": 16,
+      "start": 109.01,
+      "end": 117.01,
+      "start_text": "00:01:49.010",
+      "end_text": "00:01:57.010",
+      "text": "Imaginez un instant que derrière vous êtes tout seul, vous êtes un freelance, vous souhaitez monter votre agence en manière indépendante"
+    },
+    {
+      "id": 17,
+      "start": 117.01,
+      "end": 126.01,
+      "start_text": "00:01:57.010",
+      "end_text": "00:02:06.010",
+      "text": "et que vous devez d'une part aller sur Drive, aller sur Calendar, aller sur Calendar, ensuite aller sur Firefalls pour voir le récap,"
+    },
+    {
+      "id": 18,
+      "start": 126.01,
+      "end": 131.01,
+      "start_text": "00:02:06.010",
+      "end_text": "00:02:11.010",
+      "text": "aller sur Google Doc pour justement faire un brief client."
+    },
+    {
+      "id": 19,
+      "start": 131.01,
+      "end": 134.01,
+      "start_text": "00:02:11.010",
+      "end_text": "00:02:14.010",
+      "text": "Ça va être relou, ça va être relou parce que vous allez perdre beaucoup de temps."
+    },
+    {
+      "id": 20,
+      "start": 134.01,
+      "end": 145.01,
+      "start_text": "00:02:14.010",
+      "end_text": "00:02:25.010",
+      "text": "Alors que si derrière vous avez 10 projets clients actuellement, et bien si vous mettez tous ces projets dans un QG,"
+    },
+    {
+      "id": 21,
+      "start": 145.01,
+      "end": 151.01,
+      "start_text": "00:02:25.010",
+      "end_text": "00:02:31.010",
+      "text": "ça va être bien plus simple en l'organisation et du coup vous allez puer productif et vous allez gagner énormément de temps."
+    },
+    {
+      "id": 22,
+      "start": 151.01,
+      "end": 155.01,
+      "start_text": "00:02:31.010",
+      "end_text": "00:02:35.010",
+      "text": "C'est vraiment cette structure-là que j'utilise et c'est comme ça que ça a marché pour moi."
+    },
+    {
+      "id": 23,
+      "start": 155.01,
+      "end": 159.01,
+      "start_text": "00:02:35.010",
+      "end_text": "00:02:39.010",
+      "text": "Le plus important c'est tous dans un business, c'est de s'organiser correctement."
+    },
+    {
+      "id": 24,
+      "start": 159.01,
+      "end": 165.01,
+      "start_text": "00:02:39.010",
+      "end_text": "00:02:45.010",
+      "text": "Et moi je vais vous donner vraiment la méthode pas à pas pour que vous fassiez exactement la même chose que moi"
+    },
+    {
+      "id": 25,
+      "start": 165.01,
+      "end": 173.01,
+      "start_text": "00:02:45.010",
+      "end_text": "00:02:53.010",
+      "text": "et que par la suite vous arrivez à délivrer des clients de manière stratégique organisée, fin de gagner du temps"
+    },
+    {
+      "id": 26,
+      "start": 173.01,
+      "end": 176.01,
+      "start_text": "00:02:53.010",
+      "end_text": "00:02:56.010",
+      "text": "et tout simplement enchaîner les projets."
+    },
+    {
+      "id": 27,
+      "start": 176.01,
+      "end": 184.01,
+      "start_text": "00:02:56.010",
+      "end_text": "00:03:04.010",
+      "text": "Donc pour refaire un petit récap, Codexwork ça va être vraiment un agent IA qui va vivre dans l'app Claude Destott."
+    },
+    {
+      "id": 28,
+      "start": 184.01,
+      "end": 188.01,
+      "start_text": "00:03:04.010",
+      "end_text": "00:03:08.010",
+      "text": "On va pas utiliser l'app web, on va utiliser Claude Destott directement."
+    },
+    {
+      "id": 29,
+      "start": 188.01,
+      "end": 193.01,
+      "start_text": "00:03:08.010",
+      "end_text": "00:03:13.010",
+      "text": "Donc en gros il va travailler directement sur notre ordinateur, il va être dans la capacité d'ouvrir des apps,"
+    },
+    {
+      "id": 30,
+      "start": 193.01,
+      "end": 199.01,
+      "start_text": "00:03:13.010",
+      "end_text": "00:03:19.010",
+      "text": "naviguer sur le web, créer des fichiers, organiser des dossiers et tout touche barré en fait."
+    },
+    {
+      "id": 31,
+      "start": 199.01,
+      "end": 205.01,
+      "start_text": "00:03:19.010",
+      "end_text": "00:03:25.010",
+      "text": "Juste encore une fois comme sur Claude Codex, on va créer un prompt et on va lui demander de réaliser la tâche."
+    },
+    {
+      "id": 32,
+      "start": 205.01,
+      "end": 209.01,
+      "start_text": "00:03:25.010",
+      "end_text": "00:03:29.010",
+      "text": "Donc ce qu'il va savoir faire c'est créer des documents, faire des recherches,"
+    },
+    {
+      "id": 33,
+      "start": 209.01,
+      "end": 214.1,
+      "start_text": "00:03:29.010",
+      "end_text": "00:03:34.100",
+      "text": "analyser des données, travailler en autonomie, donc voilà."
+    },
+    {
+      "id": 34,
+      "start": 214.1,
+      "end": 220.42,
+      "start_text": "00:03:34.100",
+      "end_text": "00:03:40.420",
+      "text": "Et ensuite on va pouvoir du coup connecter des connecteurs directement à Claude Codex."
+    },
+    {
+      "id": 35,
+      "start": 220.42,
+      "end": 226.42,
+      "start_text": "00:03:40.420",
+      "end_text": "00:03:46.420",
+      "text": "On partage email, Google Drive, Google Drive, DocuSign, Poyo, WordPress, Outreach, Chrome, excellent."
+    },
+    {
+      "id": 36,
+      "start": 226.42,
+      "end": 229.42,
+      "start_text": "00:03:46.420",
+      "end_text": "00:03:49.420",
+      "text": "Moi c'est cela que j'utilise mais il y en a plein d'autres, on verra par la suite"
+    },
+    {
+      "id": 37,
+      "start": 229.42,
+      "end": 233.42,
+      "start_text": "00:03:49.420",
+      "end_text": "00:03:53.420",
+      "text": "parce que si vous avez déjà des logiciels que j'utilise, on va pouvoir les connecter directement"
+    },
+    {
+      "id": 38,
+      "start": 233.42,
+      "end": 237.42,
+      "start_text": "00:03:53.420",
+      "end_text": "00:03:57.420",
+      "text": "soit de manière personnalisée, soit directement avec les connecteurs officiels d'entropic."
+    },
+    {
+      "id": 39,
+      "start": 237.42,
+      "end": 242.42,
+      "start_text": "00:03:57.420",
+      "end_text": "00:04:02.420",
+      "text": "Donc on a vu qu'il va pouvoir produire des PDF, des Excel, des PowerPoints, des documents"
+    },
+    {
+      "id": 40,
+      "start": 242.42,
+      "end": 247.42,
+      "start_text": "00:04:02.420",
+      "end_text": "00:04:07.420",
+      "text": "et du coup comment tu vas faire pour déléguer tout cela au work, c'est que tu vas décrire le résultat,"
+    },
+    {
+      "id": 41,
+      "start": 247.42,
+      "end": 252.42,
+      "start_text": "00:04:07.420",
+      "end_text": "00:04:12.420",
+      "text": "lui il va planifier et ensuite il va exécuter et toi tu vas pouvoir révenir au résultat."
+    },
+    {
+      "id": 42,
+      "start": 252.42,
+      "end": 256.42,
+      "start_text": "00:04:12.420",
+      "end_text": "00:04:16.420",
+      "text": "Donc là je vous ai mis un petit exemple de tâche que tu vas pouvoir donner."
+    },
+    {
+      "id": 43,
+      "start": 256.42,
+      "end": 262.42,
+      "start_text": "00:04:16.420",
+      "end_text": "00:04:22.420",
+      "text": "Donc par exemple prends ces trois transcriptions de réunions et fais un compte rendu avec les actions à faire pour chaque personne."
+    },
+    {
+      "id": 44,
+      "start": 262.42,
+      "end": 267.42,
+      "start_text": "00:04:22.420",
+      "end_text": "00:04:27.420",
+      "text": "Donc là tu vois, tu pourrais très bien ensuite lui demander de faire une présentation."
+    },
+    {
+      "id": 45,
+      "start": 267.42,
+      "end": 269.42,
+      "start_text": "00:04:27.420",
+      "end_text": "00:04:29.420",
+      "text": "Donc comment cela s'utilise concrètement."
+    },
+    {
+      "id": 46,
+      "start": 269.42,
+      "end": 271.42,
+      "start_text": "00:04:29.420",
+      "end_text": "00:04:31.420",
+      "text": "En gros tu vas avoir besoin de l'App Desktop."
+    },
+    {
+      "id": 47,
+      "start": 271.42,
+      "end": 273.42,
+      "start_text": "00:04:31.420",
+      "end_text": "00:04:33.420",
+      "text": "Donc pour avoir l'App Desktop c'est simple."
+    },
+    {
+      "id": 48,
+      "start": 273.42,
+      "end": 279.86,
+      "start_text": "00:04:33.420",
+      "end_text": "00:04:39.860",
+      "text": "Tu vas juste ici, tu copies, hop, tu vas sur ce lien."
+    },
+    {
+      "id": 49,
+      "start": 279.86,
+      "end": 284.62,
+      "start_text": "00:04:39.860",
+      "end_text": "00:04:44.620",
+      "text": "Quand encore une fois moi je suis sur Mac."
+    },
+    {
+      "id": 50,
+      "start": 284.62,
+      "end": 288.85,
+      "start_text": "00:04:44.620",
+      "end_text": "00:04:48.850",
+      "text": "Donc là normalement si vous pliquez sur le lien vous allez voir Windows,"
+    },
+    {
+      "id": 51,
+      "start": 288.85,
+      "end": 298.0,
+      "start_text": "00:04:48.850",
+      "end_text": "00:04:58.000",
+      "text": "si vous êtes sur Windows, moi je clique sur Nold Monde, ça prend un petit peu de temps,"
+    },
+    {
+      "id": 52,
+      "start": 298.0,
+      "end": 316.54,
+      "start_text": "00:04:58.000",
+      "end_text": "00:05:16.540",
+      "text": "on va attendre, ok top, là on peut voir que je l'ai déjà de toute manière."
+    },
+    {
+      "id": 53,
+      "start": 316.54,
+      "end": 318.54,
+      "start_text": "00:05:16.540",
+      "end_text": "00:05:18.540",
+      "text": "Donc je fais enregistrer et là ça est en train de charger."
+    },
+    {
+      "id": 54,
+      "start": 318.54,
+      "end": 321.54,
+      "start_text": "00:05:18.540",
+      "end_text": "00:05:21.540",
+      "text": "Bon je ne vais pas attendre 32 minutes vu que je l'ai déjà mais une fois que vous avez fini,"
+    },
+    {
+      "id": 55,
+      "start": 321.54,
+      "end": 324.54,
+      "start_text": "00:05:21.540",
+      "end_text": "00:05:24.540",
+      "text": "enfin le téléchargement est terminé, vous double cliquez dessus"
+    },
+    {
+      "id": 56,
+      "start": 324.54,
+      "end": 329.54,
+      "start_text": "00:05:24.540",
+      "end_text": "00:05:29.540",
+      "text": "et ensuite ça va vous ouvrir tout simplement Cloud Desktop."
+    },
+    {
+      "id": 57,
+      "start": 329.54,
+      "end": 332.54,
+      "start_text": "00:05:29.540",
+      "end_text": "00:05:32.540",
+      "text": "Donc voilà, une fois que vous avez fini le téléchargement,"
+    },
+    {
+      "id": 58,
+      "start": 332.54,
+      "end": 334.54,
+      "start_text": "00:05:32.540",
+      "end_text": "00:05:34.540",
+      "text": "vous allez dans la partie app,"
+    },
+    {
+      "id": 59,
+      "start": 334.54,
+      "end": 338.82,
+      "start_text": "00:05:34.540",
+      "end_text": "00:05:38.820",
+      "text": "look ce qui est sur Cloud Desktop et là l'application va sourire."
+    },
+    {
+      "id": 60,
+      "start": 338.82,
+      "end": 341.82,
+      "start_text": "00:05:38.820",
+      "end_text": "00:05:41.820",
+      "text": "Donc c'est exactement la même chose que sur la partie web"
+    },
+    {
+      "id": 61,
+      "start": 341.82,
+      "end": 345.82,
+      "start_text": "00:05:41.820",
+      "end_text": "00:05:45.820",
+      "text": "mais ça va être plus simple de travailler sur Cloud Work avec l'app Desktop."
+    },
+    {
+      "id": 62,
+      "start": 345.82,
+      "end": 347.82,
+      "start_text": "00:05:45.820",
+      "end_text": "00:05:47.820",
+      "text": "Donc ça va être similaire à Cloud Code,"
+    },
+    {
+      "id": 63,
+      "start": 347.82,
+      "end": 350.82,
+      "start_text": "00:05:47.820",
+      "end_text": "00:05:50.820",
+      "text": "donc vous travaillez du coup sur votre QG d'organisation."
+    },
+    {
+      "id": 64,
+      "start": 350.82,
+      "end": 352.82,
+      "start_text": "00:05:50.820",
+      "end_text": "00:05:52.820",
+      "text": "Pour ça, il va vous falloir un dossier."
+    },
+    {
+      "id": 65,
+      "start": 352.82,
+      "end": 357.82,
+      "start_text": "00:05:52.820",
+      "end_text": "00:05:57.820",
+      "text": "Vous allez regrouper tous vos documents clients, toute votre stratégie, peu importe,"
+    },
+    {
+      "id": 66,
+      "start": 357.82,
+      "end": 359.82,
+      "start_text": "00:05:57.820",
+      "end_text": "00:05:59.820",
+      "text": "directement dans ce dossier là."
+    },
+    {
+      "id": 67,
+      "start": 359.82,
+      "end": 361.82,
+      "start_text": "00:05:59.820",
+      "end_text": "00:06:01.820",
+      "text": "Donc vous cliquez sur Nouveau dossier."
+    },
+    {
+      "id": 68,
+      "start": 361.82,
+      "end": 364.82,
+      "start_text": "00:06:01.820",
+      "end_text": "00:06:04.820",
+      "text": "Moi je vais l'appeler QG mais vous pouvez l'appeler comme vous voulez,"
+    },
+    {
+      "id": 69,
+      "start": 365.82,
+      "end": 369.82,
+      "start_text": "00:06:05.820",
+      "end_text": "00:06:09.820",
+      "text": "ensuite ce que vous faites du coup c'est que vous retournez sur l'app Desktop,"
+    },
+    {
+      "id": 70,
+      "start": 369.82,
+      "end": 373.82,
+      "start_text": "00:06:09.820",
+      "end_text": "00:06:13.820",
+      "text": "vous allez donc choisir un autre dossier,"
+    },
+    {
+      "id": 71,
+      "start": 373.82,
+      "end": 377.89,
+      "start_text": "00:06:13.820",
+      "end_text": "00:06:17.890",
+      "text": "bureau, moi je l'ai mis sur le bureau, QG d'Enem vous l'ouvrez"
+    },
+    {
+      "id": 72,
+      "start": 377.89,
+      "end": 381.95,
+      "start_text": "00:06:17.890",
+      "end_text": "00:06:21.950",
+      "text": "et voilà donc là derrière, je vais supprimer celui-là"
+    },
+    {
+      "id": 73,
+      "start": 381.95,
+      "end": 386.95,
+      "start_text": "00:06:21.950",
+      "end_text": "00:06:26.950",
+      "text": "et là derrière vous avez connecté votre dossier à Cloud Code Work."
+    },
+    {
+      "id": 74,
+      "start": 386.95,
+      "end": 388.95,
+      "start_text": "00:06:26.950",
+      "end_text": "00:06:28.950",
+      "text": "Donc maintenant c'est très simple, on va pouvoir discuter avec lui"
+    },
+    {
+      "id": 75,
+      "start": 388.95,
+      "end": 391.95,
+      "start_text": "00:06:28.950",
+      "end_text": "00:06:31.950",
+      "text": "mais vu que derrière notre dossier il est vide actuellement,"
+    },
+    {
+      "id": 76,
+      "start": 391.95,
+      "end": 395.43,
+      "start_text": "00:06:31.950",
+      "end_text": "00:06:35.430",
+      "text": "ce qu'on va chercher à faire c'est le remplir."
+    },
+    {
+      "id": 77,
+      "start": 395.43,
+      "end": 400.23,
+      "start_text": "00:06:35.430",
+      "end_text": "00:06:40.230",
+      "text": "Donc là comme vous voyez il est vide, on aurait très bien pu mettre"
+    },
+    {
+      "id": 78,
+      "start": 400.23,
+      "end": 404.52,
+      "start_text": "00:06:40.230",
+      "end_text": "00:06:44.520",
+      "text": "du coup tous nos dossiers à l'intérieur de QG d'Enem."
+    },
+    {
+      "id": 79,
+      "start": 404.52,
+      "end": 406.52,
+      "start_text": "00:06:44.520",
+      "end_text": "00:06:46.520",
+      "text": "Pour le moment on ne va pas le faire parce qu'on va voir par la suite"
+    },
+    {
+      "id": 80,
+      "start": 406.52,
+      "end": 409.52,
+      "start_text": "00:06:46.520",
+      "end_text": "00:06:49.520",
+      "text": "comment s'organiser stratégiquement sur la suite des projets."
+    },
+    {
+      "id": 81,
+      "start": 409.52,
+      "end": 413.52,
+      "start_text": "00:06:49.520",
+      "end_text": "00:06:53.520",
+      "text": "Donc là c'est que des petits tests, ça ne va pas être très utile"
+    },
+    {
+      "id": 82,
+      "start": 413.52,
+      "end": 416.52,
+      "start_text": "00:06:53.520",
+      "end_text": "00:06:56.520",
+      "text": "mais le but c'est vraiment de tout mettre à l'intérieur."
+    },
+    {
+      "id": 83,
+      "start": 416.52,
+      "end": 419.52,
+      "start_text": "00:06:56.520",
+      "end_text": "00:06:59.520",
+      "text": "Pourquoi ? Parce qu'après quand vous allez avoir énormément de documents"
+    },
+    {
+      "id": 84,
+      "start": 419.52,
+      "end": 422.52,
+      "start_text": "00:06:59.520",
+      "end_text": "00:07:02.520",
+      "text": "on a besoin de quelque chose qui est simple d'utilisation"
+    },
+    {
+      "id": 85,
+      "start": 422.52,
+      "end": 425.52,
+      "start_text": "00:07:02.520",
+      "end_text": "00:07:05.520",
+      "text": "pour avoir un cap constant, pour avoir un suivi personnel"
+    },
+    {
+      "id": 86,
+      "start": 425.52,
+      "end": 428.52,
+      "start_text": "00:07:05.520",
+      "end_text": "00:07:08.520",
+      "text": "pour gagner en productivité."
+    },
+    {
+      "id": 87,
+      "start": 428.52,
+      "end": 431.52,
+      "start_text": "00:07:08.520",
+      "end_text": "00:07:11.520",
+      "text": "Quand une fois c'est le point important parce que"
+    },
+    {
+      "id": 88,
+      "start": 431.52,
+      "end": 433.52,
+      "start_text": "00:07:11.520",
+      "end_text": "00:07:13.520",
+      "text": "si vous êtes tout seul dans votre business,"
+    },
+    {
+      "id": 89,
+      "start": 433.52,
+      "end": 436.52,
+      "start_text": "00:07:13.520",
+      "end_text": "00:07:16.520",
+      "text": "ça va être complexe de tout gérer"
+    },
+    {
+      "id": 90,
+      "start": 436.52,
+      "end": 438.52,
+      "start_text": "00:07:16.520",
+      "end_text": "00:07:18.520",
+      "text": "et si vous avez une bonne organisation, ça va être bien plus simple."
+    },
+    {
+      "id": 91,
+      "start": 438.52,
+      "end": 440.52,
+      "start_text": "00:07:18.520",
+      "end_text": "00:07:20.520",
+      "text": "Et c'est ce qu'on va voir ensemble."
+    },
+    {
+      "id": 92,
+      "start": 440.52,
+      "end": 441.52,
+      "start_text": "00:07:20.520",
+      "end_text": "00:07:21.520",
+      "text": "Moi perso je suis tout seul."
+    },
+    {
+      "id": 93,
+      "start": 441.52,
+      "end": 445.52,
+      "start_text": "00:07:21.520",
+      "end_text": "00:07:25.520",
+      "text": "Bon là je travaille du coup avec quelqu'un d'autre"
+    },
+    {
+      "id": 94,
+      "start": 445.52,
+      "end": 449.52,
+      "start_text": "00:07:25.520",
+      "end_text": "00:07:29.520",
+      "text": "parce que là j'ai trop de projets mais il y a 3-4 mois"
+    },
+    {
+      "id": 95,
+      "start": 449.52,
+      "end": 452.52,
+      "start_text": "00:07:29.520",
+      "end_text": "00:07:32.520",
+      "text": "j'ai géré 7 à 8 clients en même temps"
+    },
+    {
+      "id": 96,
+      "start": 452.52,
+      "end": 455.52,
+      "start_text": "00:07:32.520",
+      "end_text": "00:07:35.520",
+      "text": "et cette organisation était au top."
+    },
+    {
+      "id": 97,
+      "start": 455.52,
+      "end": 457.52,
+      "start_text": "00:07:35.520",
+      "end_text": "00:07:37.520",
+      "text": "Bon ça me permettait de gagner vraiment beaucoup de temps"
+    },
+    {
+      "id": 98,
+      "start": 457.52,
+      "end": 460.52,
+      "start_text": "00:07:37.520",
+      "end_text": "00:07:40.520",
+      "text": "surtout que là les outils vont constamment s'améliorer"
+    },
+    {
+      "id": 99,
+      "start": 460.52,
+      "end": 465.52,
+      "start_text": "00:07:40.520",
+      "end_text": "00:07:45.520",
+      "text": "et on pourra sortir sur un modèle au puce 4.7 choupeux"
+    },
+    {
+      "id": 100,
+      "start": 465.52,
+      "end": 468.52,
+      "start_text": "00:07:45.520",
+      "end_text": "00:07:48.520",
+      "text": "donc ça va être encore plus simple de gérer tout"
+    },
+    {
+      "id": 101,
+      "start": 468.52,
+      "end": 470.52,
+      "start_text": "00:07:48.520",
+      "end_text": "00:07:50.520",
+      "text": "pour faire encore plus de choses."
+    },
+    {
+      "id": 102,
+      "start": 470.52,
+      "end": 473.52,
+      "start_text": "00:07:50.520",
+      "end_text": "00:07:53.520",
+      "text": "Donc on verra ça par la suite."
+    },
+    {
+      "id": 103,
+      "start": 473.52,
+      "end": 474.52,
+      "start_text": "00:07:53.520",
+      "end_text": "00:07:54.520",
+      "text": "Bien évidemment."
+    },
+    {
+      "id": 104,
+      "start": 474.52,
+      "end": 477.52,
+      "start_text": "00:07:54.520",
+      "end_text": "00:07:57.520",
+      "text": "Donc maintenant derrière on va reparler du dossier."
+    },
+    {
+      "id": 105,
+      "start": 477.52,
+      "end": 480.52,
+      "start_text": "00:07:57.520",
+      "end_text": "00:08:00.520",
+      "text": "Ce qu'on va faire c'est qu'on va aller faire un petit exercice"
+    },
+    {
+      "id": 106,
+      "start": 480.52,
+      "end": 482.52,
+      "start_text": "00:08:00.520",
+      "end_text": "00:08:02.520",
+      "text": "pour voir un petit peu à quoi il sert."
+    },
+    {
+      "id": 107,
+      "start": 482.52,
+      "end": 484.52,
+      "start_text": "00:08:02.520",
+      "end_text": "00:08:04.520",
+      "text": "Qu'on va aller chercher à planifier notre semaine."
+    },
+    {
+      "id": 108,
+      "start": 484.52,
+      "end": 486.52,
+      "start_text": "00:08:04.520",
+      "end_text": "00:08:06.520",
+      "text": "Comment on va planifier notre semaine?"
+    },
+    {
+      "id": 109,
+      "start": 486.52,
+      "end": 487.52,
+      "start_text": "00:08:06.520",
+      "end_text": "00:08:07.520",
+      "text": "Ça va être très simple."
+    },
+    {
+      "id": 110,
+      "start": 487.52,
+      "end": 489.52,
+      "start_text": "00:08:07.520",
+      "end_text": "00:08:09.520",
+      "text": "On va aller sur le petit plus à droite."
+    },
+    {
+      "id": 111,
+      "start": 489.52,
+      "end": 491.52,
+      "start_text": "00:08:09.520",
+      "end_text": "00:08:11.520",
+      "text": "On va cliquer dessus."
+    },
+    {
+      "id": 112,
+      "start": 491.52,
+      "end": 493.52,
+      "start_text": "00:08:11.520",
+      "end_text": "00:08:13.520",
+      "text": "On va aller dans connecteur."
+    },
+    {
+      "id": 113,
+      "start": 493.52,
+      "end": 495.13,
+      "start_text": "00:08:13.520",
+      "end_text": "00:08:15.130",
+      "text": "Hop!"
+    },
+    {
+      "id": 114,
+      "start": 495.13,
+      "end": 497.31,
+      "start_text": "00:08:15.130",
+      "end_text": "00:08:17.310",
+      "text": "On va aller dans connecteur."
+    },
+    {
+      "id": 115,
+      "start": 497.31,
+      "end": 500.31,
+      "start_text": "00:08:17.310",
+      "end_text": "00:08:20.310",
+      "text": "Comme on peut voir j'ai couplé le calendre art déjà connecté."
+    },
+    {
+      "id": 116,
+      "start": 500.31,
+      "end": 502.31,
+      "start_text": "00:08:20.310",
+      "end_text": "00:08:22.310",
+      "text": "Donc si vous l'avez pas c'est pas bien grave"
+    },
+    {
+      "id": 117,
+      "start": 502.31,
+      "end": 504.31,
+      "start_text": "00:08:22.310",
+      "end_text": "00:08:24.310",
+      "text": "vous allez sur ajouter un connecteur."
+    },
+    {
+      "id": 118,
+      "start": 504.31,
+      "end": 506.31,
+      "start_text": "00:08:24.310",
+      "end_text": "00:08:26.310",
+      "text": "Et comme vous pouvez voir"
+    },
+    {
+      "id": 119,
+      "start": 506.31,
+      "end": 509.31,
+      "start_text": "00:08:26.310",
+      "end_text": "00:08:29.310",
+      "text": "on a j'ai pas une bonne centaine de connecteur."
+    },
+    {
+      "id": 120,
+      "start": 509.31,
+      "end": 511.31,
+      "start_text": "00:08:29.310",
+      "end_text": "00:08:31.310",
+      "text": "Ça est très intéressant."
+    },
+    {
+      "id": 121,
+      "start": 511.31,
+      "end": 513.31,
+      "start_text": "00:08:31.310",
+      "end_text": "00:08:33.310",
+      "text": "On peut utiliser Deadly Fly"
+    },
+    {
+      "id": 122,
+      "start": 513.31,
+      "end": 516.31,
+      "start_text": "00:08:33.310",
+      "end_text": "00:08:36.310",
+      "text": "pour pousser directement une page HTML présentation"
+    },
+    {
+      "id": 123,
+      "start": 516.31,
+      "end": 518.31,
+      "start_text": "00:08:36.310",
+      "end_text": "00:08:38.310",
+      "text": "Href pour faire des recherches SEO"
+    },
+    {
+      "id": 124,
+      "start": 518.31,
+      "end": 520.31,
+      "start_text": "00:08:38.310",
+      "end_text": "00:08:40.310",
+      "text": "RTable pour créer des bases de données"
+    },
+    {
+      "id": 125,
+      "start": 520.31,
+      "end": 521.31,
+      "start_text": "00:08:40.310",
+      "end_text": "00:08:41.310",
+      "text": "Asana aura."
+    },
+    {
+      "id": 126,
+      "start": 521.31,
+      "end": 524.31,
+      "start_text": "00:08:41.310",
+      "end_text": "00:08:44.310",
+      "text": "On a vraiment énormément de choix."
+    },
+    {
+      "id": 127,
+      "start": 524.31,
+      "end": 525.31,
+      "start_text": "00:08:44.310",
+      "end_text": "00:08:45.310",
+      "text": "Par exemple Calendly,"
+    },
+    {
+      "id": 128,
+      "start": 525.31,
+      "end": 527.31,
+      "start_text": "00:08:45.310",
+      "end_text": "00:08:47.310",
+      "text": "vous faites un lit de magnettes."
+    },
+    {
+      "id": 129,
+      "start": 527.31,
+      "end": 529.31,
+      "start_text": "00:08:47.310",
+      "end_text": "00:08:49.310",
+      "text": "Il cartonne, il explose."
+    },
+    {
+      "id": 130,
+      "start": 529.31,
+      "end": 531.31,
+      "start_text": "00:08:49.310",
+      "end_text": "00:08:51.310",
+      "text": "Vous recevez énormément de call."
+    },
+    {
+      "id": 131,
+      "start": 531.31,
+      "end": 534.31,
+      "start_text": "00:08:51.310",
+      "end_text": "00:08:54.310",
+      "text": "Enfin de réservation de call sur Calendly."
+    },
+    {
+      "id": 132,
+      "start": 534.31,
+      "end": 536.31,
+      "start_text": "00:08:54.310",
+      "end_text": "00:08:56.310",
+      "text": "On pourra très bien connecter."
+    },
+    {
+      "id": 133,
+      "start": 536.31,
+      "end": 538.31,
+      "start_text": "00:08:56.310",
+      "end_text": "00:08:58.310",
+      "text": "Et dire Hello Cloud."
+    },
+    {
+      "id": 134,
+      "start": 538.31,
+      "end": 541.31,
+      "start_text": "00:08:58.310",
+      "end_text": "00:09:01.310",
+      "text": "Dis-moi les rendez-vous que j'ai aujourd'hui."
+    },
+    {
+      "id": 135,
+      "start": 541.31,
+      "end": 543.31,
+      "start_text": "00:09:01.310",
+      "end_text": "00:09:03.310",
+      "text": "Et derrière il va nous répondre."
+    },
+    {
+      "id": 136,
+      "start": 543.31,
+      "end": 545.31,
+      "start_text": "00:09:03.310",
+      "end_text": "00:09:05.310",
+      "text": "Le but c'est vraiment de tout se centraliser directement"
+    },
+    {
+      "id": 137,
+      "start": 545.31,
+      "end": 547.31,
+      "start_text": "00:09:05.310",
+      "end_text": "00:09:07.310",
+      "text": "sur co-work avec un dossier."
+    },
+    {
+      "id": 138,
+      "start": 547.31,
+      "end": 549.31,
+      "start_text": "00:09:07.310",
+      "end_text": "00:09:09.310",
+      "text": "A partir j'ai mail pour avoir des recap,"
+    },
+    {
+      "id": 139,
+      "start": 549.31,
+      "end": 551.31,
+      "start_text": "00:09:09.310",
+      "end_text": "00:09:11.310",
+      "text": "des mails qu'on reçoit."
+    },
+    {
+      "id": 140,
+      "start": 551.31,
+      "end": 553.31,
+      "start_text": "00:09:11.310",
+      "end_text": "00:09:13.310",
+      "text": "Clay pour faire de la prospection, etc."
+    },
+    {
+      "id": 141,
+      "start": 553.31,
+      "end": 554.31,
+      "start_text": "00:09:13.310",
+      "end_text": "00:09:14.310",
+      "text": "Voilà."
+    },
+    {
+      "id": 142,
+      "start": 554.31,
+      "end": 556.31,
+      "start_text": "00:09:14.310",
+      "end_text": "00:09:16.310",
+      "text": "Donc on a vraiment tout."
+    },
+    {
+      "id": 143,
+      "start": 556.31,
+      "end": 560.44,
+      "start_text": "00:09:16.310",
+      "end_text": "00:09:20.440",
+      "text": "On peut aussi ajouter des connecteurs personnalisés."
+    },
+    {
+      "id": 144,
+      "start": 560.44,
+      "end": 562.44,
+      "start_text": "00:09:20.440",
+      "end_text": "00:09:22.440",
+      "text": "Donc moi par exemple"
+    },
+    {
+      "id": 145,
+      "start": 562.44,
+      "end": 564.44,
+      "start_text": "00:09:22.440",
+      "end_text": "00:09:24.440",
+      "text": "si on voit un parti connecteur chez Papers,"
+    },
+    {
+      "id": 146,
+      "start": 564.44,
+      "end": 566.44,
+      "start_text": "00:09:24.440",
+      "end_text": "00:09:26.440",
+      "text": "on le verra sur la partie"
+    },
+    {
+      "id": 147,
+      "start": 566.44,
+      "end": 571.44,
+      "start_text": "00:09:26.440",
+      "end_text": "00:09:31.440",
+      "text": "pas prospection mais sur la partie génération de lits gratuits."
+    },
+    {
+      "id": 148,
+      "start": 571.44,
+      "end": 573.44,
+      "start_text": "00:09:31.440",
+      "end_text": "00:09:33.440",
+      "text": "Donc ça va être intéressant de voir"
+    },
+    {
+      "id": 149,
+      "start": 573.44,
+      "end": 576.73,
+      "start_text": "00:09:33.440",
+      "end_text": "00:09:36.730",
+      "text": "comment ajouter un connecteur facilement."
+    },
+    {
+      "id": 150,
+      "start": 576.73,
+      "end": 578.73,
+      "start_text": "00:09:36.730",
+      "end_text": "00:09:38.730",
+      "text": "Et pour du coup ajouter un connecteur,"
+    },
+    {
+      "id": 151,
+      "start": 578.73,
+      "end": 579.73,
+      "start_text": "00:09:38.730",
+      "end_text": "00:09:39.730",
+      "text": "c'est très simple."
+    },
+    {
+      "id": 152,
+      "start": 579.73,
+      "end": 581.73,
+      "start_text": "00:09:39.730",
+      "end_text": "00:09:41.730",
+      "text": "On va sur le profil en bas à gauche."
+    },
+    {
+      "id": 153,
+      "start": 581.73,
+      "end": 584.43,
+      "start_text": "00:09:41.730",
+      "end_text": "00:09:44.430",
+      "text": "On va dans paramètres."
+    },
+    {
+      "id": 154,
+      "start": 584.43,
+      "end": 585.43,
+      "start_text": "00:09:44.430",
+      "end_text": "00:09:45.430",
+      "text": "On va dans connecteur."
+    },
+    {
+      "id": 155,
+      "start": 585.43,
+      "end": 586.43,
+      "start_text": "00:09:45.430",
+      "end_text": "00:09:46.430",
+      "text": "Et là comme vous pouvez le voir,"
+    },
+    {
+      "id": 156,
+      "start": 586.43,
+      "end": 588.43,
+      "start_text": "00:09:46.430",
+      "end_text": "00:09:48.430",
+      "text": "vous avez la liste de tous vos connecteurs."
+    },
+    {
+      "id": 157,
+      "start": 588.43,
+      "end": 589.43,
+      "start_text": "00:09:48.430",
+      "end_text": "00:09:49.430",
+      "text": "On Google Drive."
+    },
+    {
+      "id": 158,
+      "start": 589.43,
+      "end": 591.43,
+      "start_text": "00:09:49.430",
+      "end_text": "00:09:51.430",
+      "text": "Quelqu'un de l'art en Gaussian."
+    },
+    {
+      "id": 159,
+      "start": 592.43,
+      "end": 594.43,
+      "start_text": "00:09:52.430",
+      "end_text": "00:09:54.430",
+      "text": "Je pourrais être connecté ici."
+    },
+    {
+      "id": 160,
+      "start": 594.43,
+      "end": 595.43,
+      "start_text": "00:09:54.430",
+      "end_text": "00:09:55.430",
+      "text": "Claudine Chrome."
+    },
+    {
+      "id": 161,
+      "start": 595.43,
+      "end": 597.43,
+      "start_text": "00:09:55.430",
+      "end_text": "00:09:57.430",
+      "text": "Donc nous aussi on va ajouter un connecteur."
+    },
+    {
+      "id": 162,
+      "start": 597.43,
+      "end": 598.43,
+      "start_text": "00:09:57.430",
+      "end_text": "00:09:58.430",
+      "text": "Voilà."
+    },
+    {
+      "id": 163,
+      "start": 598.43,
+      "end": 599.43,
+      "start_text": "00:09:58.430",
+      "end_text": "00:09:59.430",
+      "text": "Et ça marche que en MCP."
+    },
+    {
+      "id": 164,
+      "start": 599.43,
+      "end": 601.43,
+      "start_text": "00:09:59.430",
+      "end_text": "00:10:01.430",
+      "text": "MCP c'est en gros un serveur"
+    },
+    {
+      "id": 165,
+      "start": 601.43,
+      "end": 602.43,
+      "start_text": "00:10:01.430",
+      "end_text": "00:10:02.430",
+      "text": "où tu vas trop lier directement"
+    },
+    {
+      "id": 166,
+      "start": 602.43,
+      "end": 603.43,
+      "start_text": "00:10:02.430",
+      "end_text": "00:10:03.430",
+      "text": "l'application en question."
+    },
+    {
+      "id": 167,
+      "start": 603.43,
+      "end": 605.43,
+      "start_text": "00:10:03.430",
+      "end_text": "00:10:05.430",
+      "text": "Donc je pourrais l'appeler Papers."
+    },
+    {
+      "id": 168,
+      "start": 605.43,
+      "end": 607.43,
+      "start_text": "00:10:05.430",
+      "end_text": "00:10:07.430",
+      "text": "Ensuite je colle le lien"
+    },
+    {
+      "id": 169,
+      "start": 607.43,
+      "end": 609.43,
+      "start_text": "00:10:07.430",
+      "end_text": "00:10:09.430",
+      "text": "du coup du MCP Papers."
+    },
+    {
+      "id": 170,
+      "start": 609.43,
+      "end": 610.43,
+      "start_text": "00:10:09.430",
+      "end_text": "00:10:10.430",
+      "text": "Et je colle ma cap."
+    },
+    {
+      "id": 171,
+      "start": 610.43,
+      "end": 611.43,
+      "start_text": "00:10:10.430",
+      "end_text": "00:10:11.430",
+      "text": "Et on le verra par la suite."
+    },
+    {
+      "id": 172,
+      "start": 611.43,
+      "end": 613.43,
+      "start_text": "00:10:11.430",
+      "end_text": "00:10:13.430",
+      "text": "Mais vous pouvez vraiment tout faire."
+    },
+    {
+      "id": 173,
+      "start": 613.43,
+      "end": 615.43,
+      "start_text": "00:10:13.430",
+      "end_text": "00:10:15.430",
+      "text": "Ça va être vraiment très puissant."
+    },
+    {
+      "id": 174,
+      "start": 615.43,
+      "end": 616.43,
+      "start_text": "00:10:15.430",
+      "end_text": "00:10:16.430",
+      "text": "Et en termes d'organisation,"
+    },
+    {
+      "id": 175,
+      "start": 616.43,
+      "end": 617.43,
+      "start_text": "00:10:16.430",
+      "end_text": "00:10:17.430",
+      "text": "il n'y a pas mieux."
+    },
+    {
+      "id": 176,
+      "start": 617.43,
+      "end": 618.43,
+      "start_text": "00:10:17.430",
+      "end_text": "00:10:18.430",
+      "text": "Vous avez gagné beaucoup,"
+    },
+    {
+      "id": 177,
+      "start": 618.43,
+      "end": 619.43,
+      "start_text": "00:10:18.430",
+      "end_text": "00:10:19.430",
+      "text": "beaucoup, beaucoup,"
+    },
+    {
+      "id": 178,
+      "start": 619.43,
+      "end": 620.43,
+      "start_text": "00:10:19.430",
+      "end_text": "00:10:20.430",
+      "text": "beaucoup, beaucoup de temps."
+    },
+    {
+      "id": 179,
+      "start": 621.43,
+      "end": 622.43,
+      "start_text": "00:10:21.430",
+      "end_text": "00:10:22.430",
+      "text": "Grâce à ça."
+    },
+    {
+      "id": 180,
+      "start": 622.43,
+      "end": 624.43,
+      "start_text": "00:10:22.430",
+      "end_text": "00:10:24.430",
+      "text": "Donc une fois que c'est fait,"
+    },
+    {
+      "id": 181,
+      "start": 624.43,
+      "end": 626.91,
+      "start_text": "00:10:24.430",
+      "end_text": "00:10:26.910",
+      "text": "on va tout simplement"
+    },
+    {
+      "id": 182,
+      "start": 626.91,
+      "end": 628.91,
+      "start_text": "00:10:26.910",
+      "end_text": "00:10:28.910",
+      "text": "connecter Google Calendar."
+    },
+    {
+      "id": 183,
+      "start": 628.91,
+      "end": 630.91,
+      "start_text": "00:10:28.910",
+      "end_text": "00:10:30.910",
+      "text": "Donc moi il est encore une fois connecté."
+    },
+    {
+      "id": 184,
+      "start": 630.91,
+      "end": 631.91,
+      "start_text": "00:10:30.910",
+      "end_text": "00:10:31.910",
+      "text": "Mais pour le faire,"
+    },
+    {
+      "id": 185,
+      "start": 631.91,
+      "end": 633.91,
+      "start_text": "00:10:31.910",
+      "end_text": "00:10:33.910",
+      "text": "qui est sur Calendar,"
+    },
+    {
+      "id": 186,
+      "start": 633.91,
+      "end": 635.91,
+      "start_text": "00:10:33.910",
+      "end_text": "00:10:35.910",
+      "text": "tag juste ici."
+    },
+    {
+      "id": 187,
+      "start": 635.91,
+      "end": 636.91,
+      "start_text": "00:10:35.910",
+      "end_text": "00:10:36.910",
+      "text": "Vous pouvez le faire en live"
+    },
+    {
+      "id": 188,
+      "start": 636.91,
+      "end": 637.91,
+      "start_text": "00:10:36.910",
+      "end_text": "00:10:37.910",
+      "text": "comme ça le plus simple."
+    },
+    {
+      "id": 189,
+      "start": 637.91,
+      "end": 638.91,
+      "start_text": "00:10:37.910",
+      "end_text": "00:10:38.910",
+      "text": "Je suis prime."
+    },
+    {
+      "id": 190,
+      "start": 638.91,
+      "end": 640.98,
+      "start_text": "00:10:38.910",
+      "end_text": "00:10:40.980",
+      "text": "Donc je clique sur connecter."
+    },
+    {
+      "id": 191,
+      "start": 640.98,
+      "end": 642.98,
+      "start_text": "00:10:40.980",
+      "end_text": "00:10:42.980",
+      "text": "Ça va m'ouvrir un lien de redirection."
+    },
+    {
+      "id": 192,
+      "start": 642.98,
+      "end": 644.98,
+      "start_text": "00:10:42.980",
+      "end_text": "00:10:44.980",
+      "text": "Vous choisissez du coup votre adresse email"
+    },
+    {
+      "id": 193,
+      "start": 644.98,
+      "end": 647.17,
+      "start_text": "00:10:44.980",
+      "end_text": "00:10:47.170",
+      "text": "où vous souhaitez vous connecter."
+    },
+    {
+      "id": 194,
+      "start": 647.17,
+      "end": 649.17,
+      "start_text": "00:10:47.170",
+      "end_text": "00:10:49.170",
+      "text": "Donc moi je vais prendre"
+    },
+    {
+      "id": 195,
+      "start": 649.17,
+      "end": 651.68,
+      "start_text": "00:10:49.170",
+      "end_text": "00:10:51.680",
+      "text": "par exemple"
+    },
+    {
+      "id": 196,
+      "start": 651.68,
+      "end": 653.68,
+      "start_text": "00:10:51.680",
+      "end_text": "00:10:53.680",
+      "text": "formatiste"
+    },
+    {
+      "id": 197,
+      "start": 653.68,
+      "end": 658.3,
+      "start_text": "00:10:53.680",
+      "end_text": "00:10:58.300",
+      "text": "tag suivant."
+    },
+    {
+      "id": 198,
+      "start": 658.3,
+      "end": 659.3,
+      "start_text": "00:10:58.300",
+      "end_text": "00:10:59.300",
+      "text": "Donc j'accepte tout."
+    },
+    {
+      "id": 199,
+      "start": 659.3,
+      "end": 660.3,
+      "start_text": "00:10:59.300",
+      "end_text": "00:11:00.300",
+      "text": "On va lui donner les accès"
+    },
+    {
+      "id": 200,
+      "start": 660.3,
+      "end": 661.3,
+      "start_text": "00:11:00.300",
+      "end_text": "00:11:01.300",
+      "text": "du coup"
+    },
+    {
+      "id": 201,
+      "start": 661.3,
+      "end": 662.3,
+      "start_text": "00:11:01.300",
+      "end_text": "00:11:02.300",
+      "text": "pour afficher les événements,"
+    },
+    {
+      "id": 202,
+      "start": 662.3,
+      "end": 663.3,
+      "start_text": "00:11:02.300",
+      "end_text": "00:11:03.300",
+      "text": "consulter, télécharger"
+    },
+    {
+      "id": 203,
+      "start": 663.3,
+      "end": 664.3,
+      "start_text": "00:11:03.300",
+      "end_text": "00:11:04.300",
+      "text": "tous les agents d'auquête"
+    },
+    {
+      "id": 204,
+      "start": 664.3,
+      "end": 665.3,
+      "start_text": "00:11:04.300",
+      "end_text": "00:11:05.300",
+      "text": "que vous avez accès"
+    },
+    {
+      "id": 205,
+      "start": 665.3,
+      "end": 666.3,
+      "start_text": "00:11:05.300",
+      "end_text": "00:11:06.300",
+      "text": "à afficher, modifier."
+    },
+    {
+      "id": 206,
+      "start": 666.3,
+      "end": 668.3,
+      "start_text": "00:11:06.300",
+      "end_text": "00:11:08.300",
+      "text": "Donc une fois que j'ai accepté,"
+    },
+    {
+      "id": 207,
+      "start": 668.3,
+      "end": 670.39,
+      "start_text": "00:11:08.300",
+      "end_text": "00:11:10.390",
+      "text": "je fais continuer."
+    },
+    {
+      "id": 208,
+      "start": 670.39,
+      "end": 671.39,
+      "start_text": "00:11:10.390",
+      "end_text": "00:11:11.390",
+      "text": "Donc là on peut voir"
+    },
+    {
+      "id": 209,
+      "start": 671.39,
+      "end": 672.39,
+      "start_text": "00:11:11.390",
+      "end_text": "00:11:12.390",
+      "text": "que j'ai été connecté."
+    },
+    {
+      "id": 210,
+      "start": 672.39,
+      "end": 673.39,
+      "start_text": "00:11:12.390",
+      "end_text": "00:11:13.390",
+      "text": "Donc maintenant"
+    },
+    {
+      "id": 211,
+      "start": 673.39,
+      "end": 674.39,
+      "start_text": "00:11:13.390",
+      "end_text": "00:11:14.390",
+      "text": "on peut fermer la page."
+    },
+    {
+      "id": 212,
+      "start": 674.39,
+      "end": 677.47,
+      "start_text": "00:11:14.390",
+      "end_text": "00:11:17.470",
+      "text": "Tag."
+    },
+    {
+      "id": 213,
+      "start": 677.47,
+      "end": 679.21,
+      "start_text": "00:11:17.470",
+      "end_text": "00:11:19.210",
+      "text": "Hop."
+    },
+    {
+      "id": 214,
+      "start": 679.21,
+      "end": 680.21,
+      "start_text": "00:11:19.210",
+      "end_text": "00:11:20.210",
+      "text": "Donc là hop."
+    },
+    {
+      "id": 215,
+      "start": 680.21,
+      "end": 682.21,
+      "start_text": "00:11:20.210",
+      "end_text": "00:11:22.210",
+      "text": "On va voir si c'est bien connecté."
+    },
+    {
+      "id": 216,
+      "start": 682.21,
+      "end": 683.24,
+      "start_text": "00:11:22.210",
+      "end_text": "00:11:23.240",
+      "text": "Voilà."
+    },
+    {
+      "id": 217,
+      "start": 683.24,
+      "end": 684.24,
+      "start_text": "00:11:23.240",
+      "end_text": "00:11:24.240",
+      "text": "Donc là je suis connecté."
+    },
+    {
+      "id": 218,
+      "start": 684.24,
+      "end": 685.24,
+      "start_text": "00:11:24.240",
+      "end_text": "00:11:25.240",
+      "text": "On peut voir Google Calendar"
+    },
+    {
+      "id": 219,
+      "start": 685.24,
+      "end": 686.24,
+      "start_text": "00:11:25.240",
+      "end_text": "00:11:26.240",
+      "text": "qui est juste ici."
+    },
+    {
+      "id": 220,
+      "start": 686.24,
+      "end": 688.24,
+      "start_text": "00:11:26.240",
+      "end_text": "00:11:28.240",
+      "text": "Donc ce qu'on va faire maintenant"
+    },
+    {
+      "id": 221,
+      "start": 688.24,
+      "end": 689.24,
+      "start_text": "00:11:28.240",
+      "end_text": "00:11:29.240",
+      "text": "c'est qu'on va se faire"
+    },
+    {
+      "id": 222,
+      "start": 689.24,
+      "end": 690.24,
+      "start_text": "00:11:29.240",
+      "end_text": "00:11:30.240",
+      "text": "un petit exercice en live."
+    },
+    {
+      "id": 223,
+      "start": 690.24,
+      "end": 692.24,
+      "start_text": "00:11:30.240",
+      "end_text": "00:11:32.240",
+      "text": "Donc on va récupérer"
+    },
+    {
+      "id": 224,
+      "start": 692.24,
+      "end": 693.24,
+      "start_text": "00:11:32.240",
+      "end_text": "00:11:33.240",
+      "text": "un prône tout simple."
+    },
+    {
+      "id": 225,
+      "start": 693.24,
+      "end": 694.24,
+      "start_text": "00:11:33.240",
+      "end_text": "00:11:34.240",
+      "text": "Donc par exemple"
+    },
+    {
+      "id": 226,
+      "start": 694.24,
+      "end": 696.24,
+      "start_text": "00:11:34.240",
+      "end_text": "00:11:36.240",
+      "text": "planifier ma semaine"
+    },
+    {
+      "id": 227,
+      "start": 696.24,
+      "end": 697.24,
+      "start_text": "00:11:36.240",
+      "end_text": "00:11:37.240",
+      "text": "de prospection"
+    },
+    {
+      "id": 228,
+      "start": 697.24,
+      "end": 698.24,
+      "start_text": "00:11:37.240",
+      "end_text": "00:11:38.240",
+      "text": "avec Google Calendar"
+    },
+    {
+      "id": 229,
+      "start": 698.24,
+      "end": 699.24,
+      "start_text": "00:11:38.240",
+      "end_text": "00:11:39.240",
+      "text": "créer des événements"
+    },
+    {
+      "id": 230,
+      "start": 699.24,
+      "end": 700.24,
+      "start_text": "00:11:39.240",
+      "end_text": "00:11:40.240",
+      "text": "pour l'aspect le prochain."
+    },
+    {
+      "id": 231,
+      "start": 700.24,
+      "end": 701.24,
+      "start_text": "00:11:40.240",
+      "end_text": "00:11:41.240",
+      "text": "On va lui demander"
+    },
+    {
+      "id": 232,
+      "start": 701.24,
+      "end": 702.24,
+      "start_text": "00:11:41.240",
+      "end_text": "00:11:42.240",
+      "text": "simplement d'organiser"
+    },
+    {
+      "id": 233,
+      "start": 702.24,
+      "end": 703.24,
+      "start_text": "00:11:42.240",
+      "end_text": "00:11:43.240",
+      "text": "ma semaine de prospection."
+    },
+    {
+      "id": 234,
+      "start": 703.24,
+      "end": 704.24,
+      "start_text": "00:11:43.240",
+      "end_text": "00:11:44.240",
+      "text": "Donc là"
+    },
+    {
+      "id": 235,
+      "start": 704.24,
+      "end": 706.24,
+      "start_text": "00:11:44.240",
+      "end_text": "00:11:46.240",
+      "text": "comme il peut voir"
+    },
+    {
+      "id": 236,
+      "start": 706.24,
+      "end": 710.64,
+      "start_text": "00:11:46.240",
+      "end_text": "00:11:50.640",
+      "text": "il y a tous ces connecteurs connectés."
+    },
+    {
+      "id": 237,
+      "start": 710.64,
+      "end": 711.64,
+      "start_text": "00:11:50.640",
+      "end_text": "00:11:51.640",
+      "text": "Donc il va les utiliser"
+    },
+    {
+      "id": 238,
+      "start": 711.64,
+      "end": 712.64,
+      "start_text": "00:11:51.640",
+      "end_text": "00:11:52.640",
+      "text": "pour le moment"
+    },
+    {
+      "id": 239,
+      "start": 712.64,
+      "end": 714.64,
+      "start_text": "00:11:52.640",
+      "end_text": "00:11:54.640",
+      "text": "on va juste"
+    },
+    {
+      "id": 240,
+      "start": 714.64,
+      "end": 716.64,
+      "start_text": "00:11:54.640",
+      "end_text": "00:11:56.640",
+      "text": "avoir besoin de Google Calendar."
+    },
+    {
+      "id": 241,
+      "start": 716.64,
+      "end": 719.06,
+      "start_text": "00:11:56.640",
+      "end_text": "00:11:59.060",
+      "text": "Donc on fait ces parties."
+    },
+    {
+      "id": 242,
+      "start": 719.06,
+      "end": 720.47,
+      "start_text": "00:11:59.060",
+      "end_text": "00:12:00.470",
+      "text": "Donc là"
+    },
+    {
+      "id": 243,
+      "start": 720.47,
+      "end": 721.47,
+      "start_text": "00:12:00.470",
+      "end_text": "00:12:01.470",
+      "text": "on voit qu'il y a"
+    },
+    {
+      "id": 244,
+      "start": 721.47,
+      "end": 722.47,
+      "start_text": "00:12:01.470",
+      "end_text": "00:12:02.470",
+      "text": "une partie progression."
+    },
+    {
+      "id": 245,
+      "start": 722.47,
+      "end": 724.47,
+      "start_text": "00:12:02.470",
+      "end_text": "00:12:04.470",
+      "text": "Donc lui il s'organise en tâche."
+    },
+    {
+      "id": 246,
+      "start": 724.47,
+      "end": 725.5,
+      "start_text": "00:12:04.470",
+      "end_text": "00:12:05.500",
+      "text": "Alors on va pouvoir voir"
+    },
+    {
+      "id": 247,
+      "start": 725.5,
+      "end": 726.5,
+      "start_text": "00:12:05.500",
+      "end_text": "00:12:06.500",
+      "text": "où il en est."
+    },
+    {
+      "id": 248,
+      "start": 726.5,
+      "end": 728.5,
+      "start_text": "00:12:06.500",
+      "end_text": "00:12:08.500",
+      "text": "Là il est en train de réfléchir."
+    },
+    {
+      "id": 249,
+      "start": 728.5,
+      "end": 731.5,
+      "start_text": "00:12:08.500",
+      "end_text": "00:12:11.500",
+      "text": "On voit les logs juste ici."
+    },
+    {
+      "id": 250,
+      "start": 731.5,
+      "end": 734.51,
+      "start_text": "00:12:11.500",
+      "end_text": "00:12:14.510",
+      "text": "Hop."
+    },
+    {
+      "id": 251,
+      "start": 734.51,
+      "end": 735.51,
+      "start_text": "00:12:14.510",
+      "end_text": "00:12:15.510",
+      "text": "Donc là il crée du coup"
+    },
+    {
+      "id": 252,
+      "start": 735.51,
+      "end": 736.51,
+      "start_text": "00:12:15.510",
+      "end_text": "00:12:16.510",
+      "text": "les événements."
+    },
+    {
+      "id": 253,
+      "start": 736.51,
+      "end": 738.66,
+      "start_text": "00:12:16.510",
+      "end_text": "00:12:18.660",
+      "text": "Donc là"
+    },
+    {
+      "id": 254,
+      "start": 738.66,
+      "end": 739.66,
+      "start_text": "00:12:18.660",
+      "end_text": "00:12:19.660",
+      "text": "on va le réagir"
+    },
+    {
+      "id": 255,
+      "start": 739.66,
+      "end": 741.66,
+      "start_text": "00:12:19.660",
+      "end_text": "00:12:21.660",
+      "text": "à partir du 20 avril."
+    },
+    {
+      "id": 256,
+      "start": 741.66,
+      "end": 743.75,
+      "start_text": "00:12:21.660",
+      "end_text": "00:12:23.750",
+      "text": "Donc là il dit"
+    },
+    {
+      "id": 257,
+      "start": 743.75,
+      "end": 744.75,
+      "start_text": "00:12:23.750",
+      "end_text": "00:12:24.750",
+      "text": "simplement"
+    },
+    {
+      "id": 258,
+      "start": 744.75,
+      "end": 745.75,
+      "start_text": "00:12:24.750",
+      "end_text": "00:12:25.750",
+      "text": "il peut utiliser différentes couleurs"
+    },
+    {
+      "id": 259,
+      "start": 745.75,
+      "end": 746.75,
+      "start_text": "00:12:25.750",
+      "end_text": "00:12:26.750",
+      "text": "mais c'est pas possible."
+    },
+    {
+      "id": 260,
+      "start": 746.75,
+      "end": 747.75,
+      "start_text": "00:12:26.750",
+      "end_text": "00:12:27.750",
+      "text": "Du coup"
+    },
+    {
+      "id": 261,
+      "start": 747.75,
+      "end": 748.85,
+      "start_text": "00:12:27.750",
+      "end_text": "00:12:28.850",
+      "text": "là il est en train"
+    },
+    {
+      "id": 262,
+      "start": 748.85,
+      "end": 749.85,
+      "start_text": "00:12:28.850",
+      "end_text": "00:12:29.850",
+      "text": "de créer les événements."
+    },
+    {
+      "id": 263,
+      "start": 749.85,
+      "end": 751.58,
+      "start_text": "00:12:29.850",
+      "end_text": "00:12:31.580",
+      "text": "Là il envoie la commande"
+    },
+    {
+      "id": 264,
+      "start": 751.58,
+      "end": 752.58,
+      "start_text": "00:12:31.580",
+      "end_text": "00:12:32.580",
+      "text": "du coup par AP directement"
+    },
+    {
+      "id": 265,
+      "start": 752.58,
+      "end": 753.58,
+      "start_text": "00:12:32.580",
+      "end_text": "00:12:33.580",
+      "text": "avec les connectés."
+    },
+    {
+      "id": 266,
+      "start": 753.58,
+      "end": 755.58,
+      "start_text": "00:12:33.580",
+      "end_text": "00:12:35.580",
+      "text": "Donc là on va lui dire autoriser."
+    },
+    {
+      "id": 267,
+      "start": 755.58,
+      "end": 756.87,
+      "start_text": "00:12:35.580",
+      "end_text": "00:12:36.870",
+      "text": "Hop."
+    },
+    {
+      "id": 268,
+      "start": 756.87,
+      "end": 759.57,
+      "start_text": "00:12:36.870",
+      "end_text": "00:12:39.570",
+      "text": "Là il est en train de créer"
+    },
+    {
+      "id": 269,
+      "start": 759.57,
+      "end": 760.57,
+      "start_text": "00:12:39.570",
+      "end_text": "00:12:40.570",
+      "text": "les événements."
+    },
+    {
+      "id": 270,
+      "start": 760.57,
+      "end": 777.89,
+      "start_text": "00:12:40.570",
+      "end_text": "00:12:57.890",
+      "text": "Ok."
+    },
+    {
+      "id": 271,
+      "start": 777.89,
+      "end": 778.89,
+      "start_text": "00:12:57.890",
+      "end_text": "00:12:58.890",
+      "text": "Donc là c'est terminé."
+    },
+    {
+      "id": 272,
+      "start": 778.89,
+      "end": 780.89,
+      "start_text": "00:12:58.890",
+      "end_text": "00:13:00.890",
+      "text": "Il a fini du coup"
+    },
+    {
+      "id": 273,
+      "start": 780.89,
+      "end": 783.02,
+      "start_text": "00:13:00.890",
+      "end_text": "00:13:03.020",
+      "text": "de planifier"
+    },
+    {
+      "id": 274,
+      "start": 783.02,
+      "end": 784.02,
+      "start_text": "00:13:03.020",
+      "end_text": "00:13:04.020",
+      "text": "mes tâches"
+    },
+    {
+      "id": 275,
+      "start": 784.02,
+      "end": 785.02,
+      "start_text": "00:13:04.020",
+      "end_text": "00:13:05.020",
+      "text": "pour la semaine prochaine."
+    },
+    {
+      "id": 276,
+      "start": 785.02,
+      "end": 786.02,
+      "start_text": "00:13:05.020",
+      "end_text": "00:13:06.020",
+      "text": "Donc si je vais sur"
+    },
+    {
+      "id": 277,
+      "start": 786.02,
+      "end": 788.24,
+      "start_text": "00:13:06.020",
+      "end_text": "00:13:08.240",
+      "text": "mon adresse e-mail"
+    },
+    {
+      "id": 278,
+      "start": 788.24,
+      "end": 790.07,
+      "start_text": "00:13:08.240",
+      "end_text": "00:13:10.070",
+      "text": "on va aller sur"
+    },
+    {
+      "id": 279,
+      "start": 790.07,
+      "end": 792.17,
+      "start_text": "00:13:10.070",
+      "end_text": "00:13:12.170",
+      "text": "le calendar."
+    },
+    {
+      "id": 280,
+      "start": 792.17,
+      "end": 794.67,
+      "start_text": "00:13:12.170",
+      "end_text": "00:13:14.670",
+      "text": "On va ouvrir le bon compte."
+    },
+    {
+      "id": 281,
+      "start": 794.67,
+      "end": 795.67,
+      "start_text": "00:13:14.670",
+      "end_text": "00:13:15.670",
+      "text": "Donc je l'ai fait avec"
+    },
+    {
+      "id": 282,
+      "start": 795.67,
+      "end": 797.67,
+      "start_text": "00:13:15.670",
+      "end_text": "00:13:17.670",
+      "text": "fort pour ma tiste."
+    },
+    {
+      "id": 283,
+      "start": 797.67,
+      "end": 799.06,
+      "start_text": "00:13:17.670",
+      "end_text": "00:13:19.060",
+      "text": "Là le 13 avril"
+    },
+    {
+      "id": 284,
+      "start": 799.06,
+      "end": 802.02,
+      "start_text": "00:13:19.060",
+      "end_text": "00:13:22.020",
+      "text": "il n'y a rien c'est normal."
+    },
+    {
+      "id": 285,
+      "start": 802.02,
+      "end": 803.02,
+      "start_text": "00:13:22.020",
+      "end_text": "00:13:23.020",
+      "text": "Et là on peut voir"
+    },
+    {
+      "id": 286,
+      "start": 803.02,
+      "end": 805.24,
+      "start_text": "00:13:23.020",
+      "end_text": "00:13:25.240",
+      "text": "la projection client du pont."
+    },
+    {
+      "id": 287,
+      "start": 805.24,
+      "end": 806.24,
+      "start_text": "00:13:25.240",
+      "end_text": "00:13:26.240",
+      "text": "Là on peut voir mardi"
+    },
+    {
+      "id": 288,
+      "start": 806.24,
+      "end": 807.24,
+      "start_text": "00:13:26.240",
+      "end_text": "00:13:27.240",
+      "text": "il m'en a fait une nouvelle"
+    },
+    {
+      "id": 289,
+      "start": 807.24,
+      "end": 808.27,
+      "start_text": "00:13:27.240",
+      "end_text": "00:13:28.270",
+      "text": "comme je l'ai demandé."
+    },
+    {
+      "id": 290,
+      "start": 808.27,
+      "end": 810.27,
+      "start_text": "00:13:28.270",
+      "end_text": "00:13:30.270",
+      "text": "Il a dit le 22 avril aussi"
+    },
+    {
+      "id": 291,
+      "start": 810.27,
+      "end": 811.43,
+      "start_text": "00:13:30.270",
+      "end_text": "00:13:31.430",
+      "text": "le 23,"
+    },
+    {
+      "id": 292,
+      "start": 811.43,
+      "end": 813.43,
+      "start_text": "00:13:31.430",
+      "end_text": "00:13:33.430",
+      "text": "le 24, etc."
+    },
+    {
+      "id": 293,
+      "start": 813.43,
+      "end": 814.43,
+      "start_text": "00:13:33.430",
+      "end_text": "00:13:34.430",
+      "text": "On pourrait très bien lui dire"
+    },
+    {
+      "id": 294,
+      "start": 814.43,
+      "end": 816.43,
+      "start_text": "00:13:34.430",
+      "end_text": "00:13:36.430",
+      "text": "fais-moi pareil"
+    },
+    {
+      "id": 295,
+      "start": 816.43,
+      "end": 819.43,
+      "start_text": "00:13:36.430",
+      "end_text": "00:13:39.430",
+      "text": "sur une nouvelle page"
+    },
+    {
+      "id": 296,
+      "start": 819.43,
+      "end": 821.85,
+      "start_text": "00:13:39.430",
+      "end_text": "00:13:41.850",
+      "text": "notion stoplay."
+    },
+    {
+      "id": 297,
+      "start": 821.85,
+      "end": 823.85,
+      "start_text": "00:13:41.850",
+      "end_text": "00:13:43.850",
+      "text": "Donc je lui demande ça"
+    },
+    {
+      "id": 298,
+      "start": 823.85,
+      "end": 824.85,
+      "start_text": "00:13:43.850",
+      "end_text": "00:13:44.850",
+      "text": "mais avant tout"
+    },
+    {
+      "id": 299,
+      "start": 824.85,
+      "end": 825.85,
+      "start_text": "00:13:44.850",
+      "end_text": "00:13:45.850",
+      "text": "il faut se connecter à notion."
+    },
+    {
+      "id": 300,
+      "start": 825.85,
+      "end": 827.85,
+      "start_text": "00:13:45.850",
+      "end_text": "00:13:47.850",
+      "text": "Donc c'est pareil"
+    },
+    {
+      "id": 301,
+      "start": 827.85,
+      "end": 828.85,
+      "start_text": "00:13:47.850",
+      "end_text": "00:13:48.850",
+      "text": "que les mêmes"
+    },
+    {
+      "id": 302,
+      "start": 828.85,
+      "end": 830.85,
+      "start_text": "00:13:48.850",
+      "end_text": "00:13:50.850",
+      "text": "systèmes que calendar"
+    },
+    {
+      "id": 303,
+      "start": 830.85,
+      "end": 833.14,
+      "start_text": "00:13:50.850",
+      "end_text": "00:13:53.140",
+      "text": "qui est sur connecteur"
+    },
+    {
+      "id": 304,
+      "start": 833.14,
+      "end": 834.14,
+      "start_text": "00:13:53.140",
+      "end_text": "00:13:54.140",
+      "text": "notion"
+    },
+    {
+      "id": 305,
+      "start": 834.14,
+      "end": 835.14,
+      "start_text": "00:13:54.140",
+      "end_text": "00:13:55.140",
+      "text": "et vous cliquez ici"
+    },
+    {
+      "id": 306,
+      "start": 835.14,
+      "end": 837.14,
+      "start_text": "00:13:55.140",
+      "end_text": "00:13:57.140",
+      "text": "vous vous connectez tout simplement."
+    },
+    {
+      "id": 307,
+      "start": 837.14,
+      "end": 839.17,
+      "start_text": "00:13:57.140",
+      "end_text": "00:13:59.170",
+      "text": "C'est pas bien compliqué."
+    },
+    {
+      "id": 308,
+      "start": 839.17,
+      "end": 845.39,
+      "start_text": "00:13:59.170",
+      "end_text": "00:14:05.390",
+      "text": "Donc là il est en train de réfléchir."
+    },
+    {
+      "id": 309,
+      "start": 845.39,
+      "end": 849.28,
+      "start_text": "00:14:05.390",
+      "end_text": "00:14:09.280",
+      "text": "Là il est en train de voir"
+    },
+    {
+      "id": 310,
+      "start": 849.28,
+      "end": 851.28,
+      "start_text": "00:14:09.280",
+      "end_text": "00:14:11.280",
+      "text": "les tools, le résultat"
+    },
+    {
+      "id": 311,
+      "start": 851.28,
+      "end": 854.56,
+      "start_text": "00:14:11.280",
+      "end_text": "00:14:14.560",
+      "text": "et bah me rédiger une page"
+    },
+    {
+      "id": 312,
+      "start": 854.56,
+      "end": 856.56,
+      "start_text": "00:14:14.560",
+      "end_text": "00:14:16.560",
+      "text": "avec toutes les informations en question."
+    },
+    {
+      "id": 313,
+      "start": 856.56,
+      "end": 860.54,
+      "start_text": "00:14:16.560",
+      "end_text": "00:14:20.540",
+      "text": "C'est ça qui va être vraiment utile."
+    },
+    {
+      "id": 314,
+      "start": 860.54,
+      "end": 861.58,
+      "start_text": "00:14:20.540",
+      "end_text": "00:14:21.580",
+      "text": "Encore une fois"
+    },
+    {
+      "id": 315,
+      "start": 861.58,
+      "end": 862.58,
+      "start_text": "00:14:21.580",
+      "end_text": "00:14:22.580",
+      "text": "organisation"
+    },
+    {
+      "id": 316,
+      "start": 862.58,
+      "end": 864.58,
+      "start_text": "00:14:22.580",
+      "end_text": "00:14:24.580",
+      "text": "où vous pouvez planifier"
+    },
+    {
+      "id": 317,
+      "start": 864.58,
+      "end": 867.76,
+      "start_text": "00:14:24.580",
+      "end_text": "00:14:27.760",
+      "text": "vous pouvez aussi créer"
+    },
+    {
+      "id": 318,
+      "start": 867.76,
+      "end": 868.76,
+      "start_text": "00:14:27.760",
+      "end_text": "00:14:28.760",
+      "text": "et du coup ça vous permette"
+    },
+    {
+      "id": 319,
+      "start": 868.76,
+      "end": 869.76,
+      "start_text": "00:14:28.760",
+      "end_text": "00:14:29.760",
+      "text": "de tout centraliser"
+    },
+    {
+      "id": 320,
+      "start": 869.76,
+      "end": 871.76,
+      "start_text": "00:14:29.760",
+      "end_text": "00:14:31.760",
+      "text": "sur une même app"
+    },
+    {
+      "id": 321,
+      "start": 871.76,
+      "end": 876.29,
+      "start_text": "00:14:31.760",
+      "end_text": "00:14:36.290",
+      "text": "et gagner dans mes moments de temps."
+    },
+    {
+      "id": 322,
+      "start": 876.29,
+      "end": 883.18,
+      "start_text": "00:14:36.290",
+      "end_text": "00:14:43.180",
+      "text": "On va attendre"
+    },
+    {
+      "id": 323,
+      "start": 883.18,
+      "end": 884.18,
+      "start_text": "00:14:43.180",
+      "end_text": "00:14:44.180",
+      "text": "donc là on peut voir"
+    },
+    {
+      "id": 324,
+      "start": 884.18,
+      "end": 885.18,
+      "start_text": "00:14:44.180",
+      "end_text": "00:14:45.180",
+      "text": "au niveau de la progression juste ici"
+    },
+    {
+      "id": 325,
+      "start": 885.18,
+      "end": 887.43,
+      "start_text": "00:14:45.180",
+      "end_text": "00:14:47.430",
+      "text": "donc il a déjà créé"
+    },
+    {
+      "id": 326,
+      "start": 887.43,
+      "end": 889.43,
+      "start_text": "00:14:47.430",
+      "end_text": "00:14:49.430",
+      "text": "il a déjà créé l'événement"
+    },
+    {
+      "id": 327,
+      "start": 889.43,
+      "end": 890.43,
+      "start_text": "00:14:49.430",
+      "end_text": "00:14:50.430",
+      "text": "là il va créer la page"
+    },
+    {
+      "id": 328,
+      "start": 890.43,
+      "end": 891.43,
+      "start_text": "00:14:50.430",
+      "end_text": "00:14:51.430",
+      "text": "il a déjà terminé ses faits."
+    },
+    {
+      "id": 329,
+      "start": 891.43,
+      "end": 893.56,
+      "start_text": "00:14:51.430",
+      "end_text": "00:14:53.560",
+      "text": "Donc là il me donne le lien"
+    },
+    {
+      "id": 330,
+      "start": 893.56,
+      "end": 896.1,
+      "start_text": "00:14:53.560",
+      "end_text": "00:14:56.100",
+      "text": "j'ouvre le lien"
+    },
+    {
+      "id": 331,
+      "start": 896.1,
+      "end": 898.51,
+      "start_text": "00:14:56.100",
+      "end_text": "00:14:58.510",
+      "text": "et là comme on peut voir"
+    },
+    {
+      "id": 332,
+      "start": 898.51,
+      "end": 902.46,
+      "start_text": "00:14:58.510",
+      "end_text": "00:15:02.460",
+      "text": "il m'a fait ma semaine"
+    },
+    {
+      "id": 333,
+      "start": 902.46,
+      "end": 903.46,
+      "start_text": "00:15:02.460",
+      "end_text": "00:15:03.460",
+      "text": "d'organisation"
+    },
+    {
+      "id": 334,
+      "start": 903.46,
+      "end": 904.46,
+      "start_text": "00:15:03.460",
+      "end_text": "00:15:04.460",
+      "text": "donc là avec une checklist"
+    },
+    {
+      "id": 335,
+      "start": 904.46,
+      "end": 905.46,
+      "start_text": "00:15:04.460",
+      "end_text": "00:15:05.460",
+      "text": "c'est super"
+    },
+    {
+      "id": 336,
+      "start": 905.46,
+      "end": 907.46,
+      "start_text": "00:15:05.460",
+      "end_text": "00:15:07.460",
+      "text": "politiquement il n'y a rien à dire"
+    },
+    {
+      "id": 337,
+      "start": 907.46,
+      "end": 909.46,
+      "start_text": "00:15:07.460",
+      "end_text": "00:15:09.460",
+      "text": "ses pros"
+    },
+    {
+      "id": 338,
+      "start": 909.46,
+      "end": 911.46,
+      "start_text": "00:15:09.460",
+      "end_text": "00:15:11.460",
+      "text": "ça me permet d'avoir un vrai visu"
+    },
+    {
+      "id": 339,
+      "start": 911.46,
+      "end": 913.46,
+      "start_text": "00:15:11.460",
+      "end_text": "00:15:13.460",
+      "text": "donc on est au top"
+    },
+    {
+      "id": 340,
+      "start": 913.46,
+      "end": 915.46,
+      "start_text": "00:15:13.460",
+      "end_text": "00:15:15.460",
+      "text": "sur cette partie là"
+    },
+    {
+      "id": 341,
+      "start": 915.46,
+      "end": 916.46,
+      "start_text": "00:15:15.460",
+      "end_text": "00:15:16.460",
+      "text": "pour tout ce qui est création"
+    },
+    {
+      "id": 342,
+      "start": 916.46,
+      "end": 917.46,
+      "start_text": "00:15:16.460",
+      "end_text": "00:15:17.460",
+      "text": "d'événement"
+    },
+    {
+      "id": 343,
+      "start": 917.46,
+      "end": 919.46,
+      "start_text": "00:15:17.460",
+      "end_text": "00:15:19.460",
+      "text": "vous pourrez très bien"
+    },
+    {
+      "id": 344,
+      "start": 919.46,
+      "end": 922.52,
+      "start_text": "00:15:19.460",
+      "end_text": "00:15:22.520",
+      "text": "lui dire"
+    },
+    {
+      "id": 345,
+      "start": 922.52,
+      "end": 924.74,
+      "start_text": "00:15:22.520",
+      "end_text": "00:15:24.740",
+      "text": "de fais moi"
+    },
+    {
+      "id": 346,
+      "start": 924.74,
+      "end": 925.74,
+      "start_text": "00:15:24.740",
+      "end_text": "00:15:25.740",
+      "text": "on va avoir au niveau des connecteurs"
+    },
+    {
+      "id": 347,
+      "start": 925.74,
+      "end": 926.74,
+      "start_text": "00:15:25.740",
+      "end_text": "00:15:26.740",
+      "text": "ce qu'on pourrait utiliser"
+    },
+    {
+      "id": 348,
+      "start": 926.74,
+      "end": 928.74,
+      "start_text": "00:15:26.740",
+      "end_text": "00:15:28.740",
+      "text": "je me fais ça le gueul"
+    },
+    {
+      "id": 349,
+      "start": 928.74,
+      "end": 930.74,
+      "start_text": "00:15:28.740",
+      "end_text": "00:15:30.740",
+      "text": "un truc simple"
+    },
+    {
+      "id": 350,
+      "start": 930.74,
+      "end": 932.97,
+      "start_text": "00:15:30.740",
+      "end_text": "00:15:32.970",
+      "text": "pour pas vous perdre"
+    },
+    {
+      "id": 351,
+      "start": 933.97,
+      "end": 937.44,
+      "start_text": "00:15:33.970",
+      "end_text": "00:15:37.440",
+      "text": "Calin Chrome"
+    },
+    {
+      "id": 352,
+      "start": 937.44,
+      "end": 940.94,
+      "start_text": "00:15:37.440",
+      "end_text": "00:15:40.940",
+      "text": "on va avoir un petit peu"
+    },
+    {
+      "id": 353,
+      "start": 940.94,
+      "end": 943.58,
+      "start_text": "00:15:40.940",
+      "end_text": "00:15:43.580",
+      "text": "des connecteurs"
+    },
+    {
+      "id": 354,
+      "start": 943.58,
+      "end": 944.58,
+      "start_text": "00:15:43.580",
+      "end_text": "00:15:44.580",
+      "text": "vous pourrez lui dire"
+    },
+    {
+      "id": 355,
+      "start": 944.58,
+      "end": 946.58,
+      "start_text": "00:15:44.580",
+      "end_text": "00:15:46.580",
+      "text": "on pourrait très bien lui dire aussi"
+    },
+    {
+      "id": 356,
+      "start": 946.58,
+      "end": 951.53,
+      "start_text": "00:15:46.580",
+      "end_text": "00:15:51.530",
+      "text": "supprimer"
+    },
+    {
+      "id": 357,
+      "start": 951.53,
+      "end": 952.53,
+      "start_text": "00:15:51.530",
+      "end_text": "00:15:52.530",
+      "text": "sur Google Agenda"
+    },
+    {
+      "id": 358,
+      "start": 952.53,
+      "end": 953.53,
+      "start_text": "00:15:52.530",
+      "end_text": "00:15:53.530",
+      "text": "la tâche"
+    },
+    {
+      "id": 359,
+      "start": 953.53,
+      "end": 956.04,
+      "start_text": "00:15:53.530",
+      "end_text": "00:15:56.040",
+      "text": "supprimer cette tâche là"
+    },
+    {
+      "id": 360,
+      "start": 956.04,
+      "end": 959.22,
+      "start_text": "00:15:56.040",
+      "end_text": "00:15:59.220",
+      "text": "supprimer"
+    },
+    {
+      "id": 361,
+      "start": 959.22,
+      "end": 961.83,
+      "start_text": "00:15:59.220",
+      "end_text": "00:16:01.830",
+      "text": "cette tâche là"
+    },
+    {
+      "id": 362,
+      "start": 961.83,
+      "end": 962.83,
+      "start_text": "00:16:01.830",
+      "end_text": "00:16:02.830",
+      "text": "hop"
+    },
+    {
+      "id": 363,
+      "start": 963.47,
+      "end": 964.47,
+      "start_text": "00:16:03.470",
+      "end_text": "00:16:04.470",
+      "text": "ce qui est vraiment bien"
+    },
+    {
+      "id": 364,
+      "start": 964.47,
+      "end": 965.47,
+      "start_text": "00:16:04.470",
+      "end_text": "00:16:05.470",
+      "text": "la place de perdre du temps"
+    },
+    {
+      "id": 365,
+      "start": 965.47,
+      "end": 967.47,
+      "start_text": "00:16:05.470",
+      "end_text": "00:16:07.470",
+      "text": "d'aller cliquer sur ça"
+    },
+    {
+      "id": 366,
+      "start": 967.47,
+      "end": 969.47,
+      "start_text": "00:16:07.470",
+      "end_text": "00:16:09.470",
+      "text": "supprimer je ne sais pas comment on fait"
+    },
+    {
+      "id": 367,
+      "start": 969.47,
+      "end": 971.47,
+      "start_text": "00:16:09.470",
+      "end_text": "00:16:11.470",
+      "text": "voilà supprimer juste ici"
+    },
+    {
+      "id": 368,
+      "start": 971.47,
+      "end": 972.47,
+      "start_text": "00:16:11.470",
+      "end_text": "00:16:12.470",
+      "text": "perdre du temps"
+    },
+    {
+      "id": 369,
+      "start": 972.47,
+      "end": 973.47,
+      "start_text": "00:16:12.470",
+      "end_text": "00:16:13.470",
+      "text": "ou même par exemple"
+    },
+    {
+      "id": 370,
+      "start": 973.47,
+      "end": 974.47,
+      "start_text": "00:16:13.470",
+      "end_text": "00:16:14.470",
+      "text": "si vous avez un drive"
+    },
+    {
+      "id": 371,
+      "start": 974.47,
+      "end": 975.47,
+      "start_text": "00:16:14.470",
+      "end_text": "00:16:15.470",
+      "text": "aller chercher justement"
+    },
+    {
+      "id": 372,
+      "start": 975.47,
+      "end": 977.47,
+      "start_text": "00:16:15.470",
+      "end_text": "00:16:17.470",
+      "text": "les informations dessus"
+    },
+    {
+      "id": 373,
+      "start": 977.47,
+      "end": 978.47,
+      "start_text": "00:16:17.470",
+      "end_text": "00:16:18.470",
+      "text": "là vous pouvez le faire"
+    },
+    {
+      "id": 374,
+      "start": 978.47,
+      "end": 980.47,
+      "start_text": "00:16:18.470",
+      "end_text": "00:16:20.470",
+      "text": "directement avec l'autre co-work"
+    },
+    {
+      "id": 375,
+      "start": 980.47,
+      "end": 983.02,
+      "start_text": "00:16:20.470",
+      "end_text": "00:16:23.020",
+      "text": "et tout faire"
+    },
+    {
+      "id": 376,
+      "start": 983.02,
+      "end": 984.02,
+      "start_text": "00:16:23.020",
+      "end_text": "00:16:24.020",
+      "text": "de manière automatique"
+    },
+    {
+      "id": 377,
+      "start": 984.02,
+      "end": 985.02,
+      "start_text": "00:16:24.020",
+      "end_text": "00:16:25.020",
+      "text": "c'est lui qui va gérer tout ça"
+    },
+    {
+      "id": 378,
+      "start": 985.02,
+      "end": 986.02,
+      "start_text": "00:16:25.020",
+      "end_text": "00:16:26.020",
+      "text": "donc là hop"
+    },
+    {
+      "id": 379,
+      "start": 986.02,
+      "end": 987.02,
+      "start_text": "00:16:26.020",
+      "end_text": "00:16:27.020",
+      "text": "la tâche allait plus là"
+    },
+    {
+      "id": 380,
+      "start": 987.02,
+      "end": 991.8,
+      "start_text": "00:16:27.020",
+      "end_text": "00:16:31.800",
+      "text": "c'est hop"
+    },
+    {
+      "id": 381,
+      "start": 991.8,
+      "end": 992.8,
+      "start_text": "00:16:31.800",
+      "end_text": "00:16:32.800",
+      "text": "connecteur"
+    },
+    {
+      "id": 382,
+      "start": 992.8,
+      "end": 993.8,
+      "start_text": "00:16:32.800",
+      "end_text": "00:16:33.800",
+      "text": "on voit qu'on a aussi"
+    },
+    {
+      "id": 383,
+      "start": 993.8,
+      "end": 994.8,
+      "start_text": "00:16:33.800",
+      "end_text": "00:16:34.800",
+      "text": "le connecteur drive"
+    },
+    {
+      "id": 384,
+      "start": 994.8,
+      "end": 995.8,
+      "start_text": "00:16:34.800",
+      "end_text": "00:16:35.800",
+      "text": "je vais lui dire"
+    },
+    {
+      "id": 385,
+      "start": 995.8,
+      "end": 997.44,
+      "start_text": "00:16:35.800",
+      "end_text": "00:16:37.440",
+      "text": "je vais me déconnecter"
+    },
+    {
+      "id": 386,
+      "start": 997.44,
+      "end": 998.44,
+      "start_text": "00:16:37.440",
+      "end_text": "00:16:38.440",
+      "text": "comme ça on va le faire ensemble"
+    },
+    {
+      "id": 387,
+      "start": 998.44,
+      "end": 1000.46,
+      "start_text": "00:16:38.440",
+      "end_text": "00:16:40.460",
+      "text": "hop"
+    },
+    {
+      "id": 388,
+      "start": 1000.46,
+      "end": 1002.46,
+      "start_text": "00:16:40.460",
+      "end_text": "00:16:42.460",
+      "text": "on va faire ajouter un connecteur"
+    },
+    {
+      "id": 389,
+      "start": 1002.46,
+      "end": 1005.9,
+      "start_text": "00:16:42.460",
+      "end_text": "00:16:45.900",
+      "text": "barrive"
+    },
+    {
+      "id": 390,
+      "start": 1005.9,
+      "end": 1006.9,
+      "start_text": "00:16:45.900",
+      "end_text": "00:16:46.900",
+      "text": "je vais le supprimer"
+    },
+    {
+      "id": 391,
+      "start": 1006.9,
+      "end": 1007.9,
+      "start_text": "00:16:46.900",
+      "end_text": "00:16:47.900",
+      "text": "déconnecter"
+    },
+    {
+      "id": 392,
+      "start": 1007.9,
+      "end": 1013.16,
+      "start_text": "00:16:47.900",
+      "end_text": "00:16:53.160",
+      "text": "ok"
+    },
+    {
+      "id": 393,
+      "start": 1013.16,
+      "end": 1014.16,
+      "start_text": "00:16:53.160",
+      "end_text": "00:16:54.160",
+      "text": "je ne sais pas pourquoi"
+    },
+    {
+      "id": 394,
+      "start": 1014.16,
+      "end": 1015.16,
+      "start_text": "00:16:54.160",
+      "end_text": "00:16:55.160",
+      "text": "il ne va pas se déconnecter"
+    },
+    {
+      "id": 395,
+      "start": 1015.16,
+      "end": 1020.36,
+      "start_text": "00:16:55.160",
+      "end_text": "00:17:00.360",
+      "text": "donc hop"
+    },
+    {
+      "id": 396,
+      "start": 1020.36,
+      "end": 1022.36,
+      "start_text": "00:17:00.360",
+      "end_text": "00:17:02.360",
+      "text": "donc là vous pouvez aussi enlever du coup"
+    },
+    {
+      "id": 397,
+      "start": 1022.36,
+      "end": 1023.36,
+      "start_text": "00:17:02.360",
+      "end_text": "00:17:03.360",
+      "text": "le connecteur que vous n'utilisez pas"
+    },
+    {
+      "id": 398,
+      "start": 1023.36,
+      "end": 1025.36,
+      "start_text": "00:17:03.360",
+      "end_text": "00:17:05.360",
+      "text": "qui ne vous intéresse pas"
+    },
+    {
+      "id": 399,
+      "start": 1025.36,
+      "end": 1027.36,
+      "start_text": "00:17:05.360",
+      "end_text": "00:17:07.360",
+      "text": "mais c'est très bien d'en avoir plusieurs"
+    },
+    {
+      "id": 400,
+      "start": 1027.36,
+      "end": 1028.36,
+      "start_text": "00:17:07.360",
+      "end_text": "00:17:08.360",
+      "text": "comme ça derrière"
+    },
+    {
+      "id": 401,
+      "start": 1028.36,
+      "end": 1029.65,
+      "start_text": "00:17:08.360",
+      "end_text": "00:17:09.650",
+      "text": "on peut s'adapter"
+    },
+    {
+      "id": 402,
+      "start": 1029.65,
+      "end": 1030.65,
+      "start_text": "00:17:09.650",
+      "end_text": "00:17:10.650",
+      "text": "à tout"
+    },
+    {
+      "id": 403,
+      "start": 1030.65,
+      "end": 1034.98,
+      "start_text": "00:17:10.650",
+      "end_text": "00:17:14.980",
+      "text": "ok"
+    },
+    {
+      "id": 404,
+      "start": 1034.98,
+      "end": 1035.98,
+      "start_text": "00:17:14.980",
+      "end_text": "00:17:15.980",
+      "text": "donc il faut une partie admis"
+    },
+    {
+      "id": 405,
+      "start": 1035.98,
+      "end": 1036.98,
+      "start_text": "00:17:15.980",
+      "end_text": "00:17:16.980",
+      "text": "je vous dis"
+    },
+    {
+      "id": 406,
+      "start": 1036.98,
+      "end": 1037.98,
+      "start_text": "00:17:16.980",
+      "end_text": "00:17:17.980",
+      "text": "regarde"
+    },
+    {
+      "id": 407,
+      "start": 1037.98,
+      "end": 1038.98,
+      "start_text": "00:17:17.980",
+      "end_text": "00:17:18.980",
+      "text": "mon"
+    },
+    {
+      "id": 408,
+      "start": 1038.98,
+      "end": 1039.98,
+      "start_text": "00:17:18.980",
+      "end_text": "00:17:19.980",
+      "text": "wheel"
+    },
+    {
+      "id": 409,
+      "start": 1039.98,
+      "end": 1040.98,
+      "start_text": "00:17:19.980",
+      "end_text": "00:17:20.980",
+      "text": "bref"
+    },
+    {
+      "id": 410,
+      "start": 1040.98,
+      "end": 1042.2,
+      "start_text": "00:17:20.980",
+      "end_text": "00:17:22.200",
+      "text": "il est"
+    },
+    {
+      "id": 411,
+      "start": 1042.2,
+      "end": 1044.22,
+      "start_text": "00:17:22.200",
+      "end_text": "00:17:24.220",
+      "text": "connecté"
+    },
+    {
+      "id": 412,
+      "start": 1044.22,
+      "end": 1045.22,
+      "start_text": "00:17:24.220",
+      "end_text": "00:17:25.220",
+      "text": "et le cons"
+    },
+    {
+      "id": 413,
+      "start": 1045.22,
+      "end": 1049.49,
+      "start_text": "00:17:25.220",
+      "end_text": "00:17:29.490",
+      "text": "donc le but aussi"
+    },
+    {
+      "id": 414,
+      "start": 1049.49,
+      "end": 1050.49,
+      "start_text": "00:17:29.490",
+      "end_text": "00:17:30.490",
+      "text": "c'est comme vous avez"
+    },
+    {
+      "id": 415,
+      "start": 1050.49,
+      "end": 1051.49,
+      "start_text": "00:17:30.490",
+      "end_text": "00:17:31.490",
+      "text": "une problématique"
+    },
+    {
+      "id": 416,
+      "start": 1051.49,
+      "end": 1053.49,
+      "start_text": "00:17:31.490",
+      "end_text": "00:17:33.490",
+      "text": "que vous n'arrivez pas à gérer"
+    },
+    {
+      "id": 417,
+      "start": 1053.49,
+      "end": 1054.49,
+      "start_text": "00:17:33.490",
+      "end_text": "00:17:34.490",
+      "text": "vous demandez directement"
+    },
+    {
+      "id": 418,
+      "start": 1054.49,
+      "end": 1055.49,
+      "start_text": "00:17:34.490",
+      "end_text": "00:17:35.490",
+      "text": "à lire"
+    },
+    {
+      "id": 419,
+      "start": 1055.49,
+      "end": 1056.49,
+      "start_text": "00:17:35.490",
+      "end_text": "00:17:36.490",
+      "text": "c'est pas une problématique"
+    },
+    {
+      "id": 420,
+      "start": 1056.49,
+      "end": 1058.49,
+      "start_text": "00:17:36.490",
+      "end_text": "00:17:38.490",
+      "text": "on ne peut pas tout savoir"
+    },
+    {
+      "id": 421,
+      "start": 1059.49,
+      "end": 1060.49,
+      "start_text": "00:17:39.490",
+      "end_text": "00:17:40.490",
+      "text": "j'ai mis"
+    },
+    {
+      "id": 422,
+      "start": 1060.49,
+      "end": 1062.49,
+      "start_text": "00:17:40.490",
+      "end_text": "00:17:42.490",
+      "text": "le but c'est"
+    },
+    {
+      "id": 423,
+      "start": 1062.49,
+      "end": 1064.49,
+      "start_text": "00:17:42.490",
+      "end_text": "00:17:44.490",
+      "text": "d'essayer de faire le maximum"
+    },
+    {
+      "id": 424,
+      "start": 1064.49,
+      "end": 1065.49,
+      "start_text": "00:17:44.490",
+      "end_text": "00:17:45.490",
+      "text": "que vous pouvez"
+    },
+    {
+      "id": 425,
+      "start": 1065.49,
+      "end": 1067.49,
+      "start_text": "00:17:45.490",
+      "end_text": "00:17:47.490",
+      "text": "donc là on voit qu'il est connecté à formatiste"
+    },
+    {
+      "id": 426,
+      "start": 1067.49,
+      "end": 1068.49,
+      "start_text": "00:17:47.490",
+      "end_text": "00:17:48.490",
+      "text": "je vais lui dire"
+    },
+    {
+      "id": 427,
+      "start": 1068.49,
+      "end": 1072.53,
+      "start_text": "00:17:48.490",
+      "end_text": "00:17:52.530",
+      "text": "fais-moi"
+    },
+    {
+      "id": 428,
+      "start": 1072.53,
+      "end": 1075.3,
+      "start_text": "00:17:52.530",
+      "end_text": "00:17:55.300",
+      "text": "un drive"
+    },
+    {
+      "id": 429,
+      "start": 1075.3,
+      "end": 1076.3,
+      "start_text": "00:17:55.300",
+      "end_text": "00:17:56.300",
+      "text": "très crap"
+    },
+    {
+      "id": 430,
+      "start": 1076.3,
+      "end": 1077.3,
+      "start_text": "00:17:56.300",
+      "end_text": "00:17:57.300",
+      "text": "de la semaine"
+    },
+    {
+      "id": 431,
+      "start": 1077.3,
+      "end": 1078.87,
+      "start_text": "00:17:57.300",
+      "end_text": "00:17:58.870",
+      "text": "du coup"
+    },
+    {
+      "id": 432,
+      "start": 1078.87,
+      "end": 1079.87,
+      "start_text": "00:17:58.870",
+      "end_text": "00:17:59.870",
+      "text": "on stoppait"
+    },
+    {
+      "id": 433,
+      "start": 1079.87,
+      "end": 1093.2,
+      "start_text": "00:17:59.870",
+      "end_text": "00:18:13.200",
+      "text": "au clair on peut voir qu'il a connecté"
+    },
+    {
+      "id": 434,
+      "start": 1093.2,
+      "end": 1094.2,
+      "start_text": "00:18:13.200",
+      "end_text": "00:18:14.200",
+      "text": "du coup"
+    },
+    {
+      "id": 435,
+      "start": 1094.2,
+      "end": 1095.46,
+      "start_text": "00:18:14.200",
+      "end_text": "00:18:15.460",
+      "text": "le drive en question"
+    },
+    {
+      "id": 436,
+      "start": 1095.46,
+      "end": 1097.46,
+      "start_text": "00:18:15.460",
+      "end_text": "00:18:17.460",
+      "text": "donc il n'y a aucun résultat"
+    },
+    {
+      "id": 437,
+      "start": 1097.46,
+      "end": 1098.46,
+      "start_text": "00:18:17.460",
+      "end_text": "00:18:18.460",
+      "text": "il va voir directement"
+    },
+    {
+      "id": 438,
+      "start": 1098.46,
+      "end": 1099.46,
+      "start_text": "00:18:18.460",
+      "end_text": "00:18:19.460",
+      "text": "si"
+    },
+    {
+      "id": 439,
+      "start": 1099.46,
+      "end": 1101.58,
+      "start_text": "00:18:19.460",
+      "end_text": "00:18:21.580",
+      "text": "dans le drive j'ai déjà ça"
+    },
+    {
+      "id": 440,
+      "start": 1101.58,
+      "end": 1102.58,
+      "start_text": "00:18:21.580",
+      "end_text": "00:18:22.580",
+      "text": "je lui a demandé"
+    },
+    {
+      "id": 441,
+      "start": 1102.58,
+      "end": 1103.58,
+      "start_text": "00:18:22.580",
+      "end_text": "00:18:23.580",
+      "text": "de créer"
+    },
+    {
+      "id": 442,
+      "start": 1103.58,
+      "end": 1106.03,
+      "start_text": "00:18:23.580",
+      "end_text": "00:18:26.030",
+      "text": "donc là on va voir s'il comprend"
+    },
+    {
+      "id": 443,
+      "start": 1106.03,
+      "end": 1108.03,
+      "start_text": "00:18:26.030",
+      "end_text": "00:18:28.030",
+      "text": "là on voit qu'il a une problématique"
+    },
+    {
+      "id": 444,
+      "start": 1108.03,
+      "end": 1110.8,
+      "start_text": "00:18:28.030",
+      "end_text": "00:18:30.800",
+      "text": "du connecté habillé du coup"
+    },
+    {
+      "id": 445,
+      "start": 1110.8,
+      "end": 1112.8,
+      "start_text": "00:18:30.800",
+      "end_text": "00:18:32.800",
+      "text": "il n'y a pas de document récent"
+    },
+    {
+      "id": 446,
+      "start": 1112.8,
+      "end": 1114.8,
+      "start_text": "00:18:32.800",
+      "end_text": "00:18:34.800",
+      "text": "il est connecté au compte"
+    },
+    {
+      "id": 447,
+      "start": 1114.8,
+      "end": 1115.8,
+      "start_text": "00:18:34.800",
+      "end_text": "00:18:35.800",
+      "text": "je pense que tu veux que je donne"
+    },
+    {
+      "id": 448,
+      "start": 1115.8,
+      "end": 1116.8,
+      "start_text": "00:18:35.800",
+      "end_text": "00:18:36.800",
+      "text": "un correct cas de tasse"
+    },
+    {
+      "id": 449,
+      "start": 1116.8,
+      "end": 1117.8,
+      "start_text": "00:18:36.800",
+      "end_text": "00:18:37.800",
+      "text": "mais de prospection au retrage"
+    },
+    {
+      "id": 450,
+      "start": 1117.8,
+      "end": 1118.8,
+      "start_text": "00:18:37.800",
+      "end_text": "00:18:38.800",
+      "text": "de préparant d'oxygne"
+    },
+    {
+      "id": 451,
+      "start": 1118.8,
+      "end": 1120.8,
+      "start_text": "00:18:38.800",
+      "end_text": "00:18:40.800",
+      "text": "donc là il a trouvé une solution"
+    },
+    {
+      "id": 452,
+      "start": 1120.8,
+      "end": 1121.8,
+      "start_text": "00:18:40.800",
+      "end_text": "00:18:41.800",
+      "text": "différente pour justement"
+    },
+    {
+      "id": 453,
+      "start": 1121.8,
+      "end": 1123.99,
+      "start_text": "00:18:41.800",
+      "end_text": "00:18:43.990",
+      "text": "gérer la problématique"
+    },
+    {
+      "id": 454,
+      "start": 1123.99,
+      "end": 1125.99,
+      "start_text": "00:18:43.990",
+      "end_text": "00:18:45.990",
+      "text": "donc ce qui va vraiment nous intéresser"
+    },
+    {
+      "id": 455,
+      "start": 1125.99,
+      "end": 1126.99,
+      "start_text": "00:18:45.990",
+      "end_text": "00:18:46.990",
+      "text": "c'est pas ça"
+    },
+    {
+      "id": 456,
+      "start": 1126.99,
+      "end": 1127.99,
+      "start_text": "00:18:46.990",
+      "end_text": "00:18:47.990",
+      "text": "c'est qu'on veut un drive"
+    },
+    {
+      "id": 457,
+      "start": 1127.99,
+      "end": 1128.99,
+      "start_text": "00:18:47.990",
+      "end_text": "00:18:48.990",
+      "text": "donc"
+    },
+    {
+      "id": 458,
+      "start": 1128.99,
+      "end": 1131.95,
+      "start_text": "00:18:48.990",
+      "end_text": "00:18:51.950",
+      "text": "on voit qu'on a eu"
+    },
+    {
+      "id": 459,
+      "start": 1131.95,
+      "end": 1132.95,
+      "start_text": "00:18:51.950",
+      "end_text": "00:18:52.950",
+      "text": "un problème de connexion"
+    },
+    {
+      "id": 460,
+      "start": 1132.95,
+      "end": 1135.9,
+      "start_text": "00:18:52.950",
+      "end_text": "00:18:55.900",
+      "text": "au niveau"
+    },
+    {
+      "id": 461,
+      "start": 1135.9,
+      "end": 1136.9,
+      "start_text": "00:18:55.900",
+      "end_text": "00:18:56.900",
+      "text": "de ce connecteur là"
+    },
+    {
+      "id": 462,
+      "start": 1136.9,
+      "end": 1138.9,
+      "start_text": "00:18:56.900",
+      "end_text": "00:18:58.900",
+      "text": "on va voir comment on peut le résoudre"
+    },
+    {
+      "id": 463,
+      "start": 1138.9,
+      "end": 1139.9,
+      "start_text": "00:18:58.900",
+      "end_text": "00:18:59.900",
+      "text": "ça va bien me le faire en light"
+    },
+    {
+      "id": 464,
+      "start": 1139.9,
+      "end": 1140.9,
+      "start_text": "00:18:59.900",
+      "end_text": "00:19:00.900",
+      "text": "comme ça derrière"
+    },
+    {
+      "id": 465,
+      "start": 1140.9,
+      "end": 1142.03,
+      "start_text": "00:19:00.900",
+      "end_text": "00:19:02.030",
+      "text": "si vous avez le même"
+    },
+    {
+      "id": 466,
+      "start": 1142.03,
+      "end": 1143.03,
+      "start_text": "00:19:02.030",
+      "end_text": "00:19:03.030",
+      "text": "le même problème"
+    },
+    {
+      "id": 467,
+      "start": 1143.03,
+      "end": 1158.63,
+      "start_text": "00:19:03.030",
+      "end_text": "00:19:18.630",
+      "text": "vous allez pouvoir le résoudre"
+    },
+    {
+      "id": 468,
+      "start": 1158.63,
+      "end": 1159.63,
+      "start_text": "00:19:18.630",
+      "end_text": "00:19:19.630",
+      "text": "il faut qu'il fait un Word"
+    },
+    {
+      "id": 469,
+      "start": 1159.63,
+      "end": 1160.63,
+      "start_text": "00:19:19.630",
+      "end_text": "00:19:20.630",
+      "text": "un document directement"
+    },
+    {
+      "id": 470,
+      "start": 1160.63,
+      "end": 1161.63,
+      "start_text": "00:19:20.630",
+      "end_text": "00:19:21.630",
+      "text": "c'est top"
+    },
+    {
+      "id": 471,
+      "start": 1161.63,
+      "end": 1162.63,
+      "start_text": "00:19:21.630",
+      "end_text": "00:19:22.630",
+      "text": "qui est dans le capacité aussi"
+    },
+    {
+      "id": 472,
+      "start": 1162.63,
+      "end": 1163.73,
+      "start_text": "00:19:22.630",
+      "end_text": "00:19:23.730",
+      "text": "de faire ça"
+    },
+    {
+      "id": 473,
+      "start": 1164.73,
+      "end": 1165.73,
+      "start_text": "00:19:24.730",
+      "end_text": "00:19:25.730",
+      "text": "donc là il installe"
+    },
+    {
+      "id": 474,
+      "start": 1165.73,
+      "end": 1166.73,
+      "start_text": "00:19:25.730",
+      "end_text": "00:19:26.730",
+      "text": "pitondox package"
+    },
+    {
+      "id": 475,
+      "start": 1166.73,
+      "end": 1168.73,
+      "start_text": "00:19:26.730",
+      "end_text": "00:19:28.730",
+      "text": "pour justement pousser ça"
+    },
+    {
+      "id": 476,
+      "start": 1168.73,
+      "end": 1172.8,
+      "start_text": "00:19:28.730",
+      "end_text": "00:19:32.800",
+      "text": "donc là"
+    },
+    {
+      "id": 477,
+      "start": 1172.8,
+      "end": 1174.8,
+      "start_text": "00:19:32.800",
+      "end_text": "00:19:34.800",
+      "text": "on voit qu'il a déjà"
+    },
+    {
+      "id": 478,
+      "start": 1174.8,
+      "end": 1175.8,
+      "start_text": "00:19:34.800",
+      "end_text": "00:19:35.800",
+      "text": "géré une autre dépache"
+    },
+    {
+      "id": 479,
+      "start": 1175.8,
+      "end": 1178.62,
+      "start_text": "00:19:35.800",
+      "end_text": "00:19:38.620",
+      "text": "sur l'ici"
+    },
+    {
+      "id": 480,
+      "start": 1178.62,
+      "end": 1180.62,
+      "start_text": "00:19:38.620",
+      "end_text": "00:19:40.620",
+      "text": "pour ajouter des instructions"
+    },
+    {
+      "id": 481,
+      "start": 1180.62,
+      "end": 1199.7,
+      "start_text": "00:19:40.620",
+      "end_text": "00:19:59.700",
+      "text": "juste après"
+    },
+    {
+      "id": 482,
+      "start": 1199.7,
+      "end": 1210.28,
+      "start_text": "00:19:59.700",
+      "end_text": "00:20:10.280",
+      "text": "là c'est top"
+    },
+    {
+      "id": 483,
+      "start": 1211.28,
+      "end": 1213.5,
+      "start_text": "00:20:11.280",
+      "end_text": "00:20:13.500",
+      "text": "on permet de voir justement"
+    },
+    {
+      "id": 484,
+      "start": 1213.5,
+      "end": 1217.62,
+      "start_text": "00:20:13.500",
+      "end_text": "00:20:17.620",
+      "text": "le recap"
+    },
+    {
+      "id": 485,
+      "start": 1217.62,
+      "end": 1218.62,
+      "start_text": "00:20:17.620",
+      "end_text": "00:20:18.620",
+      "text": "qu'il a créé"
+    },
+    {
+      "id": 486,
+      "start": 1218.62,
+      "end": 1220.62,
+      "start_text": "00:20:18.620",
+      "end_text": "00:20:20.620",
+      "text": "donc semaine de prospection"
+    },
+    {
+      "id": 487,
+      "start": 1220.62,
+      "end": 1222.91,
+      "start_text": "00:20:20.620",
+      "end_text": "00:20:22.910",
+      "text": "avec les belles informations"
+    },
+    {
+      "id": 488,
+      "start": 1222.91,
+      "end": 1224.91,
+      "start_text": "00:20:22.910",
+      "end_text": "00:20:24.910",
+      "text": "comme on a vu avec l'oscel"
+    },
+    {
+      "id": 489,
+      "start": 1225.17,
+      "end": 1232.96,
+      "start_text": "00:20:25.170",
+      "end_text": "00:20:32.960",
+      "text": "on peut cliquer ici"
+    },
+    {
+      "id": 490,
+      "start": 1232.96,
+      "end": 1233.96,
+      "start_text": "00:20:32.960",
+      "end_text": "00:20:33.960",
+      "text": "on peut voir que je connectais"
+    },
+    {
+      "id": 491,
+      "start": 1233.96,
+      "end": 1237.4,
+      "start_text": "00:20:33.960",
+      "end_text": "00:20:37.400",
+      "text": "du coup à Billy"
+    },
+    {
+      "id": 492,
+      "start": 1237.4,
+      "end": 1238.4,
+      "start_text": "00:20:37.400",
+      "end_text": "00:20:38.400",
+      "text": "et puis"
+    },
+    {
+      "id": 493,
+      "start": 1238.4,
+      "end": 1239.4,
+      "start_text": "00:20:38.400",
+      "end_text": "00:20:39.400",
+      "text": "une fois qu'on a"
+    },
+    {
+      "id": 494,
+      "start": 1239.4,
+      "end": 1242.07,
+      "start_text": "00:20:39.400",
+      "end_text": "00:20:42.070",
+      "text": "tous ces documents en question"
+    },
+    {
+      "id": 495,
+      "start": 1242.07,
+      "end": 1243.07,
+      "start_text": "00:20:42.070",
+      "end_text": "00:20:43.070",
+      "text": "si on clique ici"
+    },
+    {
+      "id": 496,
+      "start": 1243.07,
+      "end": 1245.07,
+      "start_text": "00:20:43.070",
+      "end_text": "00:20:45.070",
+      "text": "on peut voir que le document est là"
+    },
+    {
+      "id": 497,
+      "start": 1245.07,
+      "end": 1246.07,
+      "start_text": "00:20:45.070",
+      "end_text": "00:20:46.070",
+      "text": "donc"
+    },
+    {
+      "id": 498,
+      "start": 1246.07,
+      "end": 1247.07,
+      "start_text": "00:20:46.070",
+      "end_text": "00:20:47.070",
+      "text": "si on relance une session"
+    },
+    {
+      "id": 499,
+      "start": 1247.07,
+      "end": 1248.07,
+      "start_text": "00:20:47.070",
+      "end_text": "00:20:48.070",
+      "text": "avec ce dossier"
+    },
+    {
+      "id": 500,
+      "start": 1248.07,
+      "end": 1250.07,
+      "start_text": "00:20:48.070",
+      "end_text": "00:20:50.070",
+      "text": "on pourra avoir un recap directement"
+    },
+    {
+      "id": 501,
+      "start": 1250.07,
+      "end": 1251.07,
+      "start_text": "00:20:50.070",
+      "end_text": "00:20:51.070",
+      "text": "du coup"
+    },
+    {
+      "id": 502,
+      "start": 1251.07,
+      "end": 1253.07,
+      "start_text": "00:20:51.070",
+      "end_text": "00:20:53.070",
+      "text": "de notre semaine de prospection"
+    },
+    {
+      "id": 503,
+      "start": 1253.07,
+      "end": 1255.07,
+      "start_text": "00:20:53.070",
+      "end_text": "00:20:55.070",
+      "text": "c'est ça qui va être vraiment utile"
+    },
+    {
+      "id": 504,
+      "start": 1255.07,
+      "end": 1256.1,
+      "start_text": "00:20:55.070",
+      "end_text": "00:20:56.100",
+      "text": "qu'il a accès"
+    },
+    {
+      "id": 505,
+      "start": 1256.1,
+      "end": 1257.1,
+      "start_text": "00:20:56.100",
+      "end_text": "00:20:57.100",
+      "text": "à tous"
+    },
+    {
+      "id": 506,
+      "start": 1257.1,
+      "end": 1258.1,
+      "start_text": "00:20:57.100",
+      "end_text": "00:20:58.100",
+      "text": "les outils"
+    },
+    {
+      "id": 507,
+      "start": 1258.1,
+      "end": 1260.1,
+      "start_text": "00:20:58.100",
+      "end_text": "00:21:00.100",
+      "text": "et on va pouvoir travailler"
+    },
+    {
+      "id": 508,
+      "start": 1260.1,
+      "end": 1262.1,
+      "start_text": "00:21:00.100",
+      "end_text": "00:21:02.100",
+      "text": "sur du coup seulement"
+    },
+    {
+      "id": 509,
+      "start": 1262.1,
+      "end": 1264.2,
+      "start_text": "00:21:02.100",
+      "end_text": "00:21:04.200",
+      "text": "CloudComwork pour avoir"
+    },
+    {
+      "id": 510,
+      "start": 1264.2,
+      "end": 1266.2,
+      "start_text": "00:21:04.200",
+      "end_text": "00:21:06.200",
+      "text": "les réponses de ce qu'on fait"
+    },
+    {
+      "id": 511,
+      "start": 1266.2,
+      "end": 1267.2,
+      "start_text": "00:21:06.200",
+      "end_text": "00:21:07.200",
+      "text": "donc on a aussi"
+    },
+    {
+      "id": 512,
+      "start": 1267.2,
+      "end": 1268.36,
+      "start_text": "00:21:07.200",
+      "end_text": "00:21:08.360",
+      "text": "juste ici"
+    },
+    {
+      "id": 513,
+      "start": 1268.36,
+      "end": 1270.36,
+      "start_text": "00:21:08.360",
+      "end_text": "00:21:10.360",
+      "text": "il a parti pour ajouter des photos"
+    },
+    {
+      "id": 514,
+      "start": 1270.36,
+      "end": 1272.36,
+      "start_text": "00:21:10.360",
+      "end_text": "00:21:12.360",
+      "text": "donc ça bon c'est utile"
+    },
+    {
+      "id": 515,
+      "start": 1272.36,
+      "end": 1273.36,
+      "start_text": "00:21:12.360",
+      "end_text": "00:21:13.360",
+      "text": "mais pas le plus important"
+    },
+    {
+      "id": 516,
+      "start": 1273.36,
+      "end": 1274.36,
+      "start_text": "00:21:13.360",
+      "end_text": "00:21:14.360",
+      "text": "avec CloudComwork"
+    },
+    {
+      "id": 517,
+      "start": 1274.36,
+      "end": 1275.36,
+      "start_text": "00:21:14.360",
+      "end_text": "00:21:15.360",
+      "text": "on a la partie compétences"
+    },
+    {
+      "id": 518,
+      "start": 1275.36,
+      "end": 1277.36,
+      "start_text": "00:21:15.360",
+      "end_text": "00:21:17.360",
+      "text": "donc ça c'est vraiment"
+    },
+    {
+      "id": 519,
+      "start": 1277.36,
+      "end": 1279.36,
+      "start_text": "00:21:17.360",
+      "end_text": "00:21:19.360",
+      "text": "vraiment très utile"
+    },
+    {
+      "id": 520,
+      "start": 1279.36,
+      "end": 1281.36,
+      "start_text": "00:21:19.360",
+      "end_text": "00:21:21.360",
+      "text": "donc ça va être en gros des fichiers MD"
+    },
+    {
+      "id": 521,
+      "start": 1281.36,
+      "end": 1283.36,
+      "start_text": "00:21:21.360",
+      "end_text": "00:21:23.360",
+      "text": "comme on a vu lors de la première séance"
+    },
+    {
+      "id": 522,
+      "start": 1283.36,
+      "end": 1284.36,
+      "start_text": "00:21:23.360",
+      "end_text": "00:21:24.360",
+      "text": "les fichiers MD nous permettent"
+    },
+    {
+      "id": 523,
+      "start": 1284.36,
+      "end": 1285.36,
+      "start_text": "00:21:24.360",
+      "end_text": "00:21:25.360",
+      "text": "de donner encore plus de contexte"
+    },
+    {
+      "id": 524,
+      "start": 1285.36,
+      "end": 1286.36,
+      "start_text": "00:21:25.360",
+      "end_text": "00:21:26.360",
+      "text": "à CloudCode"
+    },
+    {
+      "id": 525,
+      "start": 1286.36,
+      "end": 1287.36,
+      "start_text": "00:21:26.360",
+      "end_text": "00:21:27.360",
+      "text": "et c'est ça qui comprend le mieux"
+    },
+    {
+      "id": 526,
+      "start": 1287.36,
+      "end": 1288.36,
+      "start_text": "00:21:27.360",
+      "end_text": "00:21:28.360",
+      "text": "donc là"
+    },
+    {
+      "id": 527,
+      "start": 1288.36,
+      "end": 1289.36,
+      "start_text": "00:21:28.360",
+      "end_text": "00:21:29.360",
+      "text": "ce qu'il crée à tort"
+    },
+    {
+      "id": 528,
+      "start": 1289.36,
+      "end": 1291.36,
+      "start_text": "00:21:29.360",
+      "end_text": "00:21:31.360",
+      "text": "comme vous pouvez voir c'est des skills"
+    },
+    {
+      "id": 529,
+      "start": 1291.36,
+      "end": 1293.36,
+      "start_text": "00:21:31.360",
+      "end_text": "00:21:33.360",
+      "text": "donc MD, MD, MD"
+    },
+    {
+      "id": 530,
+      "start": 1293.36,
+      "end": 1296.0,
+      "start_text": "00:21:33.360",
+      "end_text": "00:21:36.000",
+      "text": "comme vous pouvez les dire"
+    },
+    {
+      "id": 531,
+      "start": 1296.0,
+      "end": 1298.0,
+      "start_text": "00:21:36.000",
+      "end_text": "00:21:38.000",
+      "text": "en gros ça va vous permettre"
+    },
+    {
+      "id": 532,
+      "start": 1298.0,
+      "end": 1300.0,
+      "start_text": "00:21:38.000",
+      "end_text": "00:21:40.000",
+      "text": "de donner la possibilité à CloudCode"
+    },
+    {
+      "id": 533,
+      "start": 1300.0,
+      "end": 1302.0,
+      "start_text": "00:21:40.000",
+      "end_text": "00:21:42.000",
+      "text": "d'analyser, de comparer"
+    },
+    {
+      "id": 534,
+      "start": 1302.0,
+      "end": 1304.0,
+      "start_text": "00:21:42.000",
+      "end_text": "00:21:44.000",
+      "text": "d'évaluer etc"
+    },
+    {
+      "id": 535,
+      "start": 1304.0,
+      "end": 1306.0,
+      "start_text": "00:21:44.000",
+      "end_text": "00:21:46.000",
+      "text": "donc on en a plusieurs"
+    },
+    {
+      "id": 536,
+      "start": 1306.0,
+      "end": 1307.0,
+      "start_text": "00:21:46.000",
+      "end_text": "00:21:47.000",
+      "text": "si je fais retour"
+    },
+    {
+      "id": 537,
+      "start": 1307.0,
+      "end": 1308.0,
+      "start_text": "00:21:47.000",
+      "end_text": "00:21:48.000",
+      "text": "on a une partie aussi design"
+    },
+    {
+      "id": 538,
+      "start": 1308.0,
+      "end": 1310.0,
+      "start_text": "00:21:48.000",
+      "end_text": "00:21:50.000",
+      "text": "au niveau comme va"
+    },
+    {
+      "id": 539,
+      "start": 1310.0,
+      "end": 1312.0,
+      "start_text": "00:21:50.000",
+      "end_text": "00:21:52.000",
+      "text": "on a la partie mcp builder"
+    },
+    {
+      "id": 540,
+      "start": 1312.0,
+      "end": 1315.0,
+      "start_text": "00:21:52.000",
+      "end_text": "00:21:55.000",
+      "text": "ce qu'on a vu pour tout ce qui est personnalisé"
+    },
+    {
+      "id": 541,
+      "start": 1315.0,
+      "end": 1317.0,
+      "start_text": "00:21:55.000",
+      "end_text": "00:21:57.000",
+      "text": "partie theme, partie doc, etc"
+    },
+    {
+      "id": 542,
+      "start": 1317.0,
+      "end": 1319.0,
+      "start_text": "00:21:57.000",
+      "end_text": "00:21:59.000",
+      "text": "ou que ça on verra au fur et à mesure"
+    },
+    {
+      "id": 543,
+      "start": 1319.0,
+      "end": 1321.0,
+      "start_text": "00:21:59.000",
+      "end_text": "00:22:01.000",
+      "text": "pour pas que je vous perde directement"
+    },
+    {
+      "id": 544,
+      "start": 1322.51,
+      "end": 1324.51,
+      "start_text": "00:22:02.510",
+      "end_text": "00:22:04.510",
+      "text": "on a la partie aussi plugin"
+    },
+    {
+      "id": 545,
+      "start": 1324.51,
+      "end": 1326.51,
+      "start_text": "00:22:04.510",
+      "end_text": "00:22:06.510",
+      "text": "pour permettre du coup"
+    },
+    {
+      "id": 546,
+      "start": 1326.51,
+      "end": 1327.51,
+      "start_text": "00:22:06.510",
+      "end_text": "00:22:07.510",
+      "text": "à CloudCode"
+    },
+    {
+      "id": 547,
+      "start": 1327.51,
+      "end": 1330.51,
+      "start_text": "00:22:07.510",
+      "end_text": "00:22:10.510",
+      "text": "de créer et de voir un PDF"
+    },
+    {
+      "id": 548,
+      "start": 1330.51,
+      "end": 1332.51,
+      "start_text": "00:22:10.510",
+      "end_text": "00:22:12.510",
+      "text": "donc zone plugin aussi"
+    },
+    {
+      "id": 549,
+      "start": 1332.51,
+      "end": 1335.99,
+      "start_text": "00:22:12.510",
+      "end_text": "00:22:15.990",
+      "text": "partie productivité est très important"
+    },
+    {
+      "id": 550,
+      "start": 1335.99,
+      "end": 1337.99,
+      "start_text": "00:22:15.990",
+      "end_text": "00:22:17.990",
+      "text": "donc là je peux cliquer sur installer"
+    },
+    {
+      "id": 551,
+      "start": 1337.99,
+      "end": 1342.17,
+      "start_text": "00:22:17.990",
+      "end_text": "00:22:22.170",
+      "text": "et ensuite gérer"
+    },
+    {
+      "id": 552,
+      "start": 1342.17,
+      "end": 1344.17,
+      "start_text": "00:22:22.170",
+      "end_text": "00:22:24.170",
+      "text": "et là comme on peut voir il y a la version"
+    },
+    {
+      "id": 553,
+      "start": 1344.17,
+      "end": 1346.17,
+      "start_text": "00:22:24.170",
+      "end_text": "00:22:26.170",
+      "text": "le turn qui s'entrepique lui-même"
+    },
+    {
+      "id": 554,
+      "start": 1346.17,
+      "end": 1347.17,
+      "start_text": "00:22:26.170",
+      "end_text": "00:22:27.170",
+      "text": "donc c'est le top"
+    },
+    {
+      "id": 555,
+      "start": 1347.17,
+      "end": 1348.17,
+      "start_text": "00:22:27.170",
+      "end_text": "00:22:28.170",
+      "text": "la description"
+    },
+    {
+      "id": 556,
+      "start": 1348.17,
+      "end": 1350.17,
+      "start_text": "00:22:28.170",
+      "end_text": "00:22:30.170",
+      "text": "permet de manager les tasks"
+    },
+    {
+      "id": 557,
+      "start": 1350.17,
+      "end": 1351.17,
+      "start_text": "00:22:30.170",
+      "end_text": "00:22:31.170",
+      "text": "voilà"
+    },
+    {
+      "id": 558,
+      "start": 1351.17,
+      "end": 1352.71,
+      "start_text": "00:22:31.170",
+      "end_text": "00:22:32.710",
+      "text": "donc"
+    },
+    {
+      "id": 559,
+      "start": 1352.71,
+      "end": 1354.97,
+      "start_text": "00:22:32.710",
+      "end_text": "00:22:34.970",
+      "text": "voilà un petit peu à quoi"
+    },
+    {
+      "id": 560,
+      "start": 1354.97,
+      "end": 1357.19,
+      "start_text": "00:22:34.970",
+      "end_text": "00:22:37.190",
+      "text": "sert du coup"
+    },
+    {
+      "id": 561,
+      "start": 1357.19,
+      "end": 1358.19,
+      "start_text": "00:22:37.190",
+      "end_text": "00:22:38.190",
+      "text": "CloudCodework"
+    },
+    {
+      "id": 562,
+      "start": 1358.19,
+      "end": 1360.19,
+      "start_text": "00:22:38.190",
+      "end_text": "00:22:40.190",
+      "text": "que on va le voir au fur et à mesure"
+    },
+    {
+      "id": 563,
+      "start": 1360.19,
+      "end": 1362.19,
+      "start_text": "00:22:40.190",
+      "end_text": "00:22:42.190",
+      "text": "un petit peu plus en déteins"
+    },
+    {
+      "id": 564,
+      "start": 1362.19,
+      "end": 1364.19,
+      "start_text": "00:22:42.190",
+      "end_text": "00:22:44.190",
+      "text": "là l'objectif"
+    },
+    {
+      "id": 565,
+      "start": 1364.19,
+      "end": 1366.19,
+      "start_text": "00:22:44.190",
+      "end_text": "00:22:46.190",
+      "text": "du coup de l'acte 1"
+    },
+    {
+      "id": 566,
+      "start": 1366.19,
+      "end": 1367.19,
+      "start_text": "00:22:46.190",
+      "end_text": "00:22:47.190",
+      "text": "c'est vraiment de faire de la théorie"
+    },
+    {
+      "id": 567,
+      "start": 1367.19,
+      "end": 1369.19,
+      "start_text": "00:22:47.190",
+      "end_text": "00:22:49.190",
+      "text": "de donner des petits exercices"
+    },
+    {
+      "id": 568,
+      "start": 1369.19,
+      "end": 1371.19,
+      "start_text": "00:22:49.190",
+      "end_text": "00:22:51.190",
+      "text": "pour le puissier mettre un petit peu la main"
+    },
+    {
+      "id": 569,
+      "start": 1371.19,
+      "end": 1373.19,
+      "start_text": "00:22:51.190",
+      "end_text": "00:22:53.190",
+      "text": "sur ces outils là"
+    },
+    {
+      "id": 570,
+      "start": 1373.19,
+      "end": 1375.19,
+      "start_text": "00:22:53.190",
+      "end_text": "00:22:55.190",
+      "text": "et qu'ensuite quand on va rentrer dans le dur"
+    },
+    {
+      "id": 571,
+      "start": 1375.19,
+      "end": 1377.19,
+      "start_text": "00:22:55.190",
+      "end_text": "00:22:57.190",
+      "text": "du coup dès la prochaine"
+    },
+    {
+      "id": 572,
+      "start": 1377.19,
+      "end": 1378.19,
+      "start_text": "00:22:57.190",
+      "end_text": "00:22:58.190",
+      "text": "séance"
+    },
+    {
+      "id": 573,
+      "start": 1378.19,
+      "end": 1380.19,
+      "start_text": "00:22:58.190",
+      "end_text": "00:23:00.190",
+      "text": "puissier gérer en même temps"
+    },
+    {
+      "id": 574,
+      "start": 1380.19,
+      "end": 1381.19,
+      "start_text": "00:23:00.190",
+      "end_text": "00:23:01.190",
+      "text": "que moi"
+    },
+    {
+      "id": 575,
+      "start": 1381.19,
+      "end": 1383.19,
+      "start_text": "00:23:01.190",
+      "end_text": "00:23:03.190",
+      "text": "vous allez voir au début"
+    },
+    {
+      "id": 576,
+      "start": 1383.19,
+      "end": 1385.19,
+      "start_text": "00:23:03.190",
+      "end_text": "00:23:05.190",
+      "text": "ça peut être un petit peu compliqué"
+    },
+    {
+      "id": 577,
+      "start": 1385.19,
+      "end": 1387.19,
+      "start_text": "00:23:05.190",
+      "end_text": "00:23:07.190",
+      "text": "parce que vous n'avez jamais testé"
+    },
+    {
+      "id": 578,
+      "start": 1387.19,
+      "end": 1389.19,
+      "start_text": "00:23:07.190",
+      "end_text": "00:23:09.190",
+      "text": "du coup CloudCode, Codex, Cloudwork"
+    },
+    {
+      "id": 579,
+      "start": 1389.19,
+      "end": 1391.19,
+      "start_text": "00:23:09.190",
+      "end_text": "00:23:11.190",
+      "text": "mais au fur et à mesure"
+    },
+    {
+      "id": 580,
+      "start": 1391.19,
+      "end": 1393.19,
+      "start_text": "00:23:11.190",
+      "end_text": "00:23:13.190",
+      "text": "vous allez avoir les compétences"
+    },
+    {
+      "id": 581,
+      "start": 1393.19,
+      "end": 1395.19,
+      "start_text": "00:23:13.190",
+      "end_text": "00:23:15.190",
+      "text": "pour produire exactement la même chose"
+    },
+    {
+      "id": 582,
+      "start": 1395.19,
+      "end": 1396.19,
+      "start_text": "00:23:15.190",
+      "end_text": "00:23:16.190",
+      "text": "que moi"
+    },
+    {
+      "id": 583,
+      "start": 1396.19,
+      "end": 1398.19,
+      "start_text": "00:23:16.190",
+      "end_text": "00:23:18.190",
+      "text": "quand une fois il ne faut pas avoir du coup"
+    },
+    {
+      "id": 584,
+      "start": 1398.19,
+      "end": 1400.19,
+      "start_text": "00:23:18.190",
+      "end_text": "00:23:20.190",
+      "text": "ce syndrome"
+    },
+    {
+      "id": 585,
+      "start": 1400.19,
+      "end": 1401.19,
+      "start_text": "00:23:20.190",
+      "end_text": "00:23:21.190",
+      "text": "de l'imposteur"
+    },
+    {
+      "id": 586,
+      "start": 1401.19,
+      "end": 1402.19,
+      "start_text": "00:23:21.190",
+      "end_text": "00:23:22.190",
+      "text": "ou derrière vous vous dites"
+    },
+    {
+      "id": 587,
+      "start": 1402.19,
+      "end": 1404.19,
+      "start_text": "00:23:22.190",
+      "end_text": "00:23:24.190",
+      "text": "ouais mais je n'ai jamais testé"
+    },
+    {
+      "id": 588,
+      "start": 1404.19,
+      "end": 1406.19,
+      "start_text": "00:23:24.190",
+      "end_text": "00:23:26.190",
+      "text": "je n'ai pas les compétences"
+    },
+    {
+      "id": 589,
+      "start": 1406.19,
+      "end": 1408.19,
+      "start_text": "00:23:26.190",
+      "end_text": "00:23:28.190",
+      "text": "honnêtement"
+    },
+    {
+      "id": 590,
+      "start": 1408.19,
+      "end": 1409.19,
+      "start_text": "00:23:28.190",
+      "end_text": "00:23:29.190",
+      "text": "c'est pas grave"
+    },
+    {
+      "id": 591,
+      "start": 1409.19,
+      "end": 1411.19,
+      "start_text": "00:23:29.190",
+      "end_text": "00:23:31.190",
+      "text": "même si vous ne savez pas coder"
+    },
+    {
+      "id": 592,
+      "start": 1411.19,
+      "end": 1413.19,
+      "start_text": "00:23:31.190",
+      "end_text": "00:23:33.190",
+      "text": "vous allez être dans la capacité à la fin de livrer"
+    },
+    {
+      "id": 593,
+      "start": 1413.19,
+      "end": 1415.19,
+      "start_text": "00:23:33.190",
+      "end_text": "00:23:35.190",
+      "text": "des projets clients"
+    },
+    {
+      "id": 594,
+      "start": 1415.19,
+      "end": 1417.19,
+      "start_text": "00:23:35.190",
+      "end_text": "00:23:37.190",
+      "text": "cette formation est vraiment utile pour vous"
+    },
+    {
+      "id": 595,
+      "start": 1417.19,
+      "end": 1419.19,
+      "start_text": "00:23:37.190",
+      "end_text": "00:23:39.190",
+      "text": "je sais que ça va pas être simple"
+    },
+    {
+      "id": 596,
+      "start": 1419.19,
+      "end": 1420.19,
+      "start_text": "00:23:39.190",
+      "end_text": "00:23:40.190",
+      "text": "parce que dans le sens où"
+    },
+    {
+      "id": 597,
+      "start": 1420.19,
+      "end": 1421.19,
+      "start_text": "00:23:40.190",
+      "end_text": "00:23:41.190",
+      "text": "vous avez 90 jours"
+    },
+    {
+      "id": 598,
+      "start": 1421.19,
+      "end": 1423.19,
+      "start_text": "00:23:41.190",
+      "end_text": "00:23:43.190",
+      "text": "vous allez avoir des coachings"
+    },
+    {
+      "id": 599,
+      "start": 1423.19,
+      "end": 1425.19,
+      "start_text": "00:23:43.190",
+      "end_text": "00:23:45.190",
+      "text": "vous allez devoir réaliser des exercices"
+    },
+    {
+      "id": 600,
+      "start": 1425.19,
+      "end": 1427.19,
+      "start_text": "00:23:45.190",
+      "end_text": "00:23:47.190",
+      "text": "ça va être vraiment"
+    },
+    {
+      "id": 601,
+      "start": 1427.19,
+      "end": 1429.19,
+      "start_text": "00:23:47.190",
+      "end_text": "00:23:49.190",
+      "text": "vraiment dans le rush"
+    },
+    {
+      "id": 602,
+      "start": 1429.19,
+      "end": 1430.19,
+      "start_text": "00:23:49.190",
+      "end_text": "00:23:50.190",
+      "text": "ça va être dur"
+    },
+    {
+      "id": 603,
+      "start": 1430.19,
+      "end": 1432.19,
+      "start_text": "00:23:50.190",
+      "end_text": "00:23:52.190",
+      "text": "mais si vous suivez bien tout"
+    },
+    {
+      "id": 604,
+      "start": 1432.19,
+      "end": 1434.19,
+      "start_text": "00:23:52.190",
+      "end_text": "00:23:54.190",
+      "text": "vous pouvez me faire confiance"
+    },
+    {
+      "id": 605,
+      "start": 1434.19,
+      "end": 1436.19,
+      "start_text": "00:23:54.190",
+      "end_text": "00:23:56.190",
+      "text": "vous allez scaler un maximum"
+    },
+    {
+      "id": 606,
+      "start": 1436.19,
+      "end": 1438.19,
+      "start_text": "00:23:56.190",
+      "end_text": "00:23:58.190",
+      "text": "parce que vous aurez toutes les compétences"
+    },
+    {
+      "id": 607,
+      "start": 1438.19,
+      "end": 1440.19,
+      "start_text": "00:23:58.190",
+      "end_text": "00:24:00.190",
+      "text": "et le syndrome de l'imposteur"
+    },
+    {
+      "id": 608,
+      "start": 1440.19,
+      "end": 1442.19,
+      "start_text": "00:24:00.190",
+      "end_text": "00:24:02.190",
+      "text": "sera tout simplement parti"
+    },
+    {
+      "id": 609,
+      "start": 1442.19,
+      "end": 1444.19,
+      "start_text": "00:24:02.190",
+      "end_text": "00:24:04.190",
+      "text": "et je pense qu'en trois mois"
+    },
+    {
+      "id": 610,
+      "start": 1444.19,
+      "end": 1446.19,
+      "start_text": "00:24:04.190",
+      "end_text": "00:24:06.190",
+      "text": "enfin du coup 30, 60, 90 jours"
+    },
+    {
+      "id": 611,
+      "start": 1447.19,
+      "end": 1449.9,
+      "start_text": "00:24:07.190",
+      "end_text": "00:24:09.900",
+      "text": "vous allez sortir d'ici"
+    },
+    {
+      "id": 612,
+      "start": 1449.9,
+      "end": 1450.9,
+      "start_text": "00:24:09.900",
+      "end_text": "00:24:10.900",
+      "text": "changer complètement"
+    },
+    {
+      "id": 613,
+      "start": 1450.9,
+      "end": 1452.9,
+      "start_text": "00:24:10.900",
+      "end_text": "00:24:12.900",
+      "text": "et avoir une vision un petit peu plus futuriste"
+    },
+    {
+      "id": 614,
+      "start": 1452.9,
+      "end": 1454.9,
+      "start_text": "00:24:12.900",
+      "end_text": "00:24:14.900",
+      "text": "de ce qu'on peut faire réellement"
+    },
+    {
+      "id": 615,
+      "start": 1454.9,
+      "end": 1456.9,
+      "start_text": "00:24:14.900",
+      "end_text": "00:24:16.900",
+      "text": "donc je vous invite à suivre les autres modules"
+    },
+    {
+      "id": 616,
+      "start": 1456.9,
+      "end": 1458.9,
+      "start_text": "00:24:16.900",
+      "end_text": "00:24:18.900",
+      "text": "qui vont être un petit peu plus ondes et pratiques"
+    },
+    {
+      "id": 617,
+      "start": 1458.9,
+      "end": 1460.9,
+      "start_text": "00:24:18.900",
+      "end_text": "00:24:20.900",
+      "text": "vous savez vraiment tout ce que je fais en live"
+    },
+    {
+      "id": 618,
+      "start": 1460.9,
+      "end": 1462.9,
+      "start_text": "00:24:20.900",
+      "end_text": "00:24:22.900",
+      "text": "pour que vous puissiez faire"
+    },
+    {
+      "id": 619,
+      "start": 1462.9,
+      "end": 1464.9,
+      "start_text": "00:24:22.900",
+      "end_text": "00:24:24.900",
+      "text": "du coup la même chose"
+    },
+    {
+      "id": 620,
+      "start": 1464.9,
+      "end": 1466.9,
+      "start_text": "00:24:24.900",
+      "end_text": "00:24:26.900",
+      "text": "et du coup voilà"
+    },
+    {
+      "id": 621,
+      "start": 1466.9,
+      "end": 1468.9,
+      "start_text": "00:24:26.900",
+      "end_text": "00:24:28.900",
+      "text": "je vous remercie d'avoir suivi"
+    },
+    {
+      "id": 622,
+      "start": 1468.9,
+      "end": 1470.9,
+      "start_text": "00:24:28.900",
+      "end_text": "00:24:30.900",
+      "text": "le premier acte"
+    },
+    {
+      "id": 623,
+      "start": 1470.9,
+      "end": 1472.9,
+      "start_text": "00:24:30.900",
+      "end_text": "00:24:32.900",
+      "text": "et on passe à la suite"
+    }
+  ]
+}
